@@ -1,0 +1,7 @@
+{
+  "updated": null,
+  "series": [],
+  "auctions": [],
+  "news": [],
+  "_note": "Placeholder. The 'Update market data' GitHub Action overwrites this file daily with live Virginia / mid-Atlantic auction prices and cattle news. Run it once manually from the Actions tab to populate it immediately."
+}

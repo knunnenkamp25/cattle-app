@@ -1,0 +1,27 @@
+name: Weekly herd reminder email
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"    # Mondays at 12:00 UTC (~7am Eastern)
+  workflow_dispatch:          # run manually to test
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install nodemailer
+      - name: Send reminder email
+        env:
+          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          REMINDER_TO:          ${{ secrets.REMINDER_TO }}
+          REMINDER_FROM:        ${{ secrets.REMINDER_FROM }}
+          SMTP_HOST:            ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:            ${{ secrets.SMTP_PORT }}
+          SMTP_USER:            ${{ secrets.SMTP_USER }}
+          SMTP_PASS:            ${{ secrets.SMTP_PASS }}
+        run: node scripts/send-reminders.js

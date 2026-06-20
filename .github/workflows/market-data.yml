@@ -1,0 +1,36 @@
+name: Update market data
+
+# Runs every day and refreshes market-data.json with the latest
+# Virginia / mid-Atlantic auction prices and cattle news.
+on:
+  schedule:
+    - cron: "30 11 * * *"   # ~7:30am Eastern daily
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write             # allows the job to commit the updated JSON
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch latest market data
+        run: node scripts/fetch-market-data.js
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "market-bot"
+          git config user.email "actions@github.com"
+          git add market-data.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update market data ($(date -u +%Y-%m-%d))"
+            git push
+          fi
