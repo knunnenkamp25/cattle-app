@@ -919,7 +919,7 @@ async function renderMarket() {
       <h2>Feeder Steers 500–600 lb · VA avg ($/cwt)</h2>
       ${last ? `<div style="font-size:30px;font-weight:700">$${last.price.toFixed(2)} ${deltaTxt}</div>
         <div class="muted" style="font-size:12px">as of ${fmtDate(last.date)}</div>` : ""}
-      <canvas id="mkt-chart" height="160" style="margin-top:10px"></canvas>
+      <div style="position:relative;height:200px;margin-top:10px"><canvas id="mkt-chart"></canvas></div>
     </div>
 
     <div class="section-title">Recent Auctions</div>
