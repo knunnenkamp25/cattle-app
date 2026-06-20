@@ -1,7 +1,247 @@
 {
-  "updated": null,
-  "series": [],
-  "auctions": [],
-  "news": [],
-  "_note": "Placeholder. The 'Update market data' GitHub Action overwrites this file daily with live Virginia / mid-Atlantic auction prices and cattle news. Run it once manually from the Actions tab to populate it immediately."
+  "updated": "2026-06-20T19:36:07.463Z",
+  "series": [
+    {
+      "date": "2026-06-17",
+      "price": 453.08
+    }
+  ],
+  "auctions": [
+    {
+      "code": "RH_LS151",
+      "name": "Staunton VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-06-17",
+      "head": 553,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "465",
+          "high": "527"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "486",
+          "high": "515"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "420",
+          "high": "425"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "435",
+          "high": "455"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "400",
+          "high": "417"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "368",
+          "high": "368"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "449",
+          "high": "455"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "413",
+          "high": "413"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "385",
+          "high": "385"
+        }
+      ]
+    },
+    {
+      "code": "RH_LS149",
+      "name": "Wytheville VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-06-16",
+      "head": 255,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "465",
+          "high": "475"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "438",
+          "high": "450"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "388",
+          "high": "427"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "425",
+          "high": "443"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "375",
+          "high": "419"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "387",
+          "high": "387"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "440",
+          "high": "485"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "413",
+          "high": "425"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "370",
+          "high": "393"
+        }
+      ]
+    },
+    {
+      "code": "RH_LS152",
+      "name": "Tri-State VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-06-15",
+      "head": 658,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "435",
+          "high": "505"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "360",
+          "high": "470"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "318",
+          "high": "430"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "373",
+          "high": "450"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "380",
+          "high": "430"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "340",
+          "high": "385"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "430",
+          "high": "515"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "390",
+          "high": "435"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "295",
+          "high": "365"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "USDA AMS Weekly Beef Market Data Bundle – June 19, 2026 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObTdqWF9RemlXNUVSSzlWTjE5eWFmNXlISUxSeVpqTUZTRDdFYXZUVjJFUVVzMmVkS3pxb01MUVdLeHpOaFV3SnN0dm9ZaE9QWEw2NTd0N2JQT1dKZGF4cGZvNGZ6NmVrS1ZHcXowdFVFcm1sRlFsY3FLVHhQRk9zY292Uko5UGVjMEE?oc=5",
+      "source": "IndexBox",
+      "date": "2026-06-19"
+    },
+    {
+      "title": "Weekly protein report: USDA approves $105 million in investments against New World Screwworm - The Cattle Site",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb1locDJsREJLX0daNkVqbVNXMlJRWHM1YjFQSjdzemtnTXk2eWVCRmJoaTFtcWhLbmRid1MyY2RmdmxqeldZVE9YaHFIa0hheUlzTklaRHItSVg1TEdEM3FBeFhfX01ObGJaYWt6UzVRc19GUnBWRU4tV2d0cDkwQlNXeEs3dFBaNHFJNndaREpmQlluaGxNUFRoOFJhNVI5UGVJbGoxeUdLaTA0R3pIcWl3d1I5VVNqM0pHcE1FVllXemx4NlE?oc=5",
+      "source": "The Cattle Site",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Farm Futures morning grain market analysis - Farm Progress",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wMVR3UDJBR1lJUmU1b2NGQjlmQ2phY1htUnVYeE01c1BrOU4wcEl2SS1KZDJMYnRxaXB1Vm5iUVZVYjVwdDh4ajVKVzA0dnRtcHFpRFhLeUFzUUNxU1VFd1FSTjdCZ2x3OXRoZzdpT0dmREhkZTZGRw?oc=5",
+      "source": "Farm Progress",
+      "date": "2026-06-18"
+    },
+    {
+      "title": "Cattle Market Faces New Test as USDA Report Could Shake Price Outlook - Agrolatam",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQalR6VXhRYnllQnE5MkJjX3F1WGItdXdHYlBuc1BvT2FzdF9kaldzRzFmMC1jQkhzaG9xYmFqSzR0eThkRU5nS0VValhYRHdSZ2lZNHBucEVsWEhvV2pNMDlFUjZobTFGaUlDNkVPbEpRYW5ITzhsSk84Qk9WcUVGcndkVUp4c2c5bUJGSEViUFc?oc=5",
+      "source": "Agrolatam",
+      "date": "2026-06-17"
+    },
+    {
+      "title": "Virginia farmers talk meat production, fertilizer costs with USDA officials - Virginia Mercury",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcGVlVk1hSi1kaDBKdngtMkhqcnJKaGdGVUZTaURYdDBQbGpiVmR4VkpjZU8zYW5KSld3eXVCSmkxdjlJVGl1djh4Vk56NlhUNzhDQWxZVktsTUNGM19DejlNdDNDdktENUtCUFFJOG96NTVsbHFNMUVxaXRIaW9QVmZhMGFOWmJYekJyc0hnd3dpZlBRZzBRcVNqcW94Wm9oNkhuTE5GdXlaTHlnNFphMy1RQ3c?oc=5",
+      "source": "Virginia Mercury",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Why Have Cattle Futures Slumped for Two Straight Weeks? Analysts Discuss - Successful Farming",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZVFUbjJZZVhDSkhvRzFaOUd0OHNtdEtzZVg2cWFiRmdKR01PaC1FNDd6NjRhcS13dmo5ZGdrbFR3eEJEY0tFRnVMV0hHOU9UYjNkT3ZlQmZYYnd4Mldsdl8xeXlLR3pnZ2Q4ZFI3Y0paNnV6OFMxb0tldlJGakl5WVo2NE5LOXI0U2EyWFRUa0MxRWhNZkdXWTU1MjZPZ3g1NWZwSl9zQnpSVS1KQnB0TnB2QQ?oc=5",
+      "source": "Successful Farming",
+      "date": "2026-06-01"
+    },
+    {
+      "title": "Meet this year’s Mid-Atlantic Master Farmers - Farm Progress",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNDdyNGF3WHl2MnhLMWg5cXBxVUMtM21kMWhhOU5ObVFUY1FoZGFqNzZDQ2pTUUpGMkY3ZWU3RExWemdSQWhZZUdSUmVtbDFpbjFOZVo3YUt4MXFqNkpDdHpQS1c2Z3ZmSTZLaEM1OXNEdVI1cXU1cGVJTENFR0dVZkxfUUdxZTBQTW9qZXZELWE2YTFGTHc?oc=5",
+      "source": "Farm Progress",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "May 2026 USDA Cattle on Feed highlights - Beef Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNzkwLXM4dEFnQXZXcjNEQlBPZG1BT1NoMHpFRDY0ODUwOW5sM09IbzF0b1FteGZpc2E4T05LTTdXTUlpWE5ucjA0VXNnaUVjX0JjSVZfZVlwSkhmUXZ3OGdiX1Y2M3dQSWxuT0JSNmVXT3NnOElCVXZxb3NGZWJfbDItMXQzVWM?oc=5",
+      "source": "Beef Magazine",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "USDA Livestock Outlook Shows Tight Beef Supply Pressure - RFD-TV",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMmtneHhjU0FaTm5GMmQ5cmFLaWFsMFVGc0xPclRYS2dRVGFCUHJIY0hETnlPRzU3UlhLSDZYeTFpMmtYRkxpQTZjSFBHWTlPTk9PUWo1NVc2ZXZxb2N0bWVrankzMExoaDBENFRyTGxORW8wYkxuSGtSdUdSX0l5c1ZrSQ?oc=5",
+      "source": "RFD-TV",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Weather driven by climate change devastated maple syrup harvests. Now, farmers in Virginia's highlands set hopes on cattle. - WHRO",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcVpzNklmM19BNXV2TmVwUGIxY0ZpV2tyQlJ0Z0I4NGZJMGVKM0p2NjE0ODByZWVGQW5Za3pIYmoxSlFWNmVkV05Zdl9qZk5yYWVQTTdJaEpaaXJ0bFdCVjNua2ZvbDZ2bU1tQ3NQM0RiNXNhd0xhNi1NZEhCWnNacUZNYk5sNktXVmVwbFB3MEpXcDc4R0tyRkllTExseWhpcXAwWW1iUjNFX2V3UzkzUk9hS0YwZDdia0lwNlZMcE9OZFgyMTdOUU1uS3FUbHFmQWdqZnNLSUpwZ01CX3hJNVB0dVFIRklpVmxnYUhrLWtKTmFXR195dXVpTQ?oc=5",
+      "source": "WHRO",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "First Thing Today | Corn, wheat extend rallies but are technically overdone on the upside - Pro Farmer",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaE5wVTlSM2t0ejNjSENQbTYyblhkNEFWYUlFM1VuREJMV05pX0tjT24waTVQRnNUMnoyYXhPLU9mdEpPeDctd3Z1X05abU54cEQyZ3ZZT2MxalU4U3EzOFp6R2hrbHRVRWY0YVpyQ2x5dVdwT0dqTnFlVzNTWG83UlU2LUltX0JVTktYcVl5bWF2bU1GZUViRlg3R2hOajVBY0JyZWwtSlRXZGRpaFNnVVBFVEpaY2M?oc=5",
+      "source": "Pro Farmer",
+      "date": "2026-04-29"
+    },
+    {
+      "title": "USDA Report: Slaughter Cattle Market Prices &amp; Volume - April 2026 - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUDRTVl85Z01jNDhPZEJlMnV2Z2wydzFGYW1rY2F5YzU1NDhjMnNEbDdIWTBfYmp0RnhscUN0aXdRVXJ3Q0N5Yk9jd1VhQThtYmxyU1l2bkRwNlowSWxqVjRsSkh1Rl81ODhReGtFcl9URUY4RzNqTzluanY2YWZZU19NWHFNR0tWUXotWjFZZlNBelo1ZGJJb1M1WEpmXzg?oc=5",
+      "source": "IndexBox",
+      "date": "2026-04-19"
+    }
+  ]
 }
