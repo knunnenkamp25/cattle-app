@@ -1,6 +1,6 @@
 {
-  "name": "Cattle Tracker",
-  "short_name": "Herd",
+  "name": "Chenault Cattle Tracker",
+  "short_name": "Chenault",
   "description": "Track calves, cows, and cattle market prices.",
   "start_url": "./index.html",
   "display": "standalone",
