@@ -43,6 +43,79 @@ function toast(msg) {
   clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove("show"), 2200);
 }
 
+/* ---------- modal dialogs (replace browser prompt/confirm) ---------- */
+function closeModal() { const m = $("#modal"); if (m) m.remove(); }
+function openForm({ title, fields, submitText = "Save", danger = false }) {
+  return new Promise(resolve => {
+    closeModal();
+    const wrap = document.createElement("div");
+    wrap.id = "modal"; wrap.className = "modal-overlay";
+    const rows = fields.map(f => {
+      const id = "mf-" + f.key;
+      let input;
+      if (f.type === "textarea") input = `<textarea id="${id}">${esc(f.value ?? "")}</textarea>`;
+      else if (f.type === "select") input = `<select id="${id}">${(f.options || []).map(o => `<option value="${esc(o)}" ${String(f.value) === String(o) ? "selected" : ""}>${esc(o)}</option>`).join("")}</select>`;
+      else input = `<input id="${id}" type="${f.type || "text"}" value="${esc(f.value ?? "")}" placeholder="${esc(f.placeholder || "")}" ${f.type === "number" ? 'inputmode="decimal"' : ""}>`;
+      return `<div class="field"><label>${esc(f.label || "")}${f.hint ? ` <span class="hint">${esc(f.hint)}</span>` : ""}</label>${input}</div>`;
+    }).join("");
+    wrap.innerHTML = `<div class="modal-card">
+      <h2 style="margin:0 0 12px">${esc(title || "")}</h2>
+      <form id="modal-form">${rows}
+        <div class="btn-row" style="margin-top:6px">
+          <button type="button" class="btn" id="modal-cancel" style="flex:1">Cancel</button>
+          <button type="submit" class="btn ${danger ? "btn-danger" : "btn-primary"}" style="flex:1">${esc(submitText)}</button>
+        </div>
+      </form></div>`;
+    document.body.appendChild(wrap);
+    const done = (v) => { closeModal(); resolve(v); };
+    wrap.addEventListener("click", e => { if (e.target === wrap) done(null); });
+    $("#modal-cancel").addEventListener("click", () => done(null));
+    $("#modal-form").addEventListener("submit", e => {
+      e.preventDefault();
+      const out = {}; fields.forEach(f => out[f.key] = $("#mf-" + f.key).value);
+      done(out);
+    });
+    const first = wrap.querySelector("input,select,textarea"); if (first) first.focus();
+  });
+}
+function confirmDialog(message, { okText = "OK", danger = false } = {}) {
+  return new Promise(resolve => {
+    closeModal();
+    const wrap = document.createElement("div");
+    wrap.id = "modal"; wrap.className = "modal-overlay";
+    wrap.innerHTML = `<div class="modal-card">
+      <p style="margin:0 0 14px;line-height:1.45">${esc(message)}</p>
+      <div class="btn-row">
+        <button class="btn" id="modal-cancel" style="flex:1">Cancel</button>
+        <button class="btn ${danger ? "btn-danger" : "btn-primary"}" id="modal-ok" style="flex:1">${esc(okText)}</button>
+      </div></div>`;
+    document.body.appendChild(wrap);
+    const done = v => { closeModal(); resolve(v); };
+    wrap.addEventListener("click", e => { if (e.target === wrap) done(false); });
+    $("#modal-cancel").addEventListener("click", () => done(false));
+    $("#modal-ok").addEventListener("click", () => done(true));
+  });
+}
+
+/* ---------- domain helpers ---------- */
+const GESTATION_DAYS = 283;
+const addDays = (iso, days) => { const d = new Date(iso + "T00:00:00"); d.setDate(d.getDate() + Number(days || 0)); return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10); };
+const isLive = (a) => !a.is_sold && !a.death_date;
+const vaxRecent = (a, days = 365) => (a.vaccinations || []).some(v => v.date && (Date.now() - new Date(v.date + "T00:00:00").getTime()) <= days * 86400000);
+function withdrawalUntil(a) {
+  let max = null;
+  (a.treatments || []).forEach(t => { const wd = Number(t.withdrawal_days); if (t.date && wd > 0) { const clr = addDays(t.date, wd); if (!max || clr > max) max = clr; } });
+  return max;
+}
+const inWithdrawal = (a) => { const u = withdrawalUntil(a); return !!(u && u >= todayISO()); };
+const calvingDue = (a) => a.breeding_date ? addDays(a.breeding_date, GESTATION_DAYS) : null;
+function calvingSoon(a) { const d = calvingDue(a); if (!d || !isLive(a)) return false; return d >= addDays(todayISO(), -14) && d <= addDays(todayISO(), 21); }
+
+/* ---------- failed-sync (dead-letter) list ---------- */
+const FAILED_KEY = "cattle_failed_v1";
+const loadFailed = () => { try { return JSON.parse(localStorage.getItem(FAILED_KEY)) || []; } catch { return []; } };
+const saveFailed = (a) => { try { localStorage.setItem(FAILED_KEY, JSON.stringify(a)); } catch (_) {} };
+
 /* derived label: Heifer / Bull / Steer */
 function sexLabel(a) {
   if (a.gender === "Heifer") return "Heifer";
@@ -93,7 +166,7 @@ async function init() {
   window.addEventListener("online", async () => { updateSyncUI(); await loadAnimals(); refreshAfterSync(); toast("Back online — syncing"); });
   window.addEventListener("offline", () => { updateSyncUI(); toast("Offline — changes will be saved on this device"); });
   document.addEventListener("click", (e) => {
-    if (e.target && e.target.id === "sync-pill" && OFF.isOnline()) loadAnimals().then(refreshAfterSync);
+    if (e.target && e.target.id === "sync-pill") syncPillClicked();
   });
 
   const { data } = await sb.auth.getSession();
@@ -232,7 +305,7 @@ async function syncOutbox() {
       } catch (_) { /* keep for next attempt */ }
     }
     // 2) process row writes in order (upsert makes retries idempotent)
-    const remaining = [];
+    const remaining = [], newFailed = [];
     for (const item of queue) {
       try {
         if (item.op === "insert") {
@@ -245,9 +318,13 @@ async function syncOutbox() {
           const { error } = await sb.from("animals").delete().eq("id", item.id);
           if (error) throw error;
         }
-      } catch (_) { remaining.push(item); }
+      } catch (_) {                                          // retry a few times, then dead-letter so it can't block forever
+        item.tries = (item.tries || 0) + 1;
+        (item.tries >= 5 ? newFailed : remaining).push(item);
+      }
     }
     OUTBOX = remaining; OFF.saveOutbox(OUTBOX);
+    if (newFailed.length) saveFailed([...loadFailed(), ...newFailed]);
   } finally { SYNCING = false; updateSyncUI(); }
 }
 
@@ -255,7 +332,9 @@ async function syncOutbox() {
 function updateSyncUI(state) {
   const pill = document.getElementById("sync-pill"); if (!pill) return;
   const n = (OFF.loadOutbox() || []).length;
+  const f = loadFailed().length;
   if (state === "syncing") { pill.textContent = "Syncing…"; pill.className = "pill syncing"; return; }
+  if (f) { pill.textContent = `⚠ ${f} failed`; pill.className = "pill offline"; return; }
   if (!OFF.isOnline()) { pill.textContent = n ? `Offline · ${n}` : "Offline"; pill.className = "pill offline"; return; }
   if (n) { pill.textContent = `${n} to sync`; pill.className = "pill pending"; return; }
   pill.textContent = "Synced"; pill.className = "pill synced";
@@ -265,6 +344,20 @@ function updateSyncUI(state) {
 function refreshAfterSync() {
   if (CURRENT_TAB === "dashboard") renderDashboard();
   else if (CURRENT_TAB === "market") renderMarket();
+}
+async function syncPillClicked() {
+  const failed = loadFailed();
+  if (failed.length) {
+    const retry = await confirmDialog(`${failed.length} change(s) couldn't be saved to the cloud. Retry them now?`, { okText: "Retry" });
+    if (!retry) return;
+    OUTBOX = [...OFF.loadOutbox(), ...failed.map(f => ({ ...f, tries: 0 }))]; OFF.saveOutbox(OUTBOX);
+    saveFailed([]); updateSyncUI();
+    await loadAnimals(); refreshAfterSync();
+    if (loadFailed().length) toast("Still couldn't sync — check your connection");
+    else toast("Synced ✓");
+    return;
+  }
+  if (OFF.isOnline()) { await loadAnimals(); refreshAfterSync(); }
 }
 
 /* ============================================================
@@ -287,7 +380,7 @@ function switchTab(tab) {
    ============================================================ */
 function renderDashboard() {
   const yr = new Date().getFullYear();
-  const live = ANIMALS.filter(a => !a.is_sold);
+  const live = ANIMALS.filter(isLive);
   const calvesThisYr = live.filter(a => yearOf(a.birth_date) === yr);
   const bulls = live.filter(a => a.gender === "Bull");
   const heifers = live.filter(a => a.gender === "Heifer");
@@ -305,8 +398,11 @@ function renderDashboard() {
   const sum = arr => arr.map(a => Number(a.sale_price)).filter(n => !isNaN(n)).reduce((s, n) => s + n, 0);
 
   // alerts
-  const noVax = live.filter(a => !(a.vaccinations || []).some(v => yearOf(v.date) === yr));
+  const noVax = live.filter(a => !vaxRecent(a));            // no vaccination in the last 12 months (rolling)
   const noTag = live.filter(a => !a.tag_number);
+  const withdrawing = live.filter(inWithdrawal);
+  const calving = live.filter(calvingSoon);
+  const failedCount = loadFailed().length;
 
   const tile = (n, l, cls = "") => `<div class="stat ${cls}"><div class="n">${n}</div><div class="l">${l}</div></div>`;
 
@@ -348,7 +444,10 @@ function renderDashboard() {
   `;
 
   const alerts = [];
-  if (noVax.length) alerts.push({ cls: "", ico: "💉", t: `${noVax.length} not vaccinated in ${yr}`, list: noVax });
+  if (failedCount) alerts.push({ cls: "bad", ico: "⚠️", t: `${failedCount} change(s) failed to sync`, action: "retry", sub: "Tap to retry" });
+  if (calving.length) alerts.push({ cls: "", ico: "🐄", t: `${calving.length} calving soon`, list: calving });
+  if (withdrawing.length) alerts.push({ cls: "bad", ico: "⏳", t: `${withdrawing.length} in medication withdrawal`, list: withdrawing });
+  if (noVax.length) alerts.push({ cls: "", ico: "💉", t: `${noVax.length} not vaccinated in the last year`, list: noVax });
   if (unneutered.length) alerts.push({ cls: "", ico: "🐂", t: `${unneutered.length} intact bull(s)`, list: unneutered });
   if (noTag.length) alerts.push({ cls: "bad", ico: "🏷️", t: `${noTag.length} missing a tag number`, list: noTag });
 
@@ -357,10 +456,13 @@ function renderDashboard() {
   ac.innerHTML = alerts.map((al, i) => `
     <div class="alert ${al.cls}" data-ai="${i}" style="cursor:pointer">
       <div class="a-ico">${al.ico}</div>
-      <div class="a-body"><b>${esc(al.t)}</b><span class="muted">Tap to view list</span></div>
+      <div class="a-body"><b>${esc(al.t)}</b><span class="muted">${esc(al.sub || "Tap to view list")}</span></div>
     </div>`).join("");
-  $$("#alerts .alert").forEach(el =>
-    el.addEventListener("click", () => showList(alerts[+el.dataset.ai].t, alerts[+el.dataset.ai].list)));
+  $$("#alerts .alert").forEach(el => el.addEventListener("click", () => {
+    const al = alerts[+el.dataset.ai];
+    if (al.action === "retry") syncPillClicked();
+    else showList(al.t, al.list);
+  }));
 
   // herd value (async — needs market data)
   getMarket().then(m => {
@@ -598,11 +700,13 @@ function renderHerd() {
       <button class="btn btn-sm" data-f="herd">In herd</button>
       <button class="btn btn-sm" data-f="cows">Mothers</button>
       <button class="btn btn-sm" data-f="sold">Sold</button>
+      <button class="btn btn-sm" data-f="dead">Deceased</button>
     </div>
     <div id="herd-list"></div>
 
     <div class="section-title">Tools</div>
     <div class="card">
+      <button class="btn btn-block" id="t-bulkvax" style="margin-bottom:10px">💉 Bulk vaccinate</button>
       <button class="btn btn-block" id="t-tags">🏷️ Print QR tags (current list)</button>
       <div class="btn-row" style="margin-top:10px">
         <button class="btn btn-sm" id="t-sales" style="flex:1">Export sales (CSV)</button>
@@ -615,6 +719,7 @@ function renderHerd() {
       </div>
     </div>`;
   $("#herd-search").addEventListener("input", e => { herdFilter = e.target.value; drawHerd("active"); });
+  $("#t-bulkvax").addEventListener("click", renderBulkVax);
   $("#t-tags").addEventListener("click", () => printTags(LAST_HERD_LIST));
   $("#t-sales").addEventListener("click", exportSalesCSV);
   $("#t-herd").addEventListener("click", exportHerdCSV);
@@ -632,8 +737,9 @@ function renderHerd() {
 function drawHerd(filter) {
   if (filter === "active") filter = $(".btn-row .btn-primary")?.dataset.f || "all";
   let list = ANIMALS.slice();
-  if (filter === "herd") list = list.filter(a => !a.is_sold);
+  if (filter === "herd") list = list.filter(isLive);
   else if (filter === "sold") list = list.filter(a => a.is_sold);
+  else if (filter === "dead") list = list.filter(a => a.death_date);
   else if (filter === "cows") list = list.filter(a => offspringOf(a.id).length > 0);
   const q = herdFilter.trim().toLowerCase();
   if (q) list = list.filter(a =>
@@ -654,6 +760,8 @@ function renderAnimalRows(list) {
         <div class="li-title">${esc(a.tag_number || "No tag")}${a.name ? " · " + esc(a.name) : ""}
           <span class="badge ${sexBadgeClass(a)}">${sexLabel(a)}</span>
           ${a.is_sold ? '<span class="badge sold">Sold</span>' : ""}
+          ${a.death_date ? '<span class="badge dead">Died</span>' : ""}
+          ${inWithdrawal(a) ? '<span class="badge wd">Withdrawal</span>' : ""}
         </div>
         <div class="li-sub">${esc(a.breed || "—")}${a.birth_date ? " · b." + yearOf(a.birth_date) : ""}${kids ? " · " + kids + " calf" + (kids > 1 ? "s" : "") : ""}</div>
       </div>
@@ -683,6 +791,7 @@ function openProfile(id) {
   view().innerHTML = `
     <button class="back-btn" id="back">‹ Back to herd</button>
     ${url ? `<img class="profile-photo" src="${url}" alt="">` : ""}
+    ${inWithdrawal(a) ? `<div class="alert bad"><div class="a-ico">⏳</div><div class="a-body"><b>In medication withdrawal</b>Do not sell for meat until ${fmtDate(withdrawalUntil(a))}.</div></div>` : ""}
     <div class="card">
       <div class="row-between">
         <h2 style="margin:0">${esc(a.tag_number || "No tag")}${a.name ? " · " + esc(a.name) : ""}</h2>
@@ -691,8 +800,10 @@ function openProfile(id) {
       ${kv("Breed", esc(a.breed || "—"))}
       ${kv("Color", esc(a.color || "—"))}
       ${kv("Birth date", fmtDate(a.birth_date))}
+      ${a.breeding_date ? kv("Bred", `${fmtDate(a.breeding_date)} · calving ~${fmtDate(calvingDue(a))}`) : ""}
       ${kv("Unique ID", `<span style="font-family:monospace;font-size:13px">${esc(a.unique_id)}</span>`)}
       ${a.is_sold ? kv("Sold", `${fmtDate(a.sale_date)} · ${money(a.sale_price)}`) : ""}
+      ${a.death_date ? kv("Deceased", `${fmtDate(a.death_date)}${a.death_cause ? " · " + esc(a.death_cause) : ""}`) : ""}
     </div>
 
     <div class="card">
@@ -725,6 +836,14 @@ function openProfile(id) {
     </div>
 
     <div class="card">
+      <div class="row-between"><h2 style="margin:0">Treatments</h2>
+        <button class="btn btn-sm" id="add-treat">+ Add</button></div>
+      ${(a.treatments || []).length
+        ? `<div class="chip-list" style="margin-top:10px">${a.treatments.map(t => `<span class="chip">${fmtDate(t.date)}${t.product ? " · " + esc(t.product) : ""}${t.withdrawal_days > 0 ? ` · ${t.withdrawal_days}d withdrawal` : ""}</span>`).join("")}</div>`
+        : `<p class="muted" style="margin:8px 0 0">None recorded.</p>`}
+    </div>
+
+    <div class="card">
       <div class="row-between"><h2 style="margin:0">Tag history</h2>
         <button class="btn btn-sm" id="change-tag">Change tag</button></div>
       ${(a.tag_history || []).length
@@ -736,9 +855,10 @@ function openProfile(id) {
 
     <div class="btn-row" style="margin-top:4px">
       <button class="btn btn-d" id="edit" style="flex:1">Edit details</button>
-      ${a.is_sold ? "" : `<button class="btn" id="sell" style="flex:1">Record sale</button>`}
+      ${isLive(a) ? `<button class="btn" id="sell" style="flex:1">Record sale</button>` : ""}
     </div>
     <button class="btn btn-block" id="qr-tag" style="margin-top:10px">🏷️ Print QR ear-tag</button>
+    ${isLive(a) ? `<button class="btn btn-block" id="deceased" style="margin-top:10px">Mark as deceased</button>` : ""}
     <button class="btn btn-danger btn-block" id="del" style="margin-top:10px">Delete record</button>
   `;
   $("#back").addEventListener("click", () => switchTab("herd"));
@@ -753,51 +873,90 @@ function openProfile(id) {
       : (a.weight_lbs ? "market data pending" : "add a weight");
   });
   $("#add-vax").addEventListener("click", () => addVaxPrompt(id));
+  $("#add-treat").addEventListener("click", () => addTreatmentPrompt(id));
   $("#change-tag").addEventListener("click", () => changeTagPrompt(id));
   if ($("#sell")) $("#sell").addEventListener("click", () => sellPrompt(id));
+  if ($("#deceased")) $("#deceased").addEventListener("click", () => deceasedPrompt(id));
   $("#del").addEventListener("click", () => delPrompt(id));
   const damItem = $(".card .list-item[data-id]");
   if (damItem && dam) damItem.addEventListener("click", () => openProfile(dam.id));
+  $$("#view .card")[3] && wireRows(); // calves rows
   wireRows();
 }
 
 async function addVaxPrompt(id) {
   const a = ANIMALS.find(x => x.id === id);
-  const date = prompt("Vaccination date (YYYY-MM-DD):", todayISO());
-  if (!date) return;
-  const note = prompt("Note (optional, e.g. 7-way):", "") || "";
-  const vax = [...(a.vaccinations || []), { date, note }].sort((x, y) => x.date.localeCompare(y.date));
+  const v = await openForm({ title: "Add vaccination", submitText: "Add", fields: [
+    { key: "date", label: "Date", type: "date", value: todayISO() },
+    { key: "note", label: "Note", hint: "(optional, e.g. 7-way)", type: "text", value: "" },
+  ]});
+  if (!v || !v.date) return;
+  const vax = [...(a.vaccinations || []), { date: v.date, note: v.note || "" }].sort((x, y) => x.date.localeCompare(y.date));
   try { await saveUpdate(id, { vaccinations: vax }); toast("Vaccination added ✓"); openProfile(id); }
   catch (e) { toast("Error: " + e.message); }
 }
 async function updateWeightPrompt(id) {
   const a = ANIMALS.find(x => x.id === id);
-  const lbs = prompt("Current weight (lbs):", a.weight_lbs || "");
-  if (lbs === null) return;
-  const n = Number(lbs); if (!n) { toast("Enter a number"); return; }
-  const hist = [...(a.weight_history || []), { date: todayISO(), lbs: n }];
+  const v = await openForm({ title: "Update weight", submitText: "Save", fields: [
+    { key: "lbs", label: "Weight (lbs)", type: "number", value: a.weight_lbs || "" },
+    { key: "date", label: "Date weighed", type: "date", value: todayISO() },
+  ]});
+  if (!v) return;
+  const n = numOrNull(v.lbs); if (!n) { toast("Enter a weight"); return; }
+  const hist = [...(a.weight_history || []), { date: v.date || todayISO(), lbs: n }];
   try { await saveUpdate(id, { weight_lbs: n, weight_history: hist }); toast("Weight updated ✓"); openProfile(id); }
   catch (e) { toast("Error: " + e.message); }
 }
 async function changeTagPrompt(id) {
   const a = ANIMALS.find(x => x.id === id);
-  const newTag = prompt("New tag number:", "");
-  if (newTag === null) return;
+  const v = await openForm({ title: "Change ear tag", submitText: "Update", fields: [
+    { key: "tag", label: "New tag number", type: "text", value: "" },
+  ]});
+  if (!v) return;
   const hist = [...(a.tag_history || [])];
   if (a.tag_number) hist.push({ tag: a.tag_number, changed_on: todayISO() });
-  try { await saveUpdate(id, { tag_number: newTag.trim() || null, tag_history: hist }); toast("Tag updated ✓"); openProfile(id); }
+  try { await saveUpdate(id, { tag_number: (v.tag || "").trim() || null, tag_history: hist }); toast("Tag updated ✓"); openProfile(id); }
+  catch (e) { toast("Error: " + e.message); }
+}
+async function addTreatmentPrompt(id) {
+  const a = ANIMALS.find(x => x.id === id);
+  const v = await openForm({ title: "Add treatment", submitText: "Add", fields: [
+    { key: "date", label: "Date given", type: "date", value: todayISO() },
+    { key: "product", label: "Product / drug", type: "text", value: "" },
+    { key: "withdrawal", label: "Meat withdrawal (days)", hint: "(0 if none)", type: "number", value: "" },
+    { key: "note", label: "Note", hint: "(optional)", type: "text", value: "" },
+  ]});
+  if (!v || !v.date) return;
+  const t = [...(a.treatments || []), { date: v.date, product: (v.product || "").trim(), withdrawal_days: numOrNull(v.withdrawal) || 0, note: (v.note || "").trim() }].sort((x, y) => x.date.localeCompare(y.date));
+  try { await saveUpdate(id, { treatments: t }); toast("Treatment added ✓"); openProfile(id); }
   catch (e) { toast("Error: " + e.message); }
 }
 async function sellPrompt(id) {
-  const price = prompt("Sale price ($):", "");
-  if (price === null) return;
-  const date = prompt("Sale date (YYYY-MM-DD):", todayISO());
-  if (!date) return;
-  try { await saveUpdate(id, { sale_price: numOrNull(price), sale_date: date }); toast("Sale recorded ✓"); openProfile(id); }
+  const a = ANIMALS.find(x => x.id === id);
+  const wu = withdrawalUntil(a);
+  if (wu && wu >= todayISO()) {
+    const ok = await confirmDialog(`This animal is in a medication withdrawal period until ${fmtDate(wu)}. Selling for meat before then isn't food-safe. Record the sale anyway?`, { okText: "Sell anyway", danger: true });
+    if (!ok) return;
+  }
+  const v = await openForm({ title: "Record sale", submitText: "Record", fields: [
+    { key: "price", label: "Sale price ($)", type: "number", value: "" },
+    { key: "date", label: "Sale date", type: "date", value: todayISO() },
+  ]});
+  if (!v || !v.date) return;
+  try { await saveUpdate(id, { sale_price: numOrNull(v.price), sale_date: v.date }); toast("Sale recorded ✓"); openProfile(id); }
+  catch (e) { toast("Error: " + e.message); }
+}
+async function deceasedPrompt(id) {
+  const v = await openForm({ title: "Mark as deceased", submitText: "Mark deceased", danger: true, fields: [
+    { key: "date", label: "Date", type: "date", value: todayISO() },
+    { key: "cause", label: "Cause", hint: "(optional)", type: "text", value: "" },
+  ]});
+  if (!v || !v.date) return;
+  try { await saveUpdate(id, { death_date: v.date, death_cause: (v.cause || "").trim() || null }); toast("Marked deceased"); openProfile(id); }
   catch (e) { toast("Error: " + e.message); }
 }
 async function delPrompt(id) {
-  if (!confirm("Delete this record permanently? This cannot be undone.")) return;
+  if (!await confirmDialog("Delete this record permanently? This cannot be undone. (To keep the history of an animal that died, use “Mark as deceased” instead.)", { okText: "Delete", danger: true })) return;
   try { await deleteAnimal(id); toast("Deleted"); switchTab("herd"); }
   catch (e) { toast("Error: " + e.message); }
 }
@@ -819,6 +978,7 @@ function renderEditForm(id) {
       <div class="field"><label>Tag number</label><input type="text" id="f-tag" value="${esc(a.tag_number || "")}">
         <div class="fab-note">To keep tag history, use “Change tag” on the profile instead.</div></div>
       <div class="field"><label>Birth date</label><input type="date" id="f-birth" value="${esc(a.birth_date || "")}"></div>
+      <div class="field"><label>Breeding date <span class="hint">(optional — predicts calving ~283 days later)</span></label><input type="date" id="f-breeding" value="${esc(a.breeding_date || "")}"></div>
       <div class="field"><label>Calf breed</label>${chipGroup("breed", CFG.CALF_BREEDS, a.breed)}</div>
       <div class="field"><label>Gender</label>${chipGroup("gender", ["Heifer", "Bull"], a.gender)}
         <div id="neuter-wrap" class="${a.gender === "Bull" ? "" : "hidden"}" style="margin-top:10px">
@@ -848,6 +1008,7 @@ function renderEditForm(id) {
         name: $("#f-name").value.trim() || null,
         tag_number: $("#f-tag").value.trim() || null,
         birth_date: $("#f-birth").value || null,
+        breeding_date: $("#f-breeding").value || null,
         breed: formState.breed || null,
         gender: formState.gender || null,
         neutered: formState.gender === "Bull" && formState.neutered === "Yes",
@@ -897,7 +1058,7 @@ function estimateValue(a, market) {
   return (w && cwt) ? (w / 100) * cwt : null;
 }
 function computeHerdValue(market) {
-  const live = ANIMALS.filter(a => !a.is_sold);
+  const live = ANIMALS.filter(isLive);
   let total = 0, withW = 0;
   live.forEach(a => { const v = estimateValue(a, market); if (v) { total += v; withW++; } });
   return { total, withW, missing: live.length - withW };
@@ -998,6 +1159,50 @@ async function printTags(list) {
 }
 
 /* ============================================================
+   BULK VACCINATE
+   ============================================================ */
+function renderBulkVax() {
+  switchTabShell("herd", "Bulk vaccinate");
+  window.scrollTo(0, 0);
+  const live = ANIMALS.filter(isLive);
+  view().innerHTML = `
+    <button class="back-btn" id="back">‹ Back</button>
+    <div class="card">
+      <div class="grid2">
+        <div class="field"><label>Vaccination date</label><input type="date" id="bv-date" value="${todayISO()}"></div>
+        <div class="field"><label>Note <span class="hint">(optional)</span></label><input type="text" id="bv-note" placeholder="e.g. 7-way"></div>
+      </div>
+      <div class="row-between"><b>Select animals (${live.length})</b><button class="btn btn-sm" id="bv-all">Select all</button></div>
+    </div>
+    <div id="bv-list">${live.map(a => `
+      <label class="list-item" style="cursor:pointer">
+        <input type="checkbox" class="bv-chk" value="${a.id}" style="width:22px;height:22px;flex:0 0 auto;margin:0">
+        <div class="li-main"><div class="li-title">${esc(a.tag_number || "No tag")}${a.name ? " · " + esc(a.name) : ""}</div>
+        <div class="li-sub">${esc(a.breed || "—")} · ${sexLabel(a)}</div></div>
+      </label>`).join("") || `<div class="empty">No animals in the herd.</div>`}</div>
+    <button class="btn btn-primary btn-block" id="bv-apply" style="margin-top:12px">Vaccinate selected</button>`;
+  $("#back").addEventListener("click", () => switchTab("herd"));
+  let allOn = false;
+  $("#bv-all").addEventListener("click", () => { allOn = !allOn; $$(".bv-chk").forEach(c => c.checked = allOn); $("#bv-all").textContent = allOn ? "Clear all" : "Select all"; });
+  $("#bv-apply").addEventListener("click", async () => {
+    const ids = $$(".bv-chk").filter(c => c.checked).map(c => c.value);
+    if (!ids.length) { toast("Select at least one animal"); return; }
+    const date = $("#bv-date").value || todayISO();
+    const note = $("#bv-note").value.trim();
+    const btn = $("#bv-apply"); btn.disabled = true; btn.textContent = "Saving…";
+    try {
+      for (const id of ids) {
+        const a = ANIMALS.find(x => x.id === id); if (!a) continue;
+        const vax = [...(a.vaccinations || []), { date, note }].sort((x, y) => x.date.localeCompare(y.date));
+        await saveUpdate(id, { vaccinations: vax });
+      }
+      toast(`Vaccinated ${ids.length} animal${ids.length > 1 ? "s" : ""} ✓`);
+      switchTab("herd");
+    } catch (e) { toast("Error: " + e.message); btn.disabled = false; btn.textContent = "Vaccinate selected"; }
+  });
+}
+
+/* ============================================================
    CSV EXPORT + BACKUP / RESTORE
    ============================================================ */
 function downloadFile(name, text, type) {
@@ -1022,10 +1227,11 @@ function exportSalesCSV() {
   toast(`Exported ${sold.length} sales`);
 }
 function exportHerdCSV() {
-  const rows = [["Tag", "Name", "Breed", "Sex", "Color", "Birth date", "Weight lbs", "Mom tag", "Last vaccination", "Sold", "Unique ID"]];
+  const rows = [["Tag", "Name", "Breed", "Sex", "Color", "Birth date", "Weight lbs", "Mom tag", "Last vaccination", "Status", "Death date", "Unique ID"]];
   ANIMALS.forEach(a => {
     const momTag = a.mom_tag || (a.dam_id ? (ANIMALS.find(x => x.id === a.dam_id) || {}).tag_number : "") || "";
-    rows.push([a.tag_number, a.name, a.breed, sexLabel(a), a.color, a.birth_date, a.weight_lbs, momTag, lastVaxDate(a), a.is_sold ? "yes" : "", a.unique_id]);
+    const status = a.death_date ? "Deceased" : a.is_sold ? "Sold" : "In herd";
+    rows.push([a.tag_number, a.name, a.breed, sexLabel(a), a.color, a.birth_date, a.weight_lbs, momTag, lastVaxDate(a), status, a.death_date || "", a.unique_id]);
   });
   downloadFile(`herd-inventory-${todayISO()}.csv`, toCSV(rows), "text/csv");
   toast(`Exported ${ANIMALS.length} animals`);
@@ -1038,7 +1244,7 @@ async function restoreBackup(file) {
   try {
     const arr = JSON.parse(await file.text());
     if (!Array.isArray(arr)) throw new Error("not a backup file");
-    if (!confirm(`Restore ${arr.length} records? Records with the same ID will be overwritten; nothing is deleted.`)) return;
+    if (!await confirmDialog(`Restore ${arr.length} records? Records with the same ID will be overwritten; nothing is deleted.`, { okText: "Restore" })) return;
     for (const rec of arr) { const { is_sold, ...clean } = rec; await saveNew(clean); }  // saveNew upserts by id
     toast(`Restored ${arr.length} records`); renderHerd();
   } catch (e) { toast("Restore failed: " + e.message); }
