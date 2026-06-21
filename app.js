@@ -12,6 +12,7 @@ let SYNCING = false;
 const LOCAL_PHOTOS = new Map();// storage path -> local objectURL (pending upload)
 let PENDING_LINK = null;       // deep link from a scanned QR tag (?a=<unique_id>)
 let LAST_HERD_LIST = [];       // most recently rendered herd list (for bulk tag printing)
+let APP_READY = false;         // true once the signed-in app is shown (ignore token-refresh re-renders)
 
 /* ---------- tiny helpers ---------- */
 const $  = (s, r = document) => r.querySelector(s);
@@ -19,7 +20,10 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const esc = (s) => (s == null ? "" : String(s).replace(/[&<>"']/g, c =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])));
 const view = () => $("#view");
-const todayISO = () => new Date().toISOString().slice(0, 10);
+const todayISO = () => { const d = new Date(); return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10); };
+const yearOf = (d) => d ? +String(d).slice(0, 4) : null;   // calendar year from YYYY-MM-DD (timezone-safe)
+const numOrNull = (v) => { v = (v ?? "").toString().trim(); if (v === "") return null; const n = Number(v); return isNaN(n) ? null : n; };
+const stripGen = (o) => { const { is_sold, updated_at, ...rest } = o || {}; return rest; }; // never write generated columns
 const fmtDate = (d) => d ? new Date(d + "T00:00:00").toLocaleDateString(undefined,
   { year: "numeric", month: "short", day: "numeric" }) : "—";
 const money = (n) => (n == null || n === "" || isNaN(n)) ? "—"
@@ -99,6 +103,8 @@ async function init() {
 async function renderAuth(session) {
   $("#splash").classList.add("hidden");
   if (session) {
+    if (APP_READY) return;                               // already running — ignore token refreshes so a form isn't wiped
+    APP_READY = true;
     $("#login-screen").classList.add("hidden");
     $("#app").classList.remove("hidden");
     await loadAnimals();
@@ -109,6 +115,7 @@ async function renderAuth(session) {
       if (a) openProfile(a.id); else toast("Tag not found in herd");
     }
   } else {
+    APP_READY = false;
     $("#app").classList.add("hidden");
     $("#login-screen").classList.remove("hidden");
   }
@@ -229,10 +236,10 @@ async function syncOutbox() {
     for (const item of queue) {
       try {
         if (item.op === "insert") {
-          const { error } = await sb.from("animals").upsert(item.payload, { onConflict: "id" });
+          const { error } = await sb.from("animals").upsert(stripGen(item.payload), { onConflict: "id" });
           if (error) throw error;
         } else if (item.op === "update") {
-          const { error } = await sb.from("animals").update(item.payload).eq("id", item.id);
+          const { error } = await sb.from("animals").update(stripGen(item.payload)).eq("id", item.id);
           if (error) throw error;
         } else if (item.op === "delete") {
           const { error } = await sb.from("animals").delete().eq("id", item.id);
@@ -281,12 +288,12 @@ function switchTab(tab) {
 function renderDashboard() {
   const yr = new Date().getFullYear();
   const live = ANIMALS.filter(a => !a.is_sold);
-  const calvesThisYr = live.filter(a => a.birth_date && new Date(a.birth_date).getFullYear() === yr);
+  const calvesThisYr = live.filter(a => yearOf(a.birth_date) === yr);
   const bulls = live.filter(a => a.gender === "Bull");
   const heifers = live.filter(a => a.gender === "Heifer");
   const unneutered = bulls.filter(a => !a.neutered);
   const pctUnneut = bulls.length ? Math.round(unneutered.length / bulls.length * 100) : 0;
-  const vaxThisYr = live.filter(a => (a.vaccinations || []).some(v => v.date && new Date(v.date).getFullYear() === yr));
+  const vaxThisYr = live.filter(a => (a.vaccinations || []).some(v => yearOf(v.date) === yr));
 
   // finances — trailing 90 days & trailing 12 months
   const now = Date.now(), DAY = 86400000;
@@ -298,7 +305,7 @@ function renderDashboard() {
   const sum = arr => arr.map(a => Number(a.sale_price)).filter(n => !isNaN(n)).reduce((s, n) => s + n, 0);
 
   // alerts
-  const noVax = live.filter(a => !(a.vaccinations || []).some(v => v.date && new Date(v.date).getFullYear() === yr));
+  const noVax = live.filter(a => !(a.vaccinations || []).some(v => yearOf(v.date) === yr));
   const noTag = live.filter(a => !a.tag_number);
 
   const tile = (n, l, cls = "") => `<div class="stat ${cls}"><div class="n">${n}</div><div class="l">${l}</div></div>`;
@@ -496,7 +503,7 @@ function wireDamSearch() {
       ? matches.map(a => `<div class="list-item" data-id="${a.id}" style="margin:6px 0">
           <div class="thumb">🐄</div><div class="li-main">
           <div class="li-title">${esc(a.tag_number || "No tag")} ${a.name ? "· " + esc(a.name) : ""}</div>
-          <div class="li-sub">${esc(a.breed || "")} ${a.birth_date ? "· b." + new Date(a.birth_date).getFullYear() : ""}</div>
+          <div class="li-sub">${esc(a.breed || "")} ${a.birth_date ? "· b." + yearOf(a.birth_date) : ""}</div>
           </div></div>`).join("")
       : `<div class="fab-note">No match. The mom fields below will create her record automatically when you save.</div>`;
     $$("#dam-results .list-item").forEach(el => el.addEventListener("click", () => linkDam(el.dataset.id)));
@@ -511,7 +518,7 @@ function linkDam(id) {
   $("#dam-linked .chip").addEventListener("click", () => { formState.dam_id = null; $("#dam-linked").innerHTML = ""; });
   // prefill snapshot
   if (m.tag_number) $("#f-mom-tag").value = m.tag_number;
-  if (m.birth_date) $("#f-mom-year").value = new Date(m.birth_date).getFullYear();
+  if (m.birth_date) $("#f-mom-year").value = yearOf(m.birth_date);
   if (m.breed && CFG.MOM_BREEDS.includes(m.breed)) {
     formState.mom_breed = m.breed;
     $$('[data-group="mom_breed"] .choice').forEach(x => x.classList.toggle("selected", x.dataset.val === m.breed));
@@ -547,7 +554,7 @@ async function submitCalf(e) {
     }
 
     const vax = $("#f-vax").value ? [{ date: $("#f-vax").value, note: "" }] : [];
-    const wt = $("#f-weight").value ? Number($("#f-weight").value) : null;
+    const wt = numOrNull($("#f-weight").value);
     const rec = {
       unique_id,
       name: $("#f-name").value.trim() || null,
@@ -556,7 +563,7 @@ async function submitCalf(e) {
       dam_id,
       mom_tag: momTag || null,
       mom_breed: formState.mom_breed || null,
-      mom_birth_year: $("#f-mom-year").value ? Number($("#f-mom-year").value) : null,
+      mom_birth_year: numOrNull($("#f-mom-year").value),
       birth_date: $("#f-birth").value || todayISO(),
       breed: formState.breed || null,
       gender: formState.gender || null,
@@ -648,7 +655,7 @@ function renderAnimalRows(list) {
           <span class="badge ${sexBadgeClass(a)}">${sexLabel(a)}</span>
           ${a.is_sold ? '<span class="badge sold">Sold</span>' : ""}
         </div>
-        <div class="li-sub">${esc(a.breed || "—")}${a.birth_date ? " · b." + new Date(a.birth_date).getFullYear() : ""}${kids ? " · " + kids + " calf" + (kids > 1 ? "s" : "") : ""}</div>
+        <div class="li-sub">${esc(a.breed || "—")}${a.birth_date ? " · b." + yearOf(a.birth_date) : ""}${kids ? " · " + kids + " calf" + (kids > 1 ? "s" : "") : ""}</div>
       </div>
       <div class="muted">›</div>
     </div>`;
@@ -751,7 +758,6 @@ function openProfile(id) {
   $("#del").addEventListener("click", () => delPrompt(id));
   const damItem = $(".card .list-item[data-id]");
   if (damItem && dam) damItem.addEventListener("click", () => openProfile(dam.id));
-  $$("#view .card")[3] && wireRows(); // calves rows
   wireRows();
 }
 
@@ -787,7 +793,7 @@ async function sellPrompt(id) {
   if (price === null) return;
   const date = prompt("Sale date (YYYY-MM-DD):", todayISO());
   if (!date) return;
-  try { await saveUpdate(id, { sale_price: Number(price) || null, sale_date: date }); toast("Sale recorded ✓"); openProfile(id); }
+  try { await saveUpdate(id, { sale_price: numOrNull(price), sale_date: date }); toast("Sale recorded ✓"); openProfile(id); }
   catch (e) { toast("Error: " + e.message); }
 }
 async function delPrompt(id) {
@@ -848,9 +854,9 @@ function renderEditForm(id) {
         color: formState.color || null,
         mom_breed: formState.mom_breed || null,
         mom_tag: $("#f-mom-tag").value.trim() || null,
-        mom_birth_year: $("#f-mom-year").value ? Number($("#f-mom-year").value) : null,
-        weight_lbs: $("#f-weight").value ? Number($("#f-weight").value) : null,
-        sale_price: $("#f-price").value ? Number($("#f-price").value) : null,
+        mom_birth_year: numOrNull($("#f-mom-year").value),
+        weight_lbs: numOrNull($("#f-weight").value),
+        sale_price: numOrNull($("#f-price").value),
         sale_date: $("#f-sale").value || null,
         notes: $("#f-notes").value.trim() || null,
       };
@@ -1000,7 +1006,12 @@ function downloadFile(name, text, type) {
   a.href = URL.createObjectURL(blob); a.download = name; a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 1500);
 }
-const csvCell = (v) => { if (v == null) return ""; v = String(v); return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; };
+const csvCell = (v) => {
+  if (v == null) return "";
+  v = String(v);
+  if (/^[=+\-@\t\r]/.test(v)) v = "'" + v;                  // neutralize spreadsheet formula injection
+  return /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
+};
 const toCSV = (rows) => rows.map(r => r.map(csvCell).join(",")).join("\n");
 
 function exportSalesCSV() {
