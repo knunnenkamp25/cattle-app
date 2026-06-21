@@ -150,3 +150,14 @@ canvas{max-width:100%}
   body.printing #print-area{display:block}
   body.printing{background:#fff}
 }
+
+/* ---------- modal dialogs ---------- */
+.modal-overlay{position:fixed;inset:0;z-index:70;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:16px}
+.modal-card{background:var(--card);border-radius:var(--radius);box-shadow:0 14px 44px rgba(0,0,0,.32);padding:20px;width:100%;max-width:380px;max-height:88vh;overflow:auto}
+.modal-card h2{font-size:18px}
+.modal-card .field{margin-bottom:12px}
+
+/* extra status badges */
+.badge.dead{background:#eceff1;color:#546e7a}
+.badge.wd{background:#fbe9e7;color:#a5342a}
+@media print{ .modal-overlay{display:none !important} }
