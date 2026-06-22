@@ -1,9 +1,13 @@
 {
-  "updated": "2026-06-21T13:22:02.953Z",
+  "updated": "2026-06-22T16:11:09.287Z",
   "series": [
     {
       "date": "2026-06-17",
       "price": 453.08
+    },
+    {
+      "date": "2026-06-22",
+      "price": 451.42
     }
   ],
   "auctions": [
@@ -11,53 +15,107 @@
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
       "location": "Richmond, VA",
-      "report_date": "2026-06-17",
-      "head": 553,
+      "report_date": "2026-06-22",
+      "head": 677,
       "categories": [
         {
           "label": "Steers 400-500 lb",
-          "low": "465",
-          "high": "527"
+          "low": "450",
+          "high": "541"
         },
         {
           "label": "Steers 500-600 lb",
-          "low": "486",
-          "high": "515"
+          "low": "450",
+          "high": "521"
         },
         {
           "label": "Steers 600-700 lb",
-          "low": "420",
-          "high": "425"
+          "low": "410",
+          "high": "435"
         },
         {
           "label": "Heifers 400-500 lb",
-          "low": "435",
-          "high": "455"
+          "low": "471",
+          "high": "471"
         },
         {
           "label": "Heifers 500-600 lb",
-          "low": "400",
-          "high": "417"
+          "low": "350",
+          "high": "426"
         },
         {
           "label": "Heifers 600-700 lb",
-          "low": "368",
-          "high": "368"
+          "low": "340",
+          "high": "366"
         },
         {
           "label": "Bulls 400-500 lb",
-          "low": "449",
+          "low": "465",
+          "high": "475"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "438",
+          "high": "441"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "356",
+          "high": "356"
+        }
+      ]
+    },
+    {
+      "code": "RH_LS152",
+      "name": "Tri-State VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-06-22",
+      "head": 536,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "405",
+          "high": "510"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "415",
+          "high": "435"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "395",
+          "high": "440"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "385",
+          "high": "460"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "320",
+          "high": "443"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "305",
+          "high": "372"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "450",
           "high": "455"
         },
         {
           "label": "Bulls 500-600 lb",
-          "low": "413",
-          "high": "413"
+          "low": "400",
+          "high": "415"
         },
         {
           "label": "Bulls 600-700 lb",
-          "low": "385",
-          "high": "385"
+          "low": "338",
+          "high": "415"
         }
       ]
     },
@@ -114,85 +172,19 @@
           "high": "393"
         }
       ]
-    },
-    {
-      "code": "RH_LS152",
-      "name": "Tri-State VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-06-15",
-      "head": 658,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "435",
-          "high": "505"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "360",
-          "high": "470"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "318",
-          "high": "430"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "373",
-          "high": "450"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "380",
-          "high": "430"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "340",
-          "high": "385"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "430",
-          "high": "515"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "390",
-          "high": "435"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "295",
-          "high": "365"
-        }
-      ]
     }
   ],
   "news": [
     {
+      "title": "USDA AMS Weekly Beef Market Data Bundle – June 19, 2026 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObTdqWF9RemlXNUVSSzlWTjE5eWFmNXlISUxSeVpqTUZTRDdFYXZUVjJFUVVzMmVkS3pxb01MUVdLeHpOaFV3SnN0dm9ZaE9QWEw2NTd0N2JQT1dKZGF4cGZvNGZ6NmVrS1ZHcXowdFVFcm1sRlFsY3FLVHhQRk9zY292Uko5UGVjMEE?oc=5",
+      "source": "IndexBox",
+      "date": "2026-06-19"
+    },
+    {
       "title": "Weekly protein report: USDA approves $105 million in investments against New World Screwworm - The Cattle Site",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb1locDJsREJLX0daNkVqbVNXMlJRWHM1YjFQSjdzemtnTXk2eWVCRmJoaTFtcWhLbmRid1MyY2RmdmxqeldZVE9YaHFIa0hheUlzTklaRHItSVg1TEdEM3FBeFhfX01ObGJaYWt6UzVRc19GUnBWRU4tV2d0cDkwQlNXeEs3dFBaNHFJNndaREpmQlluaGxNUFRoOFJhNVI5UGVJbGoxeUdLaTA0R3pIcWl3d1I5VVNqM0pHcE1FVllXemx4NlE?oc=5",
       "source": "The Cattle Site",
-      "date": "2026-06-18"
-    },
-    {
-      "title": "Weekly protein report: USDA expands biosecurity investment amid ongoing livestock threats - The Poultry Site",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV2RBWW1sMVdGOWR5dGZfZE1JZE9lZ3hpV1RESTVCQ090ZkxJTUUwMzJuTGI2Q1ZiTnp2Qml4UGo2VDkxTWhXN0R3UEs1YzZpT1g3ZktoWG9DR3d3NmJCMWJQSDh4bmdkRVJqdWlLUEdWZjRORHBmcGI5S2tRRjM1ZEFaa2dRTmRmOUJGVWc5emZ4WThkdjhKaUZyazRleGJJOE5Kc0dMY2pteS1lenFhcXNmSHpVODlkTzdVU2NIdE0zMDNXSS1F?oc=5",
-      "source": "The Poultry Site",
-      "date": "2026-06-18"
-    },
-    {
-      "title": "US cattle futures mixed ahead of USDA feedlot report - CME - The Cattle Site",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVUdhOWpHYTJGWjF6eU54Wk9YTGN2YVRBSHVDaGhKWS1FcThSMERiVXVRLUtndG41OXNaaWd5M0V3aEJ1OHk1NmxVVXg1YlBZNE9wWGdVejYzQW9hcXpiLVFUYXcxNzBFanVfS2M5czh1c1VfYlNYbnZYM2xzei1GanZDM0Z6X05kQXZyNnJUMVhFT0wxZWc?oc=5",
-      "source": "The Cattle Site",
-      "date": "2026-06-18"
-    },
-    {
-      "title": "Farm Futures morning grain market analysis - Farm Progress",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wMVR3UDJBR1lJUmU1b2NGQjlmQ2phY1htUnVYeE01c1BrOU4wcEl2SS1KZDJMYnRxaXB1Vm5iUVZVYjVwdDh4ajVKVzA0dnRtcHFpRFhLeUFzUUNxU1VFd1FSTjdCZ2x3OXRoZzdpT0dmREhkZTZGRw?oc=5",
-      "source": "Farm Progress",
       "date": "2026-06-18"
     },
     {
@@ -202,10 +194,28 @@
       "date": "2026-06-17"
     },
     {
+      "title": "The Screwworm Is Messing With America’s Beef - The Atlantic",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ3JIQlZpWld3dWxzdnE4aGppZmRkOFpreHF6Y2lLNHBKUC11Qno0eGdvSFlnUmhLcWU2T3lqZFkyRUhMaHc0X20wd0R6ZVNZSEtYRjRJXzlXZzNxRmtIRTc3MUhMYUs1MWFfVzROTHRCTEh6dXZnc2xtb2F6enVxYllxUERXSE5ISDdDNEZESy0tN2h2RURaOHFGbXM?oc=5",
+      "source": "The Atlantic",
+      "date": "2026-06-09"
+    },
+    {
+      "title": "Cattle prices hold firm as beef market loses momentum - Wisconsin Farmer",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbHpaX0Z1ZHZHV0pDck45ZEhITnhsX01nMml4OVlHSFNvdGlEVVRkNko1aVVmbnppSFhjVzBrc3NteWpXVXQwQzBkS1dNUjN6WFNoTkkzTnFMRnN0ZjZHcVlJeWg0ZE51XzlHbVZ6MjFpUUFya1o0Zmt1ZEZPMTc0ZlhOV3hudHEwbWNGR0M3eF9LQTU2U21waVUzN3d1RjZ2OGlSajF4N01KVEN6M0dMZmtWLTBsd2xiX1RKUnV5M1BGQzdzM0EzcU92Ni03QkRrbm9RUlNHazRsTDJhNXc?oc=5",
+      "source": "Wisconsin Farmer",
+      "date": "2026-06-09"
+    },
+    {
       "title": "Virginia farmers talk meat production, fertilizer costs with USDA officials - Virginia Mercury",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcGVlVk1hSi1kaDBKdngtMkhqcnJKaGdGVUZTaURYdDBQbGpiVmR4VkpjZU8zYW5KSld3eXVCSmkxdjlJVGl1djh4Vk56NlhUNzhDQWxZVktsTUNGM19DejlNdDNDdktENUtCUFFJOG96NTVsbHFNMUVxaXRIaW9QVmZhMGFOWmJYekJyc0hnd3dpZlBRZzBRcVNqcW94Wm9oNkhuTE5GdXlaTHlnNFphMy1RQ3c?oc=5",
       "source": "Virginia Mercury",
       "date": "2026-06-04"
+    },
+    {
+      "title": "First Thing Today | Grain bulls need a fresh spark; will it be the weather? - Pro Farmer",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9kTHVjcVl1YU1aSm1UbDZybkRaR29jMGNFZ0VkNHNxNFdURnViR01oajRtNkh1Ynp0Z1RtQ2pFdVZIMXNOREZGS1MyRHljMUNGaE9qUFFybThRTFlQM01mV3U1SDZGeGZsTXJyVjQ2aUdEb1VDQWVxWDFsQVoyYzJZLWZmTTZmVEtLV2x3bzhlN1Nya29kSTFhd0lqYmFEMG1SRGZ4X1NiMTMzVXRNRHc1Qnc?oc=5",
+      "source": "Pro Farmer",
+      "date": "2026-06-03"
     },
     {
       "title": "Why Have Cattle Futures Slumped for Two Straight Weeks? Analysts Discuss - Successful Farming",
@@ -214,10 +224,10 @@
       "date": "2026-06-01"
     },
     {
-      "title": "Meet this year’s Mid-Atlantic Master Farmers - Farm Progress",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNDdyNGF3WHl2MnhLMWg5cXBxVUMtM21kMWhhOU5ObVFUY1FoZGFqNzZDQ2pTUUpGMkY3ZWU3RExWemdSQWhZZUdSUmVtbDFpbjFOZVo3YUt4MXFqNkpDdHpQS1c2Z3ZmSTZLaEM1OXNEdVI1cXU1cGVJTENFR0dVZkxfUUdxZTBQTW9qZXZELWE2YTFGTHc?oc=5",
-      "source": "Farm Progress",
-      "date": "2026-05-26"
+      "title": "First Thing Today | Lower crude oil prices weighing on grains - Pro Farmer",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdC1JVzA1enI4RGZNTWVlMGNwUG5NR2FBbnFoak5XbDVYTU8tblBsejUtX1I2SFNJUXN5NWVzMWpRT1BjR0h5eVk4SnR1WERNaVVfdDFTb05ZQW1pMTNYV3EwN0RhakJGNWo3NmJzZ0ZNNklXbHNjcmxCOERKT3VhM0hzcjlnQnZ2QnQ3UWloZkRqeVh3R2x6dEoxQTJOQ2Q2YXBXX1RyOU0?oc=5",
+      "source": "Pro Farmer",
+      "date": "2026-05-27"
     },
     {
       "title": "May 2026 USDA Cattle on Feed highlights - Beef Magazine",
@@ -236,12 +246,6 @@
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcVpzNklmM19BNXV2TmVwUGIxY0ZpV2tyQlJ0Z0I4NGZJMGVKM0p2NjE0ODByZWVGQW5Za3pIYmoxSlFWNmVkV05Zdl9qZk5yYWVQTTdJaEpaaXJ0bFdCVjNua2ZvbDZ2bU1tQ3NQM0RiNXNhd0xhNi1NZEhCWnNacUZNYk5sNktXVmVwbFB3MEpXcDc4R0tyRkllTExseWhpcXAwWW1iUjNFX2V3UzkzUk9hS0YwZDdia0lwNlZMcE9OZFgyMTdOUU1uS3FUbHFmQWdqZnNLSUpwZ01CX3hJNVB0dVFIRklpVmxnYUhrLWtKTmFXR195dXVpTQ?oc=5",
       "source": "WHRO",
       "date": "2026-05-21"
-    },
-    {
-      "title": "First Thing Today | Grains mostly firmer overnight - Pro Farmer",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRTM0RXgwYTBtMU9hZk5uU0luRXNMel9MZnFma2J1TmI5UEowcUN6X2JBdElRVFFiejZCN2Y4RU9TcURGcllHaEFrLXlXVGtpVFJUMjY0OGp1LXNOLS0xcDNYNlMxT0w2WXZjQ2xqYjlyRlQxQWZQdFZsdXY1cFFBdkFPa3NtUE1FUERVWUJaazZKTzRMRTROUU5EVDhyQQ?oc=5",
-      "source": "Pro Farmer",
-      "date": "2026-05-01"
     }
   ]
 }
