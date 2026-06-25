@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T13:36:05.567Z",
+  "updated": "2026-06-25T13:37:11.260Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -180,6 +180,18 @@
   ],
   "news": [
     {
+      "title": "Lean Hog futures slipped as weekly gains erased. - CME Group",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZHJYZDBaWjkwc293ZnZ0SGV6UFFCeWREcnlWY2otNVltdUJRYkItZUV4QTRyVE5yNU9lc3VfVlBaQkUxRDBQdXlJUmpiY05BTktiaVJrSmk3MnZrSHN1bGNoeXpyVmFqOHlCTVRXNUVIQV9OelJBdElnNWE2RG5rLTJsX1JHZlB6V2FjQXBwYUM5VEZuYUxXMDM0bWtkNmYtREdlSDlURTJndlpyTmMtRGZEcEQ3cjVWdGk0bkZrRmE?oc=5",
+      "source": "CME Group",
+      "date": "2026-06-25"
+    },
+    {
+      "title": "USDA Boxed Beef Cutout Report: June 24, 2026 – Choice and Select Prices Decline - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV08wcTl6VHFIQThXUjc0ejZjNzN5Wk4ydGxvSXktdTdSVXhjMnlYUklJb2t6Y1lKaFlJX1dxdE0wMFB5TzQ2SzVGb2JlVUxJeUF6VkR3NFhWMVlaV2Q3bmtEcHJkVkVKemllZjN2dEVDbVQzdUVmUGVEOXEzNWZuU3JSMjlZMDBPRVVtX2twNk4wbzBMOVBnaWJaWnNtZlY2WGllZWhZWU8?oc=5",
+      "source": "IndexBox",
+      "date": "2026-06-24"
+    },
+    {
       "title": "In the Cattle Markets: Latest Look From Cattle on Feed, USDA Aphis NW Screwworm Dashboard, and Meat Demand Monitor’s Financial Sentiment Pulse – No Dull Days in June - Morning Ag Clips",
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNdU9QX1lJNzZpcV83WFFjQk0yVnVhNkloVndyRHc3TlBnTjd0ZkFUSHI3NVRoRlRIOTZvY05PRVBXTURncnpEVExzQkpCWWFNcVFYSDBNdjNtX0liVTNhcUxsUHRhX2M0NWtTOUhCU0VCRUc5QkFndWNXNld2TkJKLUZBeW04MURScWRMTTYzTnJsc3E1ZDhVTUwyU3VLdXoxODFieVFRZndLbnJhRWpLM0pHY1Nma0xuUmJtSC1xZEZVM3JRX3oxbkFnNDFTZnJIR2czbmIyNkhSQmtob2RIdzVFcE5RQ3o2MzVBeUlrbjQwQWtsUk5jRWlSc1VfbEVyMHhBbDlfREtVWVRZRjRKYnBsVU9XMlVlNGxz?oc=5",
       "source": "Morning Ag Clips",
@@ -190,6 +202,12 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON1o5SkR2V1Q1eTR2dElQdDQ5Um9Jc3Q1YnVUaTNaeFpTSVUyU29TMUEybHkwYkw2bklKbXJNc2gzemRjalhvRHV5cDRFMFBjSEZMSk54UGRObkxvdDJJOFlGZW00STFRV2p2R0Z4eTQwWHdoQ3NFc29NZFJyeC1PV0tLdEZxX09jaTBmZE1rXzg?oc=5",
       "source": "IndexBox",
       "date": "2026-06-22"
+    },
+    {
+      "title": "Weekly protein report: USDA expands biosecurity investment amid ongoing livestock threats - The Poultry Site",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV2RBWW1sMVdGOWR5dGZfZE1JZE9lZ3hpV1RESTVCQ090ZkxJTUUwMzJuTGI2Q1ZiTnp2Qml4UGo2VDkxTWhXN0R3UEs1YzZpT1g3ZktoWG9DR3d3NmJCMWJQSDh4bmdkRVJqdWlLUEdWZjRORHBmcGI5S2tRRjM1ZEFaa2dRTmRmOUJGVWc5emZ4WThkdjhKaUZyazRleGJJOE5Kc0dMY2pteS1lenFhcXNmSHpVODlkTzdVU2NIdE0zMDNXSS1F?oc=5",
+      "source": "The Poultry Site",
+      "date": "2026-06-18"
     },
     {
       "title": "Weekly protein report: USDA approves $105 million in investments against New World Screwworm - The Cattle Site",
@@ -228,28 +246,10 @@
       "date": "2026-05-26"
     },
     {
-      "title": "May 2026 USDA Cattle on Feed highlights - Beef Magazine",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNzkwLXM4dEFnQXZXcjNEQlBPZG1BT1NoMHpFRDY0ODUwOW5sM09IbzF0b1FteGZpc2E4T05LTTdXTUlpWE5ucjA0VXNnaUVjX0JjSVZfZVlwSkhmUXZ3OGdiX1Y2M3dQSWxuT0JSNmVXT3NnOElCVXZxb3NGZWJfbDItMXQzVWM?oc=5",
-      "source": "Beef Magazine",
-      "date": "2026-05-26"
-    },
-    {
       "title": "Weather driven by climate change devastated maple syrup harvests. Now, farmers in Virginia's highlands set hopes on cattle. - WHRO",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcVpzNklmM19BNXV2TmVwUGIxY0ZpV2tyQlJ0Z0I4NGZJMGVKM0p2NjE0ODByZWVGQW5Za3pIYmoxSlFWNmVkV05Zdl9qZk5yYWVQTTdJaEpaaXJ0bFdCVjNua2ZvbDZ2bU1tQ3NQM0RiNXNhd0xhNi1NZEhCWnNacUZNYk5sNktXVmVwbFB3MEpXcDc4R0tyRkllTExseWhpcXAwWW1iUjNFX2V3UzkzUk9hS0YwZDdia0lwNlZMcE9OZFgyMTdOUU1uS3FUbHFmQWdqZnNLSUpwZ01CX3hJNVB0dVFIRklpVmxnYUhrLWtKTmFXR195dXVpTQ?oc=5",
       "source": "WHRO",
       "date": "2026-05-21"
-    },
-    {
-      "title": "Feeder Cattle futures slide from recent highs as demand slows. - CME Group",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSExzSU1CaHJkSnhHMHN4X3FOMG9vbVJOVjlzdUZZY1ZWbFpoZGQtbzJ3N1M1bkdvWHZFNGZGVHo5WVBuQW8yMjRkcHNGVWFBbHBoX05rQnlYaFF5Y2VLQTlNNGJpS1QtNS01LXl0REo4TlliRXVxdHZZRE5wUjdCc3A1T24zWkpfOEZFa3dmN0k1QnBoVFF2WWhLbzZxYmRvNVdXODZtNU1ZeXZITW1laQ?oc=5",
-      "source": "CME Group",
-      "date": "2026-05-08"
-    },
-    {
-      "title": "First Thing Today | Grains mostly firmer overnight - Pro Farmer",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRTM0RXgwYTBtMU9hZk5uU0luRXNMel9MZnFma2J1TmI5UEowcUN6X2JBdElRVFFiejZCN2Y4RU9TcURGcllHaEFrLXlXVGtpVFJUMjY0OGp1LXNOLS0xcDNYNlMxT0w2WXZjQ2xqYjlyRlQxQWZQdFZsdXY1cFFBdkFPa3NtUE1FUERVWUJaazZKTzRMRTROUU5EVDhyQQ?oc=5",
-      "source": "Pro Farmer",
-      "date": "2026-05-01"
     }
   ]
 }
