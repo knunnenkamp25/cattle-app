@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T13:29:20.697Z",
+  "updated": "2026-06-27T12:51:55.356Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -180,9 +180,15 @@
   ],
   "news": [
     {
-      "title": "First Thing Today | Trump Administration announces push for biofuels expansion - Pro Farmer",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ3RwWWdxM0lidk43YVVqTUJsOGZEb0xKcUVOUldHcWpnMFZTUHJnSTNaZHdOWDNEcFRKQTlqRGw3amttRWV2R2tIbUg1R0JEc1F5YmgxNzY3ekpsZ3VuUVhCX0tTT08wQUdzQ1RWa2xZeUw2X29wX1JmeW5ZZHBXaHBGb2dYTHdkWmJNdmtSQldXVFUtRWJhSEp6Nl9sUlVuZ0tzX1NTNlRpb3hGTm9zMXpB?oc=5",
-      "source": "Pro Farmer",
+      "title": "USDA Weekly Beef Market Data Bundle Released June 26, 2026 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWC0wbG90Z285M2RMYnF4X0llaklqQ08ycTY0R2EwVDZtalJOamhYOUc5NkV2bWNhT1RtUFZzdFBDOFhvbkh0XzN3dkctYjN6bVJBWWFCVmEyd2Rrb2hhVXZGWDZqa2dFc292eXpqcFM5cGE0OUtSNk13MG91T3d6TnhmVDNldHpTZkhKQ3NFNVU?oc=5",
+      "source": "IndexBox",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Grass Fed Beef Prices Q2 2026: USDA Report on Steaks, Ground Beef, Roasts &amp; Carcass Costs - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbExKaDFyWVBMTGlBMC00eXBhbGpycXFnOTV4SkpTSGVjRGVsZXByZ3U0ZDY4cWZsalI1V2ExTUVtRGNoM0dpbDZ4ZWtMeEo5X1F5cHZrMFFyN0tyVjFwZGpCLXFKQS1qMlBjMEZ1dzZUdFBjb1NCandVRC0xMDdlN1hqNFVKOXJ5THdEcHZIS0FCVmdhSkZFdlJwNHdHMFh6NlpsOE9fSjhENXptd1N2Wg?oc=5",
+      "source": "IndexBox",
       "date": "2026-06-26"
     },
     {
@@ -190,12 +196,6 @@
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNdU9QX1lJNzZpcV83WFFjQk0yVnVhNkloVndyRHc3TlBnTjd0ZkFUSHI3NVRoRlRIOTZvY05PRVBXTURncnpEVExzQkpCWWFNcVFYSDBNdjNtX0liVTNhcUxsUHRhX2M0NWtTOUhCU0VCRUc5QkFndWNXNld2TkJKLUZBeW04MURScWRMTTYzTnJsc3E1ZDhVTUwyU3VLdXoxODFieVFRZndLbnJhRWpLM0pHY1Nma0xuUmJtSC1xZEZVM3JRX3oxbkFnNDFTZnJIR2czbmIyNkhSQmtob2RIdzVFcE5RQ3o2MzVBeUlrbjQwQWtsUk5jRWlSc1VfbEVyMHhBbDlfREtVWVRZRjRKYnBsVU9XMlVlNGxz?oc=5",
       "source": "Morning Ag Clips",
       "date": "2026-06-23"
-    },
-    {
-      "title": "USDA Weekly Beef Market Data Bundle Released June 22, 2026 - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc1RZNDNXMENCOUYwaEstNUJYOXJvTGJ2MktzN2ZxYWtaOGgzXzlDNVhmYUo0alFtSjJiaUExdmlRUzRjLUEwOXczZFYzQkx2SWRZdzBJQ3dweGpXaEZNZDJTZ1JnSTFnV2xyQ1pnZnktbnR6SVhRQThiZ3VENVBScFBtMDFzNk5qc3pHeUFiZUU?oc=5",
-      "source": "IndexBox",
-      "date": "2026-06-22"
     },
     {
       "title": "Weekly protein report: USDA expands biosecurity investment amid ongoing livestock threats - The Poultry Site",
@@ -216,6 +216,12 @@
       "date": "2026-06-17"
     },
     {
+      "title": "The Screwworm Is Messing With America’s Beef - The Atlantic",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ3JIQlZpWld3dWxzdnE4aGppZmRkOFpreHF6Y2lLNHBKUC11Qno0eGdvSFlnUmhLcWU2T3lqZFkyRUhMaHc0X20wd0R6ZVNZSEtYRjRJXzlXZzNxRmtIRTc3MUhMYUs1MWFfVzROTHRCTEh6dXZnc2xtb2F6enVxYllxUERXSE5ISDdDNEZESy0tN2h2RURaOHFGbXM?oc=5",
+      "source": "The Atlantic",
+      "date": "2026-06-09"
+    },
+    {
       "title": "Cattle prices hold firm as beef market loses momentum - Wisconsin Farmer",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbHpaX0Z1ZHZHV0pDck45ZEhITnhsX01nMml4OVlHSFNvdGlEVVRkNko1aVVmbnppSFhjVzBrc3NteWpXVXQwQzBkS1dNUjN6WFNoTkkzTnFMRnN0ZjZHcVlJeWg0ZE51XzlHbVZ6MjFpUUFya1o0Zmt1ZEZPMTc0ZlhOV3hudHEwbWNGR0M3eF9LQTU2U21waVUzN3d1RjZ2OGlSajF4N01KVEN6M0dMZmtWLTBsd2xiX1RKUnV5M1BGQzdzM0EzcU92Ni03QkRrbm9RUlNHazRsTDJhNXc?oc=5",
       "source": "Wisconsin Farmer",
@@ -234,22 +240,16 @@
       "date": "2026-06-04"
     },
     {
-      "title": "Why Have Cattle Futures Slumped for Two Straight Weeks? Analysts Discuss - Successful Farming",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZVFUbjJZZVhDSkhvRzFaOUd0OHNtdEtzZVg2cWFiRmdKR01PaC1FNDd6NjRhcS13dmo5ZGdrbFR3eEJEY0tFRnVMV0hHOU9UYjNkT3ZlQmZYYnd4Mldsdl8xeXlLR3pnZ2Q4ZFI3Y0paNnV6OFMxb0tldlJGakl5WVo2NE5LOXI0U2EyWFRUa0MxRWhNZkdXWTU1MjZPZ3g1NWZwSl9zQnpSVS1KQnB0TnB2QQ?oc=5",
-      "source": "Successful Farming",
-      "date": "2026-06-01"
+      "title": "First Thing Today | Grain bulls need a fresh spark; will it be the weather? - Pro Farmer",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9kTHVjcVl1YU1aSm1UbDZybkRaR29jMGNFZ0VkNHNxNFdURnViR01oajRtNkh1Ynp0Z1RtQ2pFdVZIMXNOREZGS1MyRHljMUNGaE9qUFFybThRTFlQM01mV3U1SDZGeGZsTXJyVjQ2aUdEb1VDQWVxWDFsQVoyYzJZLWZmTTZmVEtLV2x3bzhlN1Nya29kSTFhd0lqYmFEMG1SRGZ4X1NiMTMzVXRNRHc1Qnc?oc=5",
+      "source": "Pro Farmer",
+      "date": "2026-06-03"
     },
     {
-      "title": "Meet this year’s Mid-Atlantic Master Farmers - Farm Progress",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNDdyNGF3WHl2MnhLMWg5cXBxVUMtM21kMWhhOU5ObVFUY1FoZGFqNzZDQ2pTUUpGMkY3ZWU3RExWemdSQWhZZUdSUmVtbDFpbjFOZVo3YUt4MXFqNkpDdHpQS1c2Z3ZmSTZLaEM1OXNEdVI1cXU1cGVJTENFR0dVZkxfUUdxZTBQTW9qZXZELWE2YTFGTHc?oc=5",
-      "source": "Farm Progress",
+      "title": "May 2026 USDA Cattle on Feed highlights - Beef Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNzkwLXM4dEFnQXZXcjNEQlBPZG1BT1NoMHpFRDY0ODUwOW5sM09IbzF0b1FteGZpc2E4T05LTTdXTUlpWE5ucjA0VXNnaUVjX0JjSVZfZVlwSkhmUXZ3OGdiX1Y2M3dQSWxuT0JSNmVXT3NnOElCVXZxb3NGZWJfbDItMXQzVWM?oc=5",
+      "source": "Beef Magazine",
       "date": "2026-05-26"
-    },
-    {
-      "title": "Weather driven by climate change devastated maple syrup harvests. Now, farmers in Virginia's highlands set hopes on cattle. - WHRO",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcVpzNklmM19BNXV2TmVwUGIxY0ZpV2tyQlJ0Z0I4NGZJMGVKM0p2NjE0ODByZWVGQW5Za3pIYmoxSlFWNmVkV05Zdl9qZk5yYWVQTTdJaEpaaXJ0bFdCVjNua2ZvbDZ2bU1tQ3NQM0RiNXNhd0xhNi1NZEhCWnNacUZNYk5sNktXVmVwbFB3MEpXcDc4R0tyRkllTExseWhpcXAwWW1iUjNFX2V3UzkzUk9hS0YwZDdia0lwNlZMcE9OZFgyMTdOUU1uS3FUbHFmQWdqZnNLSUpwZ01CX3hJNVB0dVFIRklpVmxnYUhrLWtKTmFXR195dXVpTQ?oc=5",
-      "source": "WHRO",
-      "date": "2026-05-21"
     }
   ]
 }
