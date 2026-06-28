@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T12:51:55.356Z",
+  "updated": "2026-06-28T12:55:57.105Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -186,12 +186,6 @@
       "date": "2026-06-26"
     },
     {
-      "title": "Grass Fed Beef Prices Q2 2026: USDA Report on Steaks, Ground Beef, Roasts &amp; Carcass Costs - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbExKaDFyWVBMTGlBMC00eXBhbGpycXFnOTV4SkpTSGVjRGVsZXByZ3U0ZDY4cWZsalI1V2ExTUVtRGNoM0dpbDZ4ZWtMeEo5X1F5cHZrMFFyN0tyVjFwZGpCLXFKQS1qMlBjMEZ1dzZUdFBjb1NCandVRC0xMDdlN1hqNFVKOXJ5THdEcHZIS0FCVmdhSkZFdlJwNHdHMFh6NlpsOE9fSjhENXptd1N2Wg?oc=5",
-      "source": "IndexBox",
-      "date": "2026-06-26"
-    },
-    {
       "title": "In the Cattle Markets: Latest Look From Cattle on Feed, USDA Aphis NW Screwworm Dashboard, and Meat Demand Monitor’s Financial Sentiment Pulse – No Dull Days in June - Morning Ag Clips",
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNdU9QX1lJNzZpcV83WFFjQk0yVnVhNkloVndyRHc3TlBnTjd0ZkFUSHI3NVRoRlRIOTZvY05PRVBXTURncnpEVExzQkpCWWFNcVFYSDBNdjNtX0liVTNhcUxsUHRhX2M0NWtTOUhCU0VCRUc5QkFndWNXNld2TkJKLUZBeW04MURScWRMTTYzTnJsc3E1ZDhVTUwyU3VLdXoxODFieVFRZndLbnJhRWpLM0pHY1Nma0xuUmJtSC1xZEZVM3JRX3oxbkFnNDFTZnJIR2czbmIyNkhSQmtob2RIdzVFcE5RQ3o2MzVBeUlrbjQwQWtsUk5jRWlSc1VfbEVyMHhBbDlfREtVWVRZRjRKYnBsVU9XMlVlNGxz?oc=5",
       "source": "Morning Ag Clips",
@@ -240,16 +234,22 @@
       "date": "2026-06-04"
     },
     {
-      "title": "First Thing Today | Grain bulls need a fresh spark; will it be the weather? - Pro Farmer",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9kTHVjcVl1YU1aSm1UbDZybkRaR29jMGNFZ0VkNHNxNFdURnViR01oajRtNkh1Ynp0Z1RtQ2pFdVZIMXNOREZGS1MyRHljMUNGaE9qUFFybThRTFlQM01mV3U1SDZGeGZsTXJyVjQ2aUdEb1VDQWVxWDFsQVoyYzJZLWZmTTZmVEtLV2x3bzhlN1Nya29kSTFhd0lqYmFEMG1SRGZ4X1NiMTMzVXRNRHc1Qnc?oc=5",
+      "title": "First Thing Today | Lower crude oil prices weighing on grains - Pro Farmer",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdC1JVzA1enI4RGZNTWVlMGNwUG5NR2FBbnFoak5XbDVYTU8tblBsejUtX1I2SFNJUXN5NWVzMWpRT1BjR0h5eVk4SnR1WERNaVVfdDFTb05ZQW1pMTNYV3EwN0RhakJGNWo3NmJzZ0ZNNklXbHNjcmxCOERKT3VhM0hzcjlnQnZ2QnQ3UWloZkRqeVh3R2x6dEoxQTJOQ2Q2YXBXX1RyOU0?oc=5",
       "source": "Pro Farmer",
-      "date": "2026-06-03"
+      "date": "2026-05-27"
     },
     {
       "title": "May 2026 USDA Cattle on Feed highlights - Beef Magazine",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNzkwLXM4dEFnQXZXcjNEQlBPZG1BT1NoMHpFRDY0ODUwOW5sM09IbzF0b1FteGZpc2E4T05LTTdXTUlpWE5ucjA0VXNnaUVjX0JjSVZfZVlwSkhmUXZ3OGdiX1Y2M3dQSWxuT0JSNmVXT3NnOElCVXZxb3NGZWJfbDItMXQzVWM?oc=5",
       "source": "Beef Magazine",
       "date": "2026-05-26"
+    },
+    {
+      "title": "Weather driven by climate change devastated maple syrup harvests. Now, farmers in Virginia's highlands set hopes on cattle. - WHRO",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcVpzNklmM19BNXV2TmVwUGIxY0ZpV2tyQlJ0Z0I4NGZJMGVKM0p2NjE0ODByZWVGQW5Za3pIYmoxSlFWNmVkV05Zdl9qZk5yYWVQTTdJaEpaaXJ0bFdCVjNua2ZvbDZ2bU1tQ3NQM0RiNXNhd0xhNi1NZEhCWnNacUZNYk5sNktXVmVwbFB3MEpXcDc4R0tyRkllTExseWhpcXAwWW1iUjNFX2V3UzkzUk9hS0YwZDdia0lwNlZMcE9OZFgyMTdOUU1uS3FUbHFmQWdqZnNLSUpwZ01CX3hJNVB0dVFIRklpVmxnYUhrLWtKTmFXR195dXVpTQ?oc=5",
+      "source": "WHRO",
+      "date": "2026-05-21"
     }
   ]
 }
