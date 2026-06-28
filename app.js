@@ -1241,7 +1241,7 @@ function treeLabel(a, kidCount) {
     + ` <span class="badge ${sexBadgeClass(a)}">${sexLabel(a)}</span>`
     + (a.is_sold ? ' <span class="badge sold">Sold</span>' : "")
     + (a.death_date ? ' <span class="badge dead">Died</span>' : "")
-    + (kidCount ? ` <span class="muted" style="font-weight:400">· ${kidCount} calf${kidCount > 1 ? "s" : ""}</span>` : "")
+    + (kidCount ? ` <span class="muted" style="font-weight:400">· ${kidCount} ${kidCount === 1 ? "calf" : "calves"}</span>` : "")
     + `</span>`;
 }
 

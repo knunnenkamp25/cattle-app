@@ -1,6 +1,6 @@
 /* Service worker — caches the app shell so it opens with no signal.
    Bump CACHE when you change app files to force an update. */
-const CACHE = "cattle-shell-v6";
+const CACHE = "cattle-shell-v7";
 const SHELL = [
   "./", "./index.html", "./styles.css", "./config.js", "./offline.js", "./app.js",
   "./manifest.webmanifest", "./icon-180.png", "./icon-512.png",
