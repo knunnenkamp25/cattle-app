@@ -306,20 +306,36 @@ async function syncOutbox() {
     }
     // 2) process row writes in order (upsert makes retries idempotent)
     const remaining = [], newFailed = [];
+    const doWrite = async (op, payload, id) => {
+      if (op === "insert") {
+        const { error } = await sb.from("animals").upsert(stripGen(payload), { onConflict: "id" });
+        if (error) throw error;
+      } else if (op === "update") {
+        const { error } = await sb.from("animals").update(stripGen(payload)).eq("id", id);
+        if (error) throw error;
+      } else if (op === "delete") {
+        const { error } = await sb.from("animals").delete().eq("id", id);
+        if (error) throw error;
+      }
+    };
     for (const item of queue) {
       try {
-        if (item.op === "insert") {
-          const { error } = await sb.from("animals").upsert(stripGen(item.payload), { onConflict: "id" });
-          if (error) throw error;
-        } else if (item.op === "update") {
-          const { error } = await sb.from("animals").update(stripGen(item.payload)).eq("id", item.id);
-          if (error) throw error;
-        } else if (item.op === "delete") {
-          const { error } = await sb.from("animals").delete().eq("id", item.id);
-          if (error) throw error;
+        await doWrite(item.op, item.payload, item.id);
+      } catch (e) {
+        // self-heal: a record can be rejected because the mother it points to
+        // (dam_id) isn't in the cloud. Retry once with that link cleared — the
+        // mom tag/breed text is kept, so no information is lost.
+        const msg = (e && (e.message || e.error_description || "")) + "";
+        const fkBlocked = e && (e.code === "23503" || /foreign key|violates|dam_id/i.test(msg));
+        if (fkBlocked && item.op !== "delete" && item.payload && item.payload.dam_id) {
+          try {
+            const healed = { ...item.payload, dam_id: null };
+            await doWrite(item.op, healed, item.id);
+            item.payload = healed;                           // remember the cleared link
+            continue;                                        // success — don't re-queue or dead-letter
+          } catch (_) { /* fall through to normal retry/dead-letter */ }
         }
-      } catch (_) {                                          // retry a few times, then dead-letter so it can't block forever
-        item.tries = (item.tries || 0) + 1;
+        item.tries = (item.tries || 0) + 1;                 // retry a few times, then dead-letter so it can't block forever
         (item.tries >= 5 ? newFailed : remaining).push(item);
       }
     }
