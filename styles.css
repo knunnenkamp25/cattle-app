@@ -151,6 +151,42 @@ canvas{max-width:100%}
   body.printing{background:#fff}
 }
 
+/* ---------- family tree (in-app, collapsible) ---------- */
+.tree{font-size:15px}
+.tree-branch{margin:0}
+.tree-branch > summary{list-style:none;cursor:pointer;padding:8px 6px;border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:8px}
+.tree-branch > summary::-webkit-details-marker{display:none}
+.tree-branch > summary::before{content:"▸";color:var(--muted);font-size:12px;width:12px;flex:0 0 auto;text-align:center}
+.tree-branch[open] > summary::before{content:"▾"}
+.tree-kids{margin-left:14px;border-left:1px dashed var(--line);padding-left:8px}
+.tree-leaf{padding:8px 6px 8px 26px;border-bottom:1px solid var(--line)}
+.tree-name{cursor:pointer;color:var(--ink)}
+.tree-name:active{opacity:.55}
+.tree-dim{opacity:.55}
+
+/* ---------- family tree (printable graphical chart) ---------- */
+.ftwrap{font-family:Arial,Helvetica,sans-serif;color:#222}
+.fttitle{text-align:center;color:var(--green);margin:0 0 2px;font-size:22px}
+.ftdate{text-align:center;color:#666;font-size:12px;margin-bottom:20px}
+.ftchart{page-break-inside:avoid;margin:0 0 30px;text-align:center;overflow:hidden}
+.ftmatriarch{font-weight:700;color:var(--green-d);margin-bottom:8px;font-size:14px}
+.ftree, .ftree ul{padding-top:20px;position:relative;white-space:nowrap;margin:0}
+.ftree li{display:inline-block;vertical-align:top;text-align:center;list-style:none;position:relative;padding:20px 8px 0 8px}
+.ftree li::before, .ftree li::after{content:'';position:absolute;top:0;right:50%;border-top:1px solid #9aa39a;width:50%;height:20px}
+.ftree li::after{right:auto;left:50%;border-left:1px solid #9aa39a}
+.ftree li:only-child::after, .ftree li:only-child::before{display:none}
+.ftree li:only-child{padding-top:0}
+.ftree li:first-child::before, .ftree li:last-child::after{border:0 none}
+.ftree li:last-child::before{border-right:1px solid #9aa39a;border-radius:0 5px 0 0}
+.ftree li:first-child::after{border-radius:5px 0 0 0}
+.ftree ul ul::before{content:'';position:absolute;top:0;left:50%;border-left:1px solid #9aa39a;width:0;height:20px}
+.ftbox{display:inline-block;border:1px solid var(--green);border-radius:8px;padding:6px 9px;background:var(--green-l)}
+.ftbox .fttag{font-weight:800;font-size:13px;line-height:1.1}
+.ftbox .ftsub{font-size:10px;color:#333;margin-top:1px}
+.ftbox .ftyr{font-size:9px;color:#666;margin-top:1px}
+.ftbox.ftdim{opacity:.55}
+
 /* ---------- modal dialogs ---------- */
 .modal-overlay{position:fixed;inset:0;z-index:70;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:16px}
 .modal-card{background:var(--card);border-radius:var(--radius);box-shadow:0 14px 44px rgba(0,0,0,.32);padding:20px;width:100%;max-width:380px;max-height:88vh;overflow:auto}

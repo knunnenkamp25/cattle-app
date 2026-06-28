@@ -722,6 +722,7 @@ function renderHerd() {
 
     <div class="section-title">Tools</div>
     <div class="card">
+      <button class="btn btn-block" id="t-tree" style="margin-bottom:10px">🌳 Family tree</button>
       <button class="btn btn-block" id="t-bulkvax" style="margin-bottom:10px">💉 Bulk vaccinate</button>
       <button class="btn btn-block" id="t-tags">🏷️ Print QR tags (current list)</button>
       <div class="btn-row" style="margin-top:10px">
@@ -735,6 +736,7 @@ function renderHerd() {
       </div>
     </div>`;
   $("#herd-search").addEventListener("input", e => { herdFilter = e.target.value; drawHerd("active"); });
+  $("#t-tree").addEventListener("click", renderFamilyTree);
   $("#t-bulkvax").addEventListener("click", renderBulkVax);
   $("#t-tags").addEventListener("click", () => printTags(LAST_HERD_LIST));
   $("#t-sales").addEventListener("click", exportSalesCSV);
@@ -1216,6 +1218,88 @@ function renderBulkVax() {
       switchTab("herd");
     } catch (e) { toast("Error: " + e.message); btn.disabled = false; btn.textContent = "Vaccinate selected"; }
   });
+}
+
+/* ============================================================
+   FAMILY TREE  (maternal lineage)
+   ============================================================ */
+function sortAnimals(a, b) {
+  const ax = a.birth_date || "9999", bx = b.birth_date || "9999";
+  if (ax !== bx) return ax < bx ? -1 : 1;
+  return (a.tag_number || "").localeCompare(b.tag_number || "", undefined, { numeric: true });
+}
+const treeKids = (id) => offspringOf(id).slice().sort(sortAnimals);
+const treeRoots = () => {                                   // matriarchs: no mother recorded in the system
+  const byId = new Map(ANIMALS.map(a => [a.id, a]));
+  return ANIMALS.filter(a => !a.dam_id || !byId.has(a.dam_id)).sort(sortAnimals);
+};
+
+function treeLabel(a, kidCount) {
+  const dim = isLive(a) ? "" : " tree-dim";
+  return `<span class="tree-name${dim}" data-id="${a.id}">`
+    + `${esc(a.tag_number || "No tag")}${a.name ? " · " + esc(a.name) : ""}`
+    + ` <span class="badge ${sexBadgeClass(a)}">${sexLabel(a)}</span>`
+    + (a.is_sold ? ' <span class="badge sold">Sold</span>' : "")
+    + (a.death_date ? ' <span class="badge dead">Died</span>' : "")
+    + (kidCount ? ` <span class="muted" style="font-weight:400">· ${kidCount} calf${kidCount > 1 ? "s" : ""}</span>` : "")
+    + `</span>`;
+}
+
+function renderFamilyTree() {
+  switchTabShell("herd", "Family Tree");
+  window.scrollTo(0, 0);
+  const roots = treeRoots();
+  const trees = roots.filter(r => treeKids(r.id).length);
+  const loners = roots.filter(r => !treeKids(r.id).length);
+
+  const node = (a) => {
+    const ch = treeKids(a.id);
+    const label = treeLabel(a, ch.length);
+    if (!ch.length) return `<div class="tree-leaf">${label}</div>`;
+    return `<details open class="tree-branch"><summary>${label}</summary>`
+      + `<div class="tree-kids">${ch.map(node).join("")}</div></details>`;
+  };
+
+  view().innerHTML = `
+    <button class="back-btn" id="back">‹ Back to herd</button>
+    <div class="row-between"><h2 style="margin:0">Family Tree</h2>
+      <button class="btn btn-sm" id="tree-print">🖨️ Print / PDF</button></div>
+    <p class="muted" style="margin:6px 0 14px">Maternal lineage. Tap a name to open its record; tap elsewhere on a row to expand or collapse.</p>
+    <div class="tree">${trees.length ? trees.map(node).join("")
+      : `<div class="empty">No linked mothers yet.<br><span class="muted">Link calves to their moms to grow the tree.</span></div>`}</div>
+    ${loners.length ? `<details class="tree-branch" style="margin-top:16px">
+      <summary><b>No recorded mother or offspring (${loners.length})</b></summary>
+      <div class="tree-kids">${loners.map(a => `<div class="tree-leaf">${treeLabel(a, 0)}</div>`).join("")}</div></details>` : ""}`;
+  $("#back").addEventListener("click", () => switchTab("herd"));
+  $("#tree-print").addEventListener("click", printFamilyTree);
+  $$("#view .tree-name").forEach(el => el.addEventListener("click", (e) => {
+    e.preventDefault(); e.stopPropagation(); openProfile(el.dataset.id);
+  }));
+}
+
+/* graphical org-chart, one per matriarch, for printing / display */
+function printFamilyTree() {
+  const roots = treeRoots().filter(r => treeKids(r.id).length);
+  if (!roots.length) { toast("No family trees to print yet"); return; }
+  const ftNode = (a) => {
+    const ch = treeKids(a.id);
+    const box = `<div class="ftbox${isLive(a) ? "" : " ftdim"}">`
+      + `<div class="fttag">${esc(a.tag_number || "No tag")}</div>`
+      + `<div class="ftsub">${esc(a.name ? a.name + " · " : "")}${sexLabel(a)}${a.is_sold ? " · Sold" : ""}${a.death_date ? " · Died" : ""}</div>`
+      + (a.birth_date ? `<div class="ftyr">b. ${yearOf(a.birth_date)}</div>` : "")
+      + `</div>`;
+    return ch.length ? `<li>${box}<ul>${ch.map(ftNode).join("")}</ul></li>` : `<li>${box}</li>`;
+  };
+  const charts = roots.map(r =>
+    `<div class="ftchart"><div class="ftmatriarch">Matriarch: ${esc(r.tag_number || r.name || "Cow")}</div>`
+    + `<ul class="ftree">${ftNode(r)}</ul></div>`).join("");
+  let pa = document.getElementById("print-area");
+  if (!pa) { pa = document.createElement("div"); pa.id = "print-area"; document.body.appendChild(pa); }
+  pa.innerHTML = `<div class="ftwrap"><h1 class="fttitle">Chenault Cattle — Family Tree</h1>
+    <div class="ftdate">Maternal lineage · ${new Date().toLocaleDateString()}</div>${charts}</div>`;
+  document.body.classList.add("printing");
+  window.print();
+  setTimeout(() => document.body.classList.remove("printing"), 600);
 }
 
 /* ============================================================
