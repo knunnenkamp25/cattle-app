@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T14:42:28.201Z",
+  "updated": "2026-07-07T13:34:04.447Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -20,9 +20,62 @@
     {
       "date": "2026-07-01",
       "price": 478.58
+    },
+    {
+      "date": "2026-07-07",
+      "price": 454.83
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS149",
+      "name": "Wytheville VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-07-07",
+      "head": 361,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "430",
+          "high": "500"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "375",
+          "high": "430"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "370",
+          "high": "418"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "385",
+          "high": "455"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "370",
+          "high": "405"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "348",
+          "high": "383"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "415",
+          "high": "485"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "350",
+          "high": "375"
+        }
+      ]
+    },
     {
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
@@ -130,60 +183,6 @@
           "high": "422"
         }
       ]
-    },
-    {
-      "code": "RH_LS149",
-      "name": "Wytheville VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-06-23",
-      "head": 517,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "483",
-          "high": "508"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "448",
-          "high": "500"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "425",
-          "high": "435"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "442",
-          "high": "455"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "408",
-          "high": "425"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "365",
-          "high": "398"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "445",
-          "high": "445"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "365",
-          "high": "450"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "370",
-          "high": "380"
-        }
-      ]
     }
   ],
   "news": [
@@ -194,22 +193,22 @@
       "date": "2026-07-06"
     },
     {
+      "title": "Shock in U.S. Beef Market as USDA Export Data Sparks Trade Confusion - Agrolatam",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRlh2aTh1SURvTHczSmZRc2kzLXgtYWE3ZTQ1OEFKRk1KOVY1Vnl2bUUzRlVmQmR5aFp6WGkwQnBDWlQyTDAyQnV0MzRLM21JTEV5R2lzR04za2pyWHkwTVFRaUh0UzZORzZCeWlCbUs4U0xpQ0VNVU41MDhjTzZIcXhaRHJDbkxEZzlGMExndWNKQnV5WjQw?oc=5",
+      "source": "Agrolatam",
+      "date": "2026-07-06"
+    },
+    {
+      "title": "USDA AMS Weekly Beef Market Data Bundle Released July 6, 2026 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNmVVLVk4SmVpTWlyZ3c5dVl3RElQUmd0QzdOamhWVUs5LVlyMVk1c3FYUjd6ZnVWTTZVbmNjNlE1aHhYNzJjRDhaRWxPZGtBOE5GdlRMZHk4bloxTWVfLVd2SHR5bF94WDg2OFYzVjE0OUl1SldUQXNVV0hJbGtNRFBzck5ZY1d3OUp3bHVQMXc2VDQw?oc=5",
+      "source": "IndexBox",
+      "date": "2026-07-06"
+    },
+    {
       "title": "USDA Unveils $500M SPUR Program to Protect Independent Beef Processors Amid Historic Cattle Shortage - Hoosier Ag Today",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEb1docnBQcFl5S1kzTk1XeVJvOFpPWHNpOE9zcUJCUjRRTmFlYzJVaXRkeS1JOHo0eVVLY081cXRMbnV6ZDk0NVJkdkp4Z3BiblBJNXFPZm5BTVVDb19wSGowcjVrWnlvdWJkSw?oc=5",
       "source": "Hoosier Ag Today",
       "date": "2026-07-05"
-    },
-    {
-      "title": "USDA AMS Weekly Beef Market Data Bundle Released July 2, 2026 - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMWlndzA4X2hiY2FuaHlvV282U0FWRlFlMzhmQTFqY1NnMklQYm92TTNKNjRwZXJQUTJ4VElDd0VrRVhCZm44Vk1id3NqeDlOM2NuVEhLMTVlWkVVZVlHN0xfRF8yeERzN2FoVGpSOGxfVGxjNW1manhrV3QzUWNIWENYQzdTeU13NnZkOUZTd2RaUTFi?oc=5",
-      "source": "IndexBox",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "Timely Topics - thenews-gazette.com",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53OXl0a3BzRG1FU1BsYjg0aml4U3V3MHE1SlVUNnZ4YW5ZQzkwWFp4Mmc0djhwSVhwU21wUGlQUXptYndRbmlQaDRQckNQYTAyNm1kOTYwd0VDem5lRlVGejlyQlZjdU5nTFVF?oc=5",
-      "source": "thenews-gazette.com",
-      "date": "2026-07-01"
     },
     {
       "title": "USDA launches program to support small, mid-size beef processors - texasfarmbureau.org",
@@ -248,16 +247,16 @@
       "date": "2026-06-17"
     },
     {
-      "title": "Cattle Market Faces New Test as USDA Report Could Shake Price Outlook - Agrolatam",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQalR6VXhRYnllQnE5MkJjX3F1WGItdXdHYlBuc1BvT2FzdF9kaldzRzFmMC1jQkhzaG9xYmFqSzR0eThkRU5nS0VValhYRHdSZ2lZNHBucEVsWEhvV2pNMDlFUjZobTFGaUlDNkVPbEpRYW5ITzhsSk84Qk9WcUVGcndkVUp4c2c5bUJGSEViUFc?oc=5",
-      "source": "Agrolatam",
-      "date": "2026-06-17"
-    },
-    {
       "title": "Weekly protein report: USDA approves $105 million in investments against New World Screwworm - The Cattle Site",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb1locDJsREJLX0daNkVqbVNXMlJRWHM1YjFQSjdzemtnTXk2eWVCRmJoaTFtcWhLbmRid1MyY2RmdmxqeldZVE9YaHFIa0hheUlzTklaRHItSVg1TEdEM3FBeFhfX01ObGJaYWt6UzVRc19GUnBWRU4tV2d0cDkwQlNXeEs3dFBaNHFJNndaREpmQlluaGxNUFRoOFJhNVI5UGVJbGoxeUdLaTA0R3pIcWl3d1I5VVNqM0pHcE1FVllXemx4NlE?oc=5",
       "source": "The Cattle Site",
       "date": "2026-06-15"
+    },
+    {
+      "title": "Virginia farmers talk meat production, fertilizer costs with USDA officials - Virginia Mercury",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcGVlVk1hSi1kaDBKdngtMkhqcnJKaGdGVUZTaURYdDBQbGpiVmR4VkpjZU8zYW5KSld3eXVCSmkxdjlJVGl1djh4Vk56NlhUNzhDQWxZVktsTUNGM19DejlNdDNDdktENUtCUFFJOG96NTVsbHFNMUVxaXRIaW9QVmZhMGFOWmJYekJyc0hnd3dpZlBRZzBRcVNqcW94Wm9oNkhuTE5GdXlaTHlnNFphMy1RQ3c?oc=5",
+      "source": "Virginia Mercury",
+      "date": "2026-06-04"
     }
   ]
 }
