@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T13:34:04.447Z",
+  "updated": "2026-07-08T13:05:16.285Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -23,7 +23,7 @@
     },
     {
       "date": "2026-07-07",
-      "price": 454.83
+      "price": 431.25
     }
   ],
   "auctions": [
@@ -73,60 +73,6 @@
           "label": "Bulls 500-600 lb",
           "low": "350",
           "high": "375"
-        }
-      ]
-    },
-    {
-      "code": "RH_LS151",
-      "name": "Staunton VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-07-01",
-      "head": 948,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "475",
-          "high": "535"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "475",
-          "high": "529"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "409",
-          "high": "454"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "468",
-          "high": "468"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "398",
-          "high": "462"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "350",
-          "high": "375"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "473",
-          "high": "545"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "435",
-          "high": "435"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "409",
-          "high": "409"
         }
       ]
     },
@@ -193,6 +139,12 @@
       "date": "2026-07-06"
     },
     {
+      "title": "USDA Reports Unusually Large U.S. Beef Export Sales, Raising Doubts Over Data - Successful Farming",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRlpGZmJ2M2ltYmJPZl85cjlRMks1dXRhS2VMa1F3Zlc4eHI5RkJBcTR2RHZOeERpbkF3WllFRVF0ODBSQ2FkblBuM3V1aXZVTjJqVVpyNlQtTk9qVDYwOXh2czIwNENtZ1d1TXdyNjVndHplMTRvdDFiSEF1RGRUbGVBU3hsZ3hzV1R0cUxCLWdZZm9kUWx6MDV4YmFiY0FwRVBLSS12aHpyb0pHOGNOcjZCOFVxVnI5NC1pOVFB?oc=5",
+      "source": "Successful Farming",
+      "date": "2026-07-06"
+    },
+    {
       "title": "Shock in U.S. Beef Market as USDA Export Data Sparks Trade Confusion - Agrolatam",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRlh2aTh1SURvTHczSmZRc2kzLXgtYWE3ZTQ1OEFKRk1KOVY1Vnl2bUUzRlVmQmR5aFp6WGkwQnBDWlQyTDAyQnV0MzRLM21JTEV5R2lzR04za2pyWHkwTVFRaUh0UzZORzZCeWlCbUs4U0xpQ0VNVU41MDhjTzZIcXhaRHJDbkxEZzlGMExndWNKQnV5WjQw?oc=5",
       "source": "Agrolatam",
@@ -211,16 +163,22 @@
       "date": "2026-07-05"
     },
     {
+      "title": "Timely Topics - thenews-gazette.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53OXl0a3BzRG1FU1BsYjg0aml4U3V3MHE1SlVUNnZ4YW5ZQzkwWFp4Mmc0djhwSVhwU21wUGlQUXptYndRbmlQaDRQckNQYTAyNm1kOTYwd0VDem5lRlVGejlyQlZjdU5nTFVF?oc=5",
+      "source": "thenews-gazette.com",
+      "date": "2026-07-01"
+    },
+    {
       "title": "USDA launches program to support small, mid-size beef processors - texasfarmbureau.org",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRnpjMS1UMjdrSXZzeFF3SDdEXzltWXI4b0dmREYzRnNUclowRUpVRUk0bWx3RGdvZEctMmJJVWFDX3hfUXVnZDBMNGNyUWhuX0UyeFpzbGs5N1VsUE1HRzNkeXl1aE40b0M4M3I3RFA3ZFdhU2xxYW00Z2RQYUtYQy02bTYwWUdVSU4yeHVVLVhKT3dwb1hZ?oc=5",
       "source": "texasfarmbureau.org",
       "date": "2026-07-01"
     },
     {
-      "title": "USDA to dish out $500 million in support of small beef processors - The Arkansas Democrat-Gazette",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUElYREdXUHFYZWJub29BU25rN1A1Qlpld2liZkR3WUJLT201aDJQanIwWFNZWkg4Mi12YzVWUTNFQUhLaGdaVm9vOUFkVnFBTWUzYUhrSHU0RV81R0dVZkVONEkxd05qaXBZa3JIU3R5QmNUWHhDUFRFa0NzeVhpaG9xNllGanM2RXFXM1NtV0wyVW1BZ3ZuXzNzZ3prdw?oc=5",
-      "source": "The Arkansas Democrat-Gazette",
-      "date": "2026-07-01"
+      "title": "Secretary Rollins Announces Program to Support Small- and Mid-Size Beef Processors - USDA (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLUhuMDJGWDVTWFZiYnhJamlWX09TbmJRZ3VsR2xMLVEtdzRNWW1wQlJZSVlfVE1NZ2tIX1c5WDhVdEFzV2tnYWU0RTNqbDRpdU53N1JYbF9hQUJrSFBzdHZDZ2U2TUxtdG5ENUxpcUp2a05lSnhaVmUyZFVzQnc1ZHN2NWNpMEstdElXdzVndnRSVVJnOWpPNDNRUHg4Y1RUU0FRLWFXMnlHeVhqSVZvZXUwTk9pdGcyRFJSWlFsX0NNX0VXYUo1NEgwRHllR0ZCY3dzWHhiRlg?oc=5",
+      "source": "USDA (.gov)",
+      "date": "2026-06-30"
     },
     {
       "title": "Exclusive | USDA Plans to Pay Smaller Meatpackers to Keep Slaughtering Cattle - WSJ",
@@ -233,18 +191,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZEVzWUhlaWtPTEY1V2FlRjdvV2pSWHFDQklJd3FVcFEwaEtFV3JKcWZjdnZBMFhjWWJYdnZaN2tHRnRPbmljU3hQRWpRZ1B4S2s4VllDaEYybmZjWk5YX1ozMHJodjZMUEUzTy1WbWJMYVY3VTQ3LTFrckw3UEduSnVUVnVaRmxRZ0NfWHNGdjhQeDc1cE9IamFueWxTdFBL?oc=5",
       "source": "Coalition For A Prosperous America",
       "date": "2026-06-30"
-    },
-    {
-      "title": "USDA Announces Up to $500 Million for Beef Processors - Quality Assurance &amp; Food Safety",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNlcwMjA3MGN5TWVPVnZ4b0ZJdHEzVjAtV25NdnRHR0d5UlJzWTRXY1Z5a0JOZTZwSFNPajJqRkFRV3Z1OWtNTkNfRkFhNFRUZ3Nxdm9aNGcwZm94aXJBWFVGWEdKUzRObHB4dTVjRTVXMzUwMzhrYklLS1JBTTIxNmEyOHhyUjl1OGR2eVBQbk5xUk5v?oc=5",
-      "source": "Quality Assurance &amp; Food Safety",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Livestock futures hold steady as cattle markets reflect solid demand. - CME Group",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPejJIMVJZTFd2bENTQVRJYWZNcmpjRXdhb1YtUDZjb2dnQTNWcXV6VGhnLWdqUUdTZHJwSEhkTTJhSWV1cGFWQzVQY1VlT1NJcFdFb0tHWXRjRUpBVXlHdm1FZlZFM01sLWZmdExaMzUzR1JOaWpHUUhOcjJPSkdpMGc4Z21FSVNvSnE1Nmp0bmJ2RkY4cTV4VDFvUFhfNFl2MEUxYWZ3a2ROMmNZMTF6QXRR?oc=5",
-      "source": "CME Group",
-      "date": "2026-06-17"
     },
     {
       "title": "Weekly protein report: USDA approves $105 million in investments against New World Screwworm - The Cattle Site",
