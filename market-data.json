@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T14:05:22.365Z",
+  "updated": "2026-07-10T13:27:31.015Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -133,21 +133,33 @@
   ],
   "news": [
     {
+      "title": "USDA lowers beef export sales by 90% amid growing doubts over data - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblB6c1hlajB5LWRCLUZSRWh2ZFprb2FhRzhtLWo0ajdVMVctclNsbzJnc2tKX2dUX01uUHRValJYWGpwWmVjbjZScG13WHZMZWNyQlVobDREZGV4XzZqaVhkMUo1Y202WUJrY1VNbVBXZG5ONDdzVm9uRFppblJmNDcwSGN5Nk1Gd21La3gwdUV0NW1KZDQ2eFFMSHFWVkg2aFk2VGdpYWhyU3JrWV9F?oc=5",
+      "source": "Reuters",
+      "date": "2026-07-09"
+    },
+    {
+      "title": "USDA Shocks Beef Markets After Slashing Export Sales by 90% Amid Data Crisis - Agrolatam",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbmVJMzFGVlYxQ2o0SzZXQkVrMXVWWldINUc3SjYzVUNKUS1VcWhCMnV1aW45SllrT3NKeUdBOXBHdzR6UEhwTEJob1ltSmtMN2VtQ2J3NE5vMFdqUHNGUERhUGZjM3NpSW5TQXJNYjJpQnVPZ3lqem5hSWR5dVJWLUZ2R2h4VEdFOFpfQkdhOA?oc=5",
+      "source": "Agrolatam",
+      "date": "2026-07-09"
+    },
+    {
       "title": "USDA Reports Unusually Large U.S. Beef Export Sales, Raising Doubts Over Data - Successful Farming",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRlpGZmJ2M2ltYmJPZl85cjlRMks1dXRhS2VMa1F3Zlc4eHI5RkJBcTR2RHZOeERpbkF3WllFRVF0ODBSQ2FkblBuM3V1aXZVTjJqVVpyNlQtTk9qVDYwOXh2czIwNENtZ1d1TXdyNjVndHplMTRvdDFiSEF1RGRUbGVBU3hsZ3hzV1R0cUxCLWdZZm9kUWx6MDV4YmFiY0FwRVBLSS12aHpyb0pHOGNOcjZCOFVxVnI5NC1pOVFB?oc=5",
       "source": "Successful Farming",
       "date": "2026-07-06"
     },
     {
-      "title": "Shock in U.S. Beef Market as USDA Export Data Sparks Trade Confusion - Agrolatam",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRlh2aTh1SURvTHczSmZRc2kzLXgtYWE3ZTQ1OEFKRk1KOVY1Vnl2bUUzRlVmQmR5aFp6WGkwQnBDWlQyTDAyQnV0MzRLM21JTEV5R2lzR04za2pyWHkwTVFRaUh0UzZORzZCeWlCbUs4U0xpQ0VNVU41MDhjTzZIcXhaRHJDbkxEZzlGMExndWNKQnV5WjQw?oc=5",
-      "source": "Agrolatam",
-      "date": "2026-07-06"
-    },
-    {
       "title": "USDA AMS Weekly Beef Market Data Bundle Released July 6, 2026 - IndexBox",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNmVVLVk4SmVpTWlyZ3c5dVl3RElQUmd0QzdOamhWVUs5LVlyMVk1c3FYUjd6ZnVWTTZVbmNjNlE1aHhYNzJjRDhaRWxPZGtBOE5GdlRMZHk4bloxTWVfLVd2SHR5bF94WDg2OFYzVjE0OUl1SldUQXNVV0hJbGtNRFBzck5ZY1d3OUp3bHVQMXc2VDQw?oc=5",
       "source": "IndexBox",
+      "date": "2026-07-06"
+    },
+    {
+      "title": "Shock in U.S. Beef Market as USDA Export Data Sparks Trade Confusion - Agrolatam",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRlh2aTh1SURvTHczSmZRc2kzLXgtYWE3ZTQ1OEFKRk1KOVY1Vnl2bUUzRlVmQmR5aFp6WGkwQnBDWlQyTDAyQnV0MzRLM21JTEV5R2lzR04za2pyWHkwTVFRaUh0UzZORzZCeWlCbUs4U0xpQ0VNVU41MDhjTzZIcXhaRHJDbkxEZzlGMExndWNKQnV5WjQw?oc=5",
+      "source": "Agrolatam",
       "date": "2026-07-06"
     },
     {
@@ -161,18 +173,6 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRnpjMS1UMjdrSXZzeFF3SDdEXzltWXI4b0dmREYzRnNUclowRUpVRUk0bWx3RGdvZEctMmJJVWFDX3hfUXVnZDBMNGNyUWhuX0UyeFpzbGs5N1VsUE1HRzNkeXl1aE40b0M4M3I3RFA3ZFdhU2xxYW00Z2RQYUtYQy02bTYwWUdVSU4yeHVVLVhKT3dwb1hZ?oc=5",
       "source": "texasfarmbureau.org",
       "date": "2026-07-01"
-    },
-    {
-      "title": "Secretary Rollins Announces Program to Support Small- and Mid-Size Beef Processors - USDA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLUhuMDJGWDVTWFZiYnhJamlWX09TbmJRZ3VsR2xMLVEtdzRNWW1wQlJZSVlfVE1NZ2tIX1c5WDhVdEFzV2tnYWU0RTNqbDRpdU53N1JYbF9hQUJrSFBzdHZDZ2U2TUxtdG5ENUxpcUp2a05lSnhaVmUyZFVzQnc1ZHN2NWNpMEstdElXdzVndnRSVVJnOWpPNDNRUHg4Y1RUU0FRLWFXMnlHeVhqSVZvZXUwTk9pdGcyRFJSWlFsX0NNX0VXYUo1NEgwRHllR0ZCY3dzWHhiRlg?oc=5",
-      "source": "USDA (.gov)",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Exclusive | USDA Plans to Pay Smaller Meatpackers to Keep Slaughtering Cattle - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOEY0amtLRUVPT2FJcURIUDJVMFN4TjVla1FrRk1ZSnpfd2Q3UFk3bXRfTUpuc09NSFBDVWJSLUZMaWpEVjR0azVqMkd4UlU1SHpEUE1mMWFIRkEwa0VGY2ZfX0F4VVVmWXpVT3ZTLTJPV1BWMHdoQmczcXBDc1R6Qy1PNGNxVTFCdHB3SmRrM0VzYzdEeWx4NnFkby1hSVJtWUllUUkyRGt0WmVBb08wUmpROEZBeVp4bWN1cTU4RnFCMU9W?oc=5",
-      "source": "WSJ",
-      "date": "2026-06-30"
     },
     {
       "title": "Why Beef Prices Are So High: America’s Cattle Industry Has Been Gutted - Coalition For A Prosperous America",
