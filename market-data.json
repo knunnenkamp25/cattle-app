@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T13:27:31.015Z",
+  "updated": "2026-07-11T12:28:37.600Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -133,33 +133,39 @@
   ],
   "news": [
     {
+      "title": "USDA Beef Export Correction Highlights Market Data Importance - RFD-TV",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcVZ3aUQzZWtZTzhiVmFubHoyQ0VFSzVPeUVaZUk5Mk53REt1S1Ayc0lTdDhUT21BOHo5VVVBSUZYdjgwY3VFcWwzeDdRNUhmdWhlNXRJLUp6c21sSkh2bUxSdVdHLTlEa1dHLTc4d1Rib2dyX3BqcUt1bldkeDlENGw0a0hWQzRuYnEw?oc=5",
+      "source": "RFD-TV",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "USDA AMS Beef Market Report: Boxed Beef Cutout, Cattle Slaughter, and Tallow Data – July 2026 - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnduSXhMeU1pTHdtelVSQ0NrdTZNdFREWFdCNWhscTRQZjhmd1FjX0xvNUtiX0taR1ZwYVB0YngzTWhPaHo0cGUwbm5QSkllbzQ1TzRYcXl6eWZVazBMRDhKQVhVRUwzc0dXR1lRWl9yUlpTS3ZLN1A3MzBfUHRUVmxhU04yYlRXOGVFd2tWY29DSF9EMnc?oc=5",
+      "source": "IndexBox",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "USDA Shocks Beef Markets After Slashing Export Sales by 90% Amid Data Crisis - Agrolatam",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbmVJMzFGVlYxQ2o0SzZXQkVrMXVWWldINUc3SjYzVUNKUS1VcWhCMnV1aW45SllrT3NKeUdBOXBHdzR6UEhwTEJob1ltSmtMN2VtQ2J3NE5vMFdqUHNGUERhUGZjM3NpSW5TQXJNYjJpQnVPZ3lqem5hSWR5dVJWLUZ2R2h4VEdFOFpfQkdhOA?oc=5",
+      "source": "Agrolatam",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "July WASDE Report Signals Historic Wheat Decline, Stronger Corn Demand, Higher Cattle Prices - RFD-TV",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ2tib2FhZWk0RHpqdGZSZEdoY0tSV254RnJrM3d5dDI1a2luS090VjBkVWtUb2xSdzBYMVM2REhwUkNmWlE5N0RSTUZ3Y3dMUjlKdndkUDZHMEpkOERudnhHSkJtdmx5Z3pwRGxRenVoTkZsYmVsbVVUeGtMMmRXSTVhaTMxc3h3aFBCR1c2ZjV5REwtQ2hPQUpiems3U2Zidlo4azQtOFJMY0lOVmwzdFdn?oc=5",
+      "source": "RFD-TV",
+      "date": "2026-07-10"
+    },
+    {
       "title": "USDA lowers beef export sales by 90% amid growing doubts over data - Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblB6c1hlajB5LWRCLUZSRWh2ZFprb2FhRzhtLWo0ajdVMVctclNsbzJnc2tKX2dUX01uUHRValJYWGpwWmVjbjZScG13WHZMZWNyQlVobDREZGV4XzZqaVhkMUo1Y202WUJrY1VNbVBXZG5ONDdzVm9uRFppblJmNDcwSGN5Nk1Gd21La3gwdUV0NW1KZDQ2eFFMSHFWVkg2aFk2VGdpYWhyU3JrWV9F?oc=5",
       "source": "Reuters",
       "date": "2026-07-09"
     },
     {
-      "title": "USDA Shocks Beef Markets After Slashing Export Sales by 90% Amid Data Crisis - Agrolatam",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbmVJMzFGVlYxQ2o0SzZXQkVrMXVWWldINUc3SjYzVUNKUS1VcWhCMnV1aW45SllrT3NKeUdBOXBHdzR6UEhwTEJob1ltSmtMN2VtQ2J3NE5vMFdqUHNGUERhUGZjM3NpSW5TQXJNYjJpQnVPZ3lqem5hSWR5dVJWLUZ2R2h4VEdFOFpfQkdhOA?oc=5",
-      "source": "Agrolatam",
-      "date": "2026-07-09"
-    },
-    {
       "title": "USDA Reports Unusually Large U.S. Beef Export Sales, Raising Doubts Over Data - Successful Farming",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRlpGZmJ2M2ltYmJPZl85cjlRMks1dXRhS2VMa1F3Zlc4eHI5RkJBcTR2RHZOeERpbkF3WllFRVF0ODBSQ2FkblBuM3V1aXZVTjJqVVpyNlQtTk9qVDYwOXh2czIwNENtZ1d1TXdyNjVndHplMTRvdDFiSEF1RGRUbGVBU3hsZ3hzV1R0cUxCLWdZZm9kUWx6MDV4YmFiY0FwRVBLSS12aHpyb0pHOGNOcjZCOFVxVnI5NC1pOVFB?oc=5",
       "source": "Successful Farming",
-      "date": "2026-07-06"
-    },
-    {
-      "title": "USDA AMS Weekly Beef Market Data Bundle Released July 6, 2026 - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNmVVLVk4SmVpTWlyZ3c5dVl3RElQUmd0QzdOamhWVUs5LVlyMVk1c3FYUjd6ZnVWTTZVbmNjNlE1aHhYNzJjRDhaRWxPZGtBOE5GdlRMZHk4bloxTWVfLVd2SHR5bF94WDg2OFYzVjE0OUl1SldUQXNVV0hJbGtNRFBzck5ZY1d3OUp3bHVQMXc2VDQw?oc=5",
-      "source": "IndexBox",
-      "date": "2026-07-06"
-    },
-    {
-      "title": "Shock in U.S. Beef Market as USDA Export Data Sparks Trade Confusion - Agrolatam",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRlh2aTh1SURvTHczSmZRc2kzLXgtYWE3ZTQ1OEFKRk1KOVY1Vnl2bUUzRlVmQmR5aFp6WGkwQnBDWlQyTDAyQnV0MzRLM21JTEV5R2lzR04za2pyWHkwTVFRaUh0UzZORzZCeWlCbUs4U0xpQ0VNVU41MDhjTzZIcXhaRHJDbkxEZzlGMExndWNKQnV5WjQw?oc=5",
-      "source": "Agrolatam",
       "date": "2026-07-06"
     },
     {
@@ -173,18 +179,6 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRnpjMS1UMjdrSXZzeFF3SDdEXzltWXI4b0dmREYzRnNUclowRUpVRUk0bWx3RGdvZEctMmJJVWFDX3hfUXVnZDBMNGNyUWhuX0UyeFpzbGs5N1VsUE1HRzNkeXl1aE40b0M4M3I3RFA3ZFdhU2xxYW00Z2RQYUtYQy02bTYwWUdVSU4yeHVVLVhKT3dwb1hZ?oc=5",
       "source": "texasfarmbureau.org",
       "date": "2026-07-01"
-    },
-    {
-      "title": "Why Beef Prices Are So High: America’s Cattle Industry Has Been Gutted - Coalition For A Prosperous America",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZEVzWUhlaWtPTEY1V2FlRjdvV2pSWHFDQklJd3FVcFEwaEtFV3JKcWZjdnZBMFhjWWJYdnZaN2tHRnRPbmljU3hQRWpRZ1B4S2s4VllDaEYybmZjWk5YX1ozMHJodjZMUEUzTy1WbWJMYVY3VTQ3LTFrckw3UEduSnVUVnVaRmxRZ0NfWHNGdjhQeDc1cE9IamFueWxTdFBL?oc=5",
-      "source": "Coalition For A Prosperous America",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Weekly protein report: USDA approves $105 million in investments against New World Screwworm - The Cattle Site",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb1locDJsREJLX0daNkVqbVNXMlJRWHM1YjFQSjdzemtnTXk2eWVCRmJoaTFtcWhLbmRid1MyY2RmdmxqeldZVE9YaHFIa0hheUlzTklaRHItSVg1TEdEM3FBeFhfX01ObGJaYWt6UzVRc19GUnBWRU4tV2d0cDkwQlNXeEs3dFBaNHFJNndaREpmQlluaGxNUFRoOFJhNVI5UGVJbGoxeUdLaTA0R3pIcWl3d1I5VVNqM0pHcE1FVllXemx4NlE?oc=5",
-      "source": "The Cattle Site",
-      "date": "2026-06-15"
     },
     {
       "title": "Virginia farmers talk meat production, fertilizer costs with USDA officials - Virginia Mercury",
@@ -203,6 +197,12 @@
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPcVpzNklmM19BNXV2TmVwUGIxY0ZpV2tyQlJ0Z0I4NGZJMGVKM0p2NjE0ODByZWVGQW5Za3pIYmoxSlFWNmVkV05Zdl9qZk5yYWVQTTdJaEpaaXJ0bFdCVjNua2ZvbDZ2bU1tQ3NQM0RiNXNhd0xhNi1NZEhCWnNacUZNYk5sNktXVmVwbFB3MEpXcDc4R0tyRkllTExseWhpcXAwWW1iUjNFX2V3UzkzUk9hS0YwZDdia0lwNlZMcE9OZFgyMTdOUU1uS3FUbHFmQWdqZnNLSUpwZ01CX3hJNVB0dVFIRklpVmxnYUhrLWtKTmFXR195dXVpTQ?oc=5",
       "source": "WHRO",
       "date": "2026-05-21"
+    },
+    {
+      "title": "Livestock Futures Close Mixed as Feeder Cattle Holds Firm - CME Group",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSjE0X3JBZVo3MzFwZ18zSkR6OHJ0cFUwLV9yUHB1TWE4WUJWeTBQVW54MGJDTEE0bnJHY2RxVUFDay10VFpnQXdLTFRIcndsTG9WVzQ2U2tONjlDTnZYSUJ3QUNEZk5mRUEwTkx0YVNkTVRuaElxYURaRkNyclJBZk1aaGd0dkpENDBiMmRMOFI?oc=5",
+      "source": "CME Group",
+      "date": "2026-04-08"
     }
   ]
 }
