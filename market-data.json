@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T13:33:50.142Z",
+  "updated": "2026-07-14T12:47:58.404Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -24,9 +24,116 @@
     {
       "date": "2026-07-07",
       "price": 431.25
+    },
+    {
+      "date": "2026-07-13",
+      "price": 437.83
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS151",
+      "name": "Staunton VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-07-13",
+      "head": 1004,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "465",
+          "high": "508"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "435",
+          "high": "492"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "410",
+          "high": "455"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "375",
+          "high": "430"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "350",
+          "high": "373"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "438",
+          "high": "439"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "389",
+          "high": "495"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "363",
+          "high": "366"
+        }
+      ]
+    },
+    {
+      "code": "RH_LS152",
+      "name": "Tri-State VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-07-13",
+      "head": 833,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "400",
+          "high": "540"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "430",
+          "high": "465"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "380",
+          "high": "420"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "415",
+          "high": "470"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "385",
+          "high": "435"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "280",
+          "high": "350"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "430",
+          "high": "510"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "395",
+          "high": "465"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "350",
+          "high": "390"
+        }
+      ]
+    },
     {
       "code": "RH_LS149",
       "name": "Wytheville VA Livestock Auction",
@@ -75,63 +182,57 @@
           "high": "375"
         }
       ]
-    },
-    {
-      "code": "RH_LS152",
-      "name": "Tri-State VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-06-29",
-      "head": 757,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "450",
-          "high": "535"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "410",
-          "high": "510"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "400",
-          "high": "460"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "420",
-          "high": "470"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "395",
-          "high": "425"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "352",
-          "high": "387"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "400",
-          "high": "525"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "410",
-          "high": "435"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "320",
-          "high": "422"
-        }
-      ]
     }
   ],
   "news": [
+    {
+      "title": "Virginia consumers should expect high beef prices for the rest of 2026 - Rocktown Now",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ3dwZ20tdUkwaWU3X1NFNTJFcmNETVJBLXoxS01lQ1JlZUM4ajBWRDdJNE5ZMjlsWk9MZlJ0c05xR0pNWUF5YUtFb2V0OU1rbWFYeUdUUEUydDNPc1Z6cVZhY1ptNlhDb1JHLUk5RV9UTk1zVDZEZFZvRXZBWE1uSUpyYkRrb05RTGN3cTVqN3RVTEJmMTlZNkw1Q1pNdWtPckVmRWJWR3p0QzA?oc=5",
+      "source": "Rocktown Now",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "RHSPCA partners with Steven Nissan to help shelter pets find homes this July - Rocktown Now",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMWhQcTgwRWo5dy1tSU5NTTlKS2V6dmVRMkxaVXNadGw2UGN0SmlmdzFkRF85c0dUM0k1a0dWWmNoTVNYWTJCR2ZOWjU1aGtkWVk1ejhVb0xEZ0R4TGNIUHl6Y01DcG14c3NJQ1N1dE13T0V2NHQwVnNIakV4aTh0RFNPTldVUWljOHBvT0UyWlJwdzJEZVl6REtGVDZTWjBYZ0pBd0k1eldWZV9HMmdLeS1xTQ?oc=5",
+      "source": "Rocktown Now",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "Cattle Market Shock: Futures Lose Steam Despite Record USDA Price Outlook - Agrolatam",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORU9zUzdxNUUwR0dXeXA3VEJKSF9WZXhOOXdrYTR1VXhrN0xUMFRjbldQeDhOOUlxRXhpSHIzbFBpZXBiLU44bTRFUGdzOEQzVXpQeDhYdjJZbnptM2RmSHhEMEhRdnVOWmJ0Um1rNFdZTXBodk93SFlDaFExcUlXVnR2dlhDang0Z29xM1RfUFFIUjQ?oc=5",
+      "source": "Agrolatam",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "USDA revises beef export data after reporting error - JC Post",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00dUNUTlhka0staFpuZWozdUZnLTlLMlNXMXJWUmJ6aFZTS2pJZHVrM0VqUGJRUjJaNzJKenVELXZzdXZRY3BIRmlKZlpidHBCMXBiVzZQWjNuLS1oUlowNUhSa0pWazhJZloxaUl3?oc=5",
+      "source": "JC Post",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "USDA Boxed Beef Cutout Values and Negotiated Sales Report – July 13, 2026 - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPemFqeVNsX3VLaVNIZ1FwajlHcDhBalNIVjk1Uk9ac1ZlNjh4eS1YZEdHRU9xTm03ODltRVdEZGRaM2NSWjZxRjVFcHp0VFluUHpNN3F0ajRNdzZUazZ6SzBnZE1PYzZJc0hKTkNGQlpHenoxOXpva1FJZkxQNEdVWUNEbnhKeV9jZXdFUkVCRk91bVJuSXc?oc=5",
+      "source": "IndexBox",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "KRVN 880 – KRVN 93.1 – KAMI - USDA slashes beef export sales report by 90% after major data error - Rural Radio Network",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUko2TVZlM0o0VnRpQThFWXpOQjcwQlpadlBoVlg2b1VYOENubTJIcGpnUEEzdGMwd3FweDI3R1Q4QndSSy1PWUxWc1ZXa3JjYVBDRnlSNUV1M2pYNjY0REhjSmpuOXFQTFF5Tl82ZDE0QklGQkxpWmxBOUQ0bW9tLW5sTWpCV2FwQTVlVWZDbjZCNmNOdjlkVGhDMW5jTFBtcmc?oc=5",
+      "source": "Rural Radio Network",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "Kevin Kester Discusses Screwworm, Cattle Markets and USDA Beef Processor Support - AgNet West",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9OTFFPektucVJMQjJRSFBxa1Q5Wkt4UGJqNXNEMUxXZ2tHWUNKS1RIUGp3UDlWbFdhdnRyMU5HX1MycExKekRidmZCYlFwNk94eWtWS1Y0ZlNsN2RReThCajJHYXJzYkhtbFVZdmtKTEtmbnhHWUNQOG9sODBCdw?oc=5",
+      "source": "AgNet West",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "USDA AMS Weekly Beef Market Data Bundle Released July 13, 2026 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZGpqYWpfU05vZ2N0ZjF2YTVIYmVLeG1GRlRkd25nb1RDdWJLY3RrclB0NTRmck9icDF5cDhSZy1OWllhM1RjNVhhcFlCR1dFQkZDRnRmSzdsODNYamI0TmVBNEdCdzI1RTVGVGtQQkRhZ3hFcE5mTFVjUFhMTEFjVFk4TF9uUDNpOVJWQ25abG16MXFEMnc?oc=5",
+      "source": "IndexBox",
+      "date": "2026-07-13"
+    },
     {
       "title": "USDA lowers beef export sales by 90% amid growing doubts over data - Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblB6c1hlajB5LWRCLUZSRWh2ZFprb2FhRzhtLWo0ajdVMVctclNsbzJnc2tKX2dUX01uUHRValJYWGpwWmVjbjZScG13WHZMZWNyQlVobDREZGV4XzZqaVhkMUo1Y202WUJrY1VNbVBXZG5ONDdzVm9uRFppblJmNDcwSGN5Nk1Gd21La3gwdUV0NW1KZDQ2eFFMSHFWVkg2aFk2VGdpYWhyU3JrWV9F?oc=5",
@@ -151,58 +252,10 @@
       "date": "2026-07-10"
     },
     {
-      "title": "USDA AMS Beef Market Report: Boxed Beef Cutout, Cattle Slaughter, and Tallow Data – July 2026 - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYnduSXhMeU1pTHdtelVSQ0NrdTZNdFREWFdCNWhscTRQZjhmd1FjX0xvNUtiX0taR1ZwYVB0YngzTWhPaHo0cGUwbm5QSkllbzQ1TzRYcXl6eWZVazBMRDhKQVhVRUwzc0dXR1lRWl9yUlpTS3ZLN1A3MzBfUHRUVmxhU04yYlRXOGVFd2tWY29DSF9EMnc?oc=5",
-      "source": "IndexBox",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "USDA Shocks Beef Markets After Slashing Export Sales by 90% Amid Data Crisis - Agrolatam",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbmVJMzFGVlYxQ2o0SzZXQkVrMXVWWldINUc3SjYzVUNKUS1VcWhCMnV1aW45SllrT3NKeUdBOXBHdzR6UEhwTEJob1ltSmtMN2VtQ2J3NE5vMFdqUHNGUERhUGZjM3NpSW5TQXJNYjJpQnVPZ3lqem5hSWR5dVJWLUZ2R2h4VEdFOFpfQkdhOA?oc=5",
-      "source": "Agrolatam",
-      "date": "2026-07-09"
-    },
-    {
-      "title": "USDA Unveils $500M SPUR Program to Protect Independent Beef Processors Amid Historic Cattle Shortage - Hoosier Ag Today",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEb1docnBQcFl5S1kzTk1XeVJvOFpPWHNpOE9zcUJCUjRRTmFlYzJVaXRkeS1JOHo0eVVLY081cXRMbnV6ZDk0NVJkdkp4Z3BiblBJNXFPZm5BTVVDb19wSGowcjVrWnlvdWJkSw?oc=5",
-      "source": "Hoosier Ag Today",
-      "date": "2026-07-05"
-    },
-    {
       "title": "Timely Topics - thenews-gazette.com",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53OXl0a3BzRG1FU1BsYjg0aml4U3V3MHE1SlVUNnZ4YW5ZQzkwWFp4Mmc0djhwSVhwU21wUGlQUXptYndRbmlQaDRQckNQYTAyNm1kOTYwd0VDem5lRlVGejlyQlZjdU5nTFVF?oc=5",
       "source": "thenews-gazette.com",
       "date": "2026-07-01"
-    },
-    {
-      "title": "USDA launches program to support small, mid-size beef processors - texasfarmbureau.org",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRnpjMS1UMjdrSXZzeFF3SDdEXzltWXI4b0dmREYzRnNUclowRUpVRUk0bWx3RGdvZEctMmJJVWFDX3hfUXVnZDBMNGNyUWhuX0UyeFpzbGs5N1VsUE1HRzNkeXl1aE40b0M4M3I3RFA3ZFdhU2xxYW00Z2RQYUtYQy02bTYwWUdVSU4yeHVVLVhKT3dwb1hZ?oc=5",
-      "source": "texasfarmbureau.org",
-      "date": "2026-07-01"
-    },
-    {
-      "title": "Why Beef Prices Are So High: America’s Cattle Industry Has Been Gutted - Coalition For A Prosperous America",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZEVzWUhlaWtPTEY1V2FlRjdvV2pSWHFDQklJd3FVcFEwaEtFV3JKcWZjdnZBMFhjWWJYdnZaN2tHRnRPbmljU3hQRWpRZ1B4S2s4VllDaEYybmZjWk5YX1ozMHJodjZMUEUzTy1WbWJMYVY3VTQ3LTFrckw3UEduSnVUVnVaRmxRZ0NfWHNGdjhQeDc1cE9IamFueWxTdFBL?oc=5",
-      "source": "Coalition For A Prosperous America",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Lean Hog futures slipped as weekly gains erased. - CME Group",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOclFYaVBTd0NqZmhtSHFZYVpEd1B3S0x1aE04VlJwQWFRYkhXUGljT2poQWctdS11YnU4RXY2aGZRdkRxNnVPTHpOMWNkcFNrYXlDSnVxNFdSVG8yNFMyTFF2TEtMR1BucGV0Y09zcHFTU200NzB0NllUVkZnS0hCbUFkMUd6U0hKX2hhQ29oZGctRENjWW96V3dlSUt4bnN6TXM1eFhn?oc=5",
-      "source": "CME Group",
-      "date": "2026-06-24"
-    },
-    {
-      "title": "In the Cattle Markets: Latest Look From Cattle on Feed, USDA Aphis NW Screwworm Dashboard, and Meat Demand Monitor’s Financial Sentiment Pulse – No Dull Days in June - Morning Ag Clips",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNdU9QX1lJNzZpcV83WFFjQk0yVnVhNkloVndyRHc3TlBnTjd0ZkFUSHI3NVRoRlRIOTZvY05PRVBXTURncnpEVExzQkpCWWFNcVFYSDBNdjNtX0liVTNhcUxsUHRhX2M0NWtTOUhCU0VCRUc5QkFndWNXNld2TkJKLUZBeW04MURScWRMTTYzTnJsc3E1ZDhVTUwyU3VLdXoxODFieVFRZndLbnJhRWpLM0pHY1Nma0xuUmJtSC1xZEZVM3JRX3oxbkFnNDFTZnJIR2czbmIyNkhSQmtob2RIdzVFcE5RQ3o2MzVBeUlrbjQwQWtsUk5jRWlSc1VfbEVyMHhBbDlfREtVWVRZRjRKYnBsVU9XMlVlNGxz?oc=5",
-      "source": "Morning Ag Clips",
-      "date": "2026-06-23"
-    },
-    {
-      "title": "Virginia farmers talk meat production, fertilizer costs with USDA officials - Virginia Mercury",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcGVlVk1hSi1kaDBKdngtMkhqcnJKaGdGVUZTaURYdDBQbGpiVmR4VkpjZU8zYW5KSld3eXVCSmkxdjlJVGl1djh4Vk56NlhUNzhDQWxZVktsTUNGM19DejlNdDNDdktENUtCUFFJOG96NTVsbHFNMUVxaXRIaW9QVmZhMGFOWmJYekJyc0hnd3dpZlBRZzBRcVNqcW94Wm9oNkhuTE5GdXlaTHlnNFphMy1RQ3c?oc=5",
-      "source": "Virginia Mercury",
-      "date": "2026-06-04"
     }
   ]
 }
