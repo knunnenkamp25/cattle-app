@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T12:53:43.073Z",
+  "updated": "2026-07-22T12:58:02.514Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -36,9 +36,67 @@
     {
       "date": "2026-07-20",
       "price": 419.92
+    },
+    {
+      "date": "2026-07-21",
+      "price": 417.42
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS149",
+      "name": "Wytheville VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-07-21",
+      "head": 197,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "445",
+          "high": "460"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "395",
+          "high": "428"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "340",
+          "high": "383"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "400",
+          "high": "445"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "365",
+          "high": "400"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "330",
+          "high": "340"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "450",
+          "high": "525"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "427",
+          "high": "475"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "370",
+          "high": "388"
+        }
+      ]
+    },
     {
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
@@ -146,50 +204,6 @@
           "high": "375"
         }
       ]
-    },
-    {
-      "code": "RH_LS149",
-      "name": "Wytheville VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-07-14",
-      "head": 633,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "460",
-          "high": "495"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "410",
-          "high": "428"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "395",
-          "high": "430"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "420",
-          "high": "448"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "385",
-          "high": "413"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "370",
-          "high": "405"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "385",
-          "high": "490"
-        }
-      ]
     }
   ],
   "news": [
@@ -200,16 +214,22 @@
       "date": "2026-07-20"
     },
     {
+      "title": "USDA data shows record-high beef prices amid tight supply - MSN",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNanpoZ0tYbUlKc0xDOHFFMjY2anZPcXc0dXplWk1oLTA2RlBvVUlsQnV6VWNDUmoxaEJHVFlRMWpjbEtGV0xKN3ZEZkxTSWUxNkItdnU3dVdjWTdfaTBOdjdFQWo3dy1KZzRKbXR1eEwwQW14SmM0WDcwekFqZlA3c2Nsd1NSQWZSTGpFU1hYMVo4WFh3WmtZSDlhZTB5YXFkRnFGR3lzT1FLT0NGalpENXotaXBJSmRKanJiRVpHaw?oc=5",
+      "source": "MSN",
+      "date": "2026-07-20"
+    },
+    {
       "title": "USDA mistake shakes cattle markets and threatens ranchers' profits - Agrolatam",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15QVVqSXZTYTN2ZmhrUXJ3Z01kUTliek5pSmVkaWV0c20zcjBVYXdFSG9mWlhkNFYzeUhBTzBoMVNNNkFfSHM4VU52SUJRUHZHRFpEVHNkN3BZQVR1YmVOUUZMYVFjZ09UNDVXbmlLODJ5LWVW?oc=5",
       "source": "Agrolatam",
       "date": "2026-07-18"
     },
     {
-      "title": "Beef Export Report Corrected After USDA Cuts Sales Figures by 90% - AGDAILY",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZzByQ2RpMnRGX2tUVTJHeWZYTWF6MG1qMl9UN3lwdEl2S0FhOTVLUUc2MFBKd3BGTTE3a3I0dmxyTFg0dk1meU1JNU9UaXZzZnQtT05UMFVYZjF5Q0NhRzhzVThNazBxTTNKeVhMeTBmcmtyNG0xSHlPanhDMTVRbnpqcUNWR3RRNUp3ME5oSXIyN0E3aHlaNE9vMXlzV00?oc=5",
-      "source": "AGDAILY",
-      "date": "2026-07-15"
+      "title": "USDA Beef Market Data: Boxed Beef Cutout, Cattle Slaughter &amp; By-Product Prices (July 2026) - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdWhXa2ozczcwbmx0SEJ3dEVfTzVsY1NSWG5UU19lTVlYenJ5YVNOTGx0ZWtFWXhmekFVVmFJSG5hTDl6TjFKeWdlQTRUQUZjNUEtc3ZmM1NER3hyYWdCalFSQVkyVzFzMG8yMzZzMzJMZkpPV1ROYzRsZHZRdms4VVQxaXZxM0RfTDVPNWdsVFo?oc=5",
+      "source": "IndexBox",
+      "date": "2026-07-17"
     },
     {
       "title": "Virginia consumers should expect high beef prices for the rest of 2026 - Rocktown Now",
@@ -224,8 +244,8 @@
       "date": "2026-07-13"
     },
     {
-      "title": "KRVN 880 – KRVN 93.1 – KAMI - USDA slashes beef export sales report by 90% after major data error - Rural Radio Network",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUko2TVZlM0o0VnRpQThFWXpOQjcwQlpadlBoVlg2b1VYOENubTJIcGpnUEEzdGMwd3FweDI3R1Q4QndSSy1PWUxWc1ZXa3JjYVBDRnlSNUV1M2pYNjY0REhjSmpuOXFQTFF5Tl82ZDE0QklGQkxpWmxBOUQ0bW9tLW5sTWpCV2FwQTVlVWZDbjZCNmNOdjlkVGhDMW5jTFBtcmc?oc=5",
+      "title": "USDA slashes beef export sales report by 90% after major data error - Rural Radio Network",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTTZsVWZoVVBQRmRnNUVfZlVOQTZoMzJUczZSTHltVkVGa2J4UWFyU2dzRzlnQVhTZngzRTZ0dWMyVDl0YVpIcHNtY05xQ3ZOZHlPYzZERHRjWS1iTGpRTmM1R0wzVDFBVkxDYmduQ3V5QTl5X3o0TnFWZ3RZTWZRVG54WWxjUnFwZnllaVNaalNPa0tocFU0UUJLcFh5c2JST2lF?oc=5",
       "source": "Rural Radio Network",
       "date": "2026-07-13"
     },
@@ -239,12 +259,6 @@
       "title": "USDA lowers beef export sales by 90% amid growing doubts over data - Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblB6c1hlajB5LWRCLUZSRWh2ZFprb2FhRzhtLWo0ajdVMVctclNsbzJnc2tKX2dUX01uUHRValJYWGpwWmVjbjZScG13WHZMZWNyQlVobDREZGV4XzZqaVhkMUo1Y202WUJrY1VNbVBXZG5ONDdzVm9uRFppblJmNDcwSGN5Nk1Gd21La3gwdUV0NW1KZDQ2eFFMSHFWVkg2aFk2VGdpYWhyU3JrWV9F?oc=5",
       "source": "Reuters",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "USDA Beef Export Correction Highlights Market Data Importance - RFD-TV",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcVZ3aUQzZWtZTzhiVmFubHoyQ0VFSzVPeUVaZUk5Mk53REt1S1Ayc0lTdDhUT21BOHo5VVVBSUZYdjgwY3VFcWwzeDdRNUhmdWhlNXRJLUp6c21sSkh2bUxSdVdHLTlEa1dHLTc4d1Rib2dyX3BqcUt1bldkeDlENGw0a0hWQzRuYnEw?oc=5",
-      "source": "RFD-TV",
       "date": "2026-07-10"
     },
     {
