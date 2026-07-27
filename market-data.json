@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T12:38:01.988Z",
+  "updated": "2026-07-27T13:54:01.103Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -44,9 +44,67 @@
     {
       "date": "2026-07-22",
       "price": 417.42
+    },
+    {
+      "date": "2026-07-27",
+      "price": 412.92
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS152",
+      "name": "Tri-State VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-07-27",
+      "head": 730,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "440",
+          "high": "445"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "370",
+          "high": "435"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "352",
+          "high": "395"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "420",
+          "high": "425"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "315",
+          "high": "385"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "330",
+          "high": "360"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "370",
+          "high": "445"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "350",
+          "high": "380"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "330",
+          "high": "370"
+        }
+      ]
+    },
     {
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
@@ -154,63 +212,21 @@
           "high": "388"
         }
       ]
-    },
-    {
-      "code": "RH_LS152",
-      "name": "Tri-State VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-07-20",
-      "head": 385,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "400",
-          "high": "480"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "385",
-          "high": "447"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "365",
-          "high": "405"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "375",
-          "high": "440"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "350",
-          "high": "415"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "310",
-          "high": "340"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "365",
-          "high": "465"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "340",
-          "high": "415"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "310",
-          "high": "375"
-        }
-      ]
     }
   ],
   "news": [
+    {
+      "title": "Weekly protein report: New World Screwworm risk prompts increased on-farm inspection protocols - The Cattle Site",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRmhGbzJwRFFURm5rT0k4NHF4YTdNNko5SnA4Mm5QX0Nzc2t5Q2taWFl0WDVoUGNoUDdkV2VnWTdLUUlpMzh1V0JEdTdoNXI4am5WTExpU19DTGRQbjRKVmpud3hzMW5Rd3dOSndqcGJvYkktSGlLYnRjdXFIQmk1Z2x1VmNoMXBvQkkyODhCUVM4M0N0NE1DaVN3TEJGMDFNWnZFOFkxdmdDLVMzZ2FJOA?oc=5",
+      "source": "The Cattle Site",
+      "date": "2026-07-24"
+    },
+    {
+      "title": "USDA Releases Weekly Beef Market Data Bundle on July 24, 2026 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaDBoSkt2eEFMbkRjellmTlFTNk9pVzc4MEhVeWZIdUs4MVdiN1ZfeDMyZXJkTzE4S05rQUJwUkl2YVN2b1lDUTVjcmdQM0xwd0hzSnBaWUNhVi1sZFd4cU5LRV9vbllsWFEtMUdHWnJLOGE2NWMyUVhFOGZJVF8zR2JvSXNCYTA1aUZZUzhYVGY4YW11?oc=5",
+      "source": "IndexBox",
+      "date": "2026-07-24"
+    },
     {
       "title": "Cattle Markets Weaken Ahead of Major USDA Reports - RFD-TV",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xSjdxU1BuaVhsN29mUTFlMGRYVFNubW41T1VUT21NLThFWjlNcF9ManZIRHlJa2RyU1IwbFp4bmJ2ZVRRcVEwMkx1U1dKMlFuaEo0OWQ4Y0kzZEwtRmxJQVdkQkJIU1VlMDJycERSc29kQUNmMVE5SHNSYw?oc=5",
@@ -221,6 +237,12 @@
       "title": "Cattle Market Holds Its Breath as USDA Report Could Ignite a New Supercycle - Agrolatam",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZjVrVnNRTGZTcjJyQ3hqNnRCbG9DOHNPZk5DY1dUa2RQZktIQVZJS0pTaXpXd2pDNnplWkc0bHljMlFtbHpObEpoRlJpeHJmZVJiNzI1dG5teEhQOGFmV0VDWG1INjNjTnAyODlRdW5jZld0T25KRGdPd2xuUFc1Z0s4Wm16VldSY0dlNjlSbnA?oc=5",
       "source": "Agrolatam",
+      "date": "2026-07-23"
+    },
+    {
+      "title": "Weekly protein report: USDA’s first 2027 food inflation forecast puts eggs &amp; beef in focus - The Poultry Site",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaEE0T3o3SjNicGZvLUJzaHg5b1Nyb0dNSlg5dVZrTHJoSTVYd3ZIZWh6ZkJSREtTZl9vLXdCeXZlQjFndVZkcnppQWdzaFhOSHd3UEVFVS1ZOHB0cEpjTVZqVTVYaFhoWEtjWEZraXRSNTRDRUc3SEpiYVpFdFRaMV9vM1hWRlJmakRxRWNLb3lBNGZGMjFCWXlaOUtHYkVaYTJyNHlVcUFIcGc?oc=5",
+      "source": "The Poultry Site",
       "date": "2026-07-23"
     },
     {
@@ -236,27 +258,9 @@
       "date": "2026-07-22"
     },
     {
-      "title": "Can we trust Trump’s USDA to accurately report farm data? Beef export numbers suggest ‘no’. - Genetic Literacy Project",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYjhTeGRwcFhhM3F2NEFIWGJPcTRtYmFpeVVMXzg5M2xVSm1MTUNjWUttdExKNENlVDBWdVJ1ai1tOElnREg0OXlUbXBPeGVRRi1MOFNJN3RpaFkxdGF2cFhWa1VhRmExNmJSb3AyaVd1Z0EtUkFyYVZod1RwQWpZUzZ0SV8tSlZicVc4Q1RqSmlzTU92MW1fWDI4X2ZrbzN0RUl2aTVPaTNvX2NMTFhteklmdUpOMlcwdXV2dmRxR2ttbThOSFRreGhiT3ZzZw?oc=5",
-      "source": "Genetic Literacy Project",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "USDA Beef Market Data: Boxed Beef Cutout, Cattle Slaughter &amp; By-Product Prices (July 2026) - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdWhXa2ozczcwbmx0SEJ3dEVfTzVsY1NSWG5UU19lTVlYenJ5YVNOTGx0ZWtFWXhmekFVVmFJSG5hTDl6TjFKeWdlQTRUQUZjNUEtc3ZmM1NER3hyYWdCalFSQVkyVzFzMG8yMzZzMzJMZkpPV1ROYzRsZHZRdms4VVQxaXZxM0RfTDVPNWdsVFo?oc=5",
-      "source": "IndexBox",
-      "date": "2026-07-17"
-    },
-    {
       "title": "Virginia consumers should expect high beef prices for the rest of 2026 - Rocktown Now",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ3dwZ20tdUkwaWU3X1NFNTJFcmNETVJBLXoxS01lQ1JlZUM4ajBWRDdJNE5ZMjlsWk9MZlJ0c05xR0pNWUF5YUtFb2V0OU1rbWFYeUdUUEUydDNPc1Z6cVZhY1ptNlhDb1JHLUk5RV9UTk1zVDZEZFZvRXZBWE1uSUpyYkRrb05RTGN3cTVqN3RVTEJmMTlZNkw1Q1pNdWtPckVmRWJWR3p0QzA?oc=5",
       "source": "Rocktown Now",
-      "date": "2026-07-13"
-    },
-    {
-      "title": "USDA slashes beef export sales report by 90% after major data error - Rural Radio Network",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTTZsVWZoVVBQRmRnNUVfZlVOQTZoMzJUczZSTHltVkVGa2J4UWFyU2dzRzlnQVhTZngzRTZ0dWMyVDl0YVpIcHNtY05xQ3ZOZHlPYzZERHRjWS1iTGpRTmM1R0wzVDFBVkxDYmduQ3V5QTl5X3o0TnFWZ3RZTWZRVG54WWxjUnFwZnllaVNaalNPa0tocFU0UUJLcFh5c2JST2lF?oc=5",
-      "source": "Rural Radio Network",
       "date": "2026-07-13"
     },
     {
@@ -278,10 +282,10 @@
       "date": "2026-06-24"
     },
     {
-      "title": "Live Cattle futures decline following new screwworm cases. - CME Group",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYlZiYTVJTHJIZWx0VUJsT2xxbXhsTFp0ZnJFRUtCM25GZV9rR1hxVmhvMDZHZ2xqVlpWdF9BTlc4ZXVDUk5PRHRIWEkzcGVPQzJLTG5leEFsN1gwVm4tTEhnSFVqYVVKSDBkbng1SEFfSTVTRHdDZzdCV0hYRFlJWk1yb1doZEtnWXFmREFoYjlHNS1jMWlrOTVXelNtWkI2dFRXR1JNSEFveDJtWXk0Ug?oc=5",
-      "source": "CME Group",
-      "date": "2026-06-08"
+      "title": "Virginia farmers talk meat production, fertilizer costs with USDA officials - Virginia Mercury",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcGVlVk1hSi1kaDBKdngtMkhqcnJKaGdGVUZTaURYdDBQbGpiVmR4VkpjZU8zYW5KSld3eXVCSmkxdjlJVGl1djh4Vk56NlhUNzhDQWxZVktsTUNGM19DejlNdDNDdktENUtCUFFJOG96NTVsbHFNMUVxaXRIaW9QVmZhMGFOWmJYekJyc0hnd3dpZlBRZzBRcVNqcW94Wm9oNkhuTE5GdXlaTHlnNFphMy1RQ3c?oc=5",
+      "source": "Virginia Mercury",
+      "date": "2026-06-04"
     }
   ]
 }
