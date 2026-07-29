@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T13:09:39.880Z",
+  "updated": "2026-07-29T13:14:44.072Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -48,6 +48,10 @@
     {
       "date": "2026-07-27",
       "price": 396.25
+    },
+    {
+      "date": "2026-07-29",
+      "price": 382.08
     }
   ],
   "auctions": [
@@ -55,7 +59,7 @@
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
       "location": "Richmond, VA",
-      "report_date": "2026-07-27",
+      "report_date": "2026-07-29",
       "head": 612,
       "categories": [
         {
@@ -97,6 +101,60 @@
           "label": "Bulls 500-600 lb",
           "low": "330",
           "high": "365"
+        }
+      ]
+    },
+    {
+      "code": "RH_LS149",
+      "name": "Wytheville VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-07-28",
+      "head": 302,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "355",
+          "high": "450"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "355",
+          "high": "383"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "385",
+          "high": "385"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "390",
+          "high": "400"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "375",
+          "high": "400"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "335",
+          "high": "335"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "350",
+          "high": "375"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "350",
+          "high": "375"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "255",
+          "high": "255"
         }
       ]
     },
@@ -153,63 +211,15 @@
           "high": "370"
         }
       ]
-    },
-    {
-      "code": "RH_LS149",
-      "name": "Wytheville VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-07-21",
-      "head": 197,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "445",
-          "high": "460"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "395",
-          "high": "428"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "340",
-          "high": "383"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "400",
-          "high": "445"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "365",
-          "high": "400"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "330",
-          "high": "340"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "450",
-          "high": "525"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "427",
-          "high": "475"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "370",
-          "high": "388"
-        }
-      ]
     }
   ],
   "news": [
+    {
+      "title": "Beef Prices Drop $39 as U.S. Reopens Cattle Imports, Reshaping Livestock Markets - Agrolatam",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbmlmb2hseXJFYTZrcUxBSm5EZk5GaFhzTGlLVnRDR0czeFdfMUdZdGRRWURBWDA2dmw2YWloUVM3ZDJnaVlIcVRvNWJZMFV1LVl3Smd6VUxTdXJpZkY2TFd6UTZTQWdvS2p6OVdyVmtMMWQ2YlYwX0w3RVlzSzdneEFMY3N0QlpUQlQ3b3Y2VXE?oc=5",
+      "source": "Agrolatam",
+      "date": "2026-07-28"
+    },
     {
       "title": "USDA Reports Provide Insight into Cattle Markets - American Farm Bureau Federation",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTVF4LXZJeXA2WmF5MHhQd0RrY2czY0FPc1VfOGZ5bDVJb1QzODNhREpCbVkzbC1XUTZZTmZBTlNlWTNkbmlzWXhNZ3BvNzRiSjczNF9XVVE3SFA1WTZIckdKUms1MUt5U2J6blBGRzhIV1pPZHFPNDR5ZmE5N0lsejdn?oc=5",
@@ -217,21 +227,15 @@
       "date": "2026-07-28"
     },
     {
+      "title": "From Record Beef Costs to Cheaper Eggs: USDA’s 2026 Food Price Outlook Signals Major Market Shift - 101.5 WKKG",
+      "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxQYWZwbjF4dFVaZThUdkk2bXRTZmFwcmhNcnVzcXJMSFZvQS1jenBQUElNbGV4YlNFdzVLR2VVZGZOcDlfYjE3dDk1ME9IRUFfSk4zOHJvWWVrazZZN09TNzFyT0FFMG42Z3NFcWJkb3U0aE9mY3Y2YWJMb2NlZnZLWDlEYnJCdzNJUGstMW5XOEZzbThuWWVZTXFIc2VpMVdNMzVEMVRrV05YMGZwX1NmcGI4OHAtMmY2SjdzMFA5WXZRdEdpaE1GV2dUcmJ2YmZJb2pXbDZUMU95dkVyVHZqMWdfNU94YUw3Q2t2dFVBdGkydjhGdVhGSnZyTUJkN3UwTm1ZQWpXVXlieDlHUVk2UXFzQmZaY0ZxUnF0cmFRYzFzWTh1U0otajgxVFZsVDh0ZDczSWV5bFdBamRkR1NudUdvR3Z3UXdNU01sZUJyNXNMREQzNzZOMllKRk1Sa0tYWGw0aTFqNkFPZXFIUWtpbHo4VDlMdEhuempCV0ZaSFVjc0U?oc=5",
+      "source": "101.5 WKKG",
+      "date": "2026-07-28"
+    },
+    {
       "title": "Beef prices drop $39 as cattle imports set to resume in August - Farm Progress",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSE5oZmh5WWRaRmpfS0YzcHpyRjNvb3NWc3RMUlNjZUQ5Y3N3MGhZY2J5YTlSNUQ1bGlhVklHYjR3U0tJOVlYcGxIMGVYdWduVXJOX21BOFhMeXBPTktWM0NhNGdCRUZpUnRzZGRlLVNwcVIzbkFOREFEUG04WXA0Ty1lNnBjbnZhUWJ6NVFDcXZHSzE5NFg2VDJxODBZYTVkb1E?oc=5",
       "source": "Farm Progress",
-      "date": "2026-07-28"
-    },
-    {
-      "title": "U.S. Cattle Prices Tumble as Market Faces Herd Shift and Supply Uncertainty - Agrolatam",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU1kzRlFwNFNkTEQzYnh5Xy1Fd3M1UThVWUpVMEJ2elJMVkd0anBidkdkZU5jakxQVFdLY29YMFZHX2NGcklZZDc3ckx4bEJKbHF0QnR3cUpqcWlKZkdEVWF5X3QzY0VZb1ZwTnZ0amVuTGR6UUc2ZVlGTjQ2OFRZNWxTX0NGNzJHd0d6Xw?oc=5",
-      "source": "Agrolatam",
-      "date": "2026-07-28"
-    },
-    {
-      "title": "Will USDA's Border Reopening Lower U.S. Beef Prices? - Agrolatam",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYy1FRHdnbHUyelpIeGV2eUw3cHR3U0d4Y3h6a3p5Q18yQVN0VXNEUUl3T19GdFpBSEdUNnpnV2VNcEJzOFhoRlp2bDl6YzdVVzlkZGVHZ0xfbENDM1h6R0hEb1hpa29QWDQ3SllTVFg3NGt6SjM0NlBROUtXWGItbDgxMk83T0ktTUE?oc=5",
-      "source": "Agrolatam",
       "date": "2026-07-28"
     },
     {
@@ -247,28 +251,28 @@
       "date": "2026-07-27"
     },
     {
+      "title": "How the Cattle Industry Is Reacting to USDA’s Border Reopening - Successful Farming",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVnJlVkFNR2Uwbl8wNHVDNFBXMGxObmJxTVhqeHcyMk1fVEFtdlRzbzB1UmN3V3pYVk9MWFhQendwSE4tQm9WYmZWN1IxZ0RyajREczludFk3ampzT2VKRTJUMVdtRzBHNkYwdnpFeklsN0h2OE8xNFl2X2I1anE5b3FxWnJ0OU9GeFJtMXZiVVQ1eEhTY2pkMDJ2Z3dNQTZj?oc=5",
+      "source": "Successful Farming",
+      "date": "2026-07-27"
+    },
+    {
+      "title": "Fear, Not Fundamentals, Drive Cattle Sell-Off on Mexican Border News - drovers.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWi0zQ0YtWXA5azFJTG5xazJYVjhmLXQ1MWMtVjRCNXhnTlVKTHBrMnNvTG9NbF9nX0VzcEhaaEx4ekVMMEw3U3ZmZEJNZGRKOWxCX1hhRVlPc2xrY3pub0JXTW9nczVpM3NKanRoVFpHMzlNRThpRnRZRm1jV3NSeVJLcGRvVThlYU56dTBUZnVLQQ?oc=5",
+      "source": "drovers.com",
+      "date": "2026-07-27"
+    },
+    {
       "title": "USDA AMS Weekly Beef Market Data Bundle Released July 27, 2026 - IndexBox",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRnJCV19CdlZQRXFGa2J3bG1DcnJVTU9Jd1pzNUlsa2tsTDJGUkZWb2lhV0lDRTl5RHhCWDRhOE50R2tRT1hhWTBHYXViOHZQT05tLVVxUXZPVlE4b0lkaUd3SU1CdzI2SFhQUWgyWlhxZEU4bWxUWU5zdjJ1Q2tVb2sxcU9IZjMxQmxnZ3VUREg2SmFYTnc?oc=5",
       "source": "IndexBox",
       "date": "2026-07-27"
     },
     {
-      "title": "Weekly protein report: USDA’s first 2027 food inflation forecast puts eggs &amp; beef in focus - The Poultry Site",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaEE0T3o3SjNicGZvLUJzaHg5b1Nyb0dNSlg5dVZrTHJoSTVYd3ZIZWh6ZkJSREtTZl9vLXdCeXZlQjFndVZkcnppQWdzaFhOSHd3UEVFVS1ZOHB0cEpjTVZqVTVYaFhoWEtjWEZraXRSNTRDRUc3SEpiYVpFdFRaMV9vM1hWRlJmakRxRWNLb3lBNGZGMjFCWXlaOUtHYkVaYTJyNHlVcUFIcGc?oc=5",
-      "source": "The Poultry Site",
-      "date": "2026-07-23"
-    },
-    {
-      "title": "Will Friday’s USDA triple play halt the cattle selloff? - Pro Farmer",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORjFYSnRPcVpsUTVEYzRVNGExUWRFT0ROdm5UeGItSW9qVS11TmhZOFktYWd0Y2ZtVDR5bVZWWHpxN2pXWFM2aUsyNmk5TEk1MGgtZEFVVDJYSXhBcnRQdWVVZ1dLdDVZYWk3dEFJSE5sbVpsckR5TGdDZlI2cHhwWFpPOWFNUjQ?oc=5",
-      "source": "Pro Farmer",
-      "date": "2026-07-22"
-    },
-    {
-      "title": "USDA Raises Cattle Price Outlook as Tight Supplies and Drought Slow Herd Rebuild - RFD-TV",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcWFURUtVQ29faVRHUERIY0h3d0l6TkdpZ21yVTlXZVpZOFJ5OVlMQnMzSjl0LUIwRjYwWmtsUEE5NGlsQVVuNkFoQndMN2FRMG9LU1lBZm9nT1hrV2xfY1oteWxCWUkwWXhrU2J1d1dROFFfNTF2LTB0VERISjVvVldpWTRrZ1BHT0pQaUhGZFVRc0RJWXlMcl9GYnFmZG1kOUVTeQ?oc=5",
+      "title": "Cattle Markets Weaken Ahead of Major USDA Reports - RFD-TV",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xSjdxU1BuaVhsN29mUTFlMGRYVFNubW41T1VUT21NLThFWjlNcF9ManZIRHlJa2RyU1IwbFp4bmJ2ZVRRcVEwMkx1U1dKMlFuaEo0OWQ4Y0kzZEwtRmxJQVdkQkJIU1VlMDJycERSc29kQUNmMVE5SHNSYw?oc=5",
       "source": "RFD-TV",
-      "date": "2026-07-22"
+      "date": "2026-07-24"
     },
     {
       "title": "Virginia consumers should expect high beef prices for the rest of 2026 - Rocktown Now",
