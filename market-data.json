@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T13:14:30.847Z",
+  "updated": "2026-08-01T12:32:56.017Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -215,10 +215,16 @@
   ],
   "news": [
     {
-      "title": "Order cover crop seed now to lock in lower prices - Farm Progress",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdUYzRjFwTTBqYVZDN2NPTVJKVHhFSS16RWMzUm8xTnBmRXdDSXdGZ3JmMkNsM3V2QjRSNDhkbzgzZzZzTWlWTGRnMkdOSUUyanBlSlVDX1BjNDMyQmtVTmw3VVRxN2x5OHZpNm1uVFNyUm5zWnEtSTMxQ3F2dHg5WEhsV1ozQUhmU0dZbXlMcUc2Y2Nr?oc=5",
-      "source": "Farm Progress",
-      "date": "2026-07-30"
+      "title": "USDA’s July Cattle Inventory Report Signals Stabilizing Cattle Herd - Northern Ag Network",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPckpCSXVueEVLWFZySmloY05CNi1ELWNDaWlXWHhKVFlyNHRQVEpvU3FfZk9VLVhOM1l4OTloUlNQNWVBYWcwMFpOSmZIWGhjcWpkMjZiZVVtVEhVQ3hZUVFVZUp2RmZZT3lsbkhjdUxMSmdNNWdZYlZLYVNYTnBqSnkxNDJXamdSSlZBcVA4WXNOM3RLQVpSemdn?oc=5",
+      "source": "Northern Ag Network",
+      "date": "2026-07-31"
+    },
+    {
+      "title": "USDA Beef Market Data: July 31, 2026 Report Highlights Cutout Values, Slaughter, and By-Product Prices - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkdGckY0aGtzc3RzY2cwUmk5MEx0Zlk3RTNwUHNQZXI1V0RXUUhLTnlndHFEUUNndUgxOHZ5TDhLTXZCZjhxcXBVWkNDVzNnLTJ4ZWZNWWFOblpjWS1yakZ1Y2VzRUlNNzJRRzFzS2dpbzl6d3d5NDFDYy1hOTF1TDNvWWxTdTRSS0NsU2R1emxUczhqZlV2a19QV2VMdWVzSmlHSHhSWG5Gem1ZZ2VtZkhvSVRiRzl1bUpacXBBdGt6Z1h6eUhZ?oc=5",
+      "source": "IndexBox",
+      "date": "2026-07-31"
     },
     {
       "title": "Cattle Market Outlook: Signs of U.S. Herd Rebuilding Emerge as Producers Retain More Heifers - RFD-TV",
@@ -242,12 +248,6 @@
       "title": "Beef prices drop $39 as cattle imports set to resume in August - Farm Progress",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSE5oZmh5WWRaRmpfS0YzcHpyRjNvb3NWc3RMUlNjZUQ5Y3N3MGhZY2J5YTlSNUQ1bGlhVklHYjR3U0tJOVlYcGxIMGVYdWduVXJOX21BOFhMeXBPTktWM0NhNGdCRUZpUnRzZGRlLVNwcVIzbkFOREFEUG04WXA0Ty1lNnBjbnZhUWJ6NVFDcXZHSzE5NFg2VDJxODBZYTVkb1E?oc=5",
       "source": "Farm Progress",
-      "date": "2026-07-28"
-    },
-    {
-      "title": "From Record Beef Costs to Cheaper Eggs: USDA’s 2026 Food Price Outlook Signals Major Market Shift - 101.5 WKKG",
-      "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxQYWZwbjF4dFVaZThUdkk2bXRTZmFwcmhNcnVzcXJMSFZvQS1jenBQUElNbGV4YlNFdzVLR2VVZGZOcDlfYjE3dDk1ME9IRUFfSk4zOHJvWWVrazZZN09TNzFyT0FFMG42Z3NFcWJkb3U0aE9mY3Y2YWJMb2NlZnZLWDlEYnJCdzNJUGstMW5XOEZzbThuWWVZTXFIc2VpMVdNMzVEMVRrV05YMGZwX1NmcGI4OHAtMmY2SjdzMFA5WXZRdEdpaE1GV2dUcmJ2YmZJb2pXbDZUMU95dkVyVHZqMWdfNU94YUw3Q2t2dFVBdGkydjhGdVhGSnZyTUJkN3UwTm1ZQWpXVXlieDlHUVk2UXFzQmZaY0ZxUnF0cmFRYzFzWTh1U0otajgxVFZsVDh0ZDczSWV5bFdBamRkR1NudUdvR3Z3UXdNU01sZUJyNXNMREQzNzZOMllKRk1Sa0tYWGw0aTFqNkFPZXFIUWtpbHo4VDlMdEhuempCV0ZaSFVjc0U?oc=5",
-      "source": "101.5 WKKG",
       "date": "2026-07-28"
     },
     {
@@ -275,16 +275,16 @@
       "date": "2026-07-27"
     },
     {
-      "title": "Cattle Crash as Mexican Border to Reopen but How Low Will Prices Fall? Grains Set Back on War, Weather - agweb.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNX0diLXNfUzRXRlR1TEtEVjN4NUFfRDJuUlRGaVNvTnowUzlodUJaWFdaZXZIWk1CUU5DaERRR3BIRTk0TzJEcDFaZUh5TU5HVVZyZk1JYllYWmhPaFFUUWRNdmpjTXo5Wkl1OS1hZFYyWXBCZzRUbE0zNDFvSnJKYW85a2g1TVBfN0pPZ1pCY1lrMlBYSEtVX3g5MDJxbzNSVjUxYmtKU0JvZ25PeE81M3dWWU9aM0N1NDRR?oc=5",
-      "source": "agweb.com",
-      "date": "2026-07-27"
-    },
-    {
       "title": "Virginia consumers should expect high beef prices for the rest of 2026 - Rocktown Now",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ3dwZ20tdUkwaWU3X1NFNTJFcmNETVJBLXoxS01lQ1JlZUM4ajBWRDdJNE5ZMjlsWk9MZlJ0c05xR0pNWUF5YUtFb2V0OU1rbWFYeUdUUEUydDNPc1Z6cVZhY1ptNlhDb1JHLUk5RV9UTk1zVDZEZFZvRXZBWE1uSUpyYkRrb05RTGN3cTVqN3RVTEJmMTlZNkw1Q1pNdWtPckVmRWJWR3p0QzA?oc=5",
       "source": "Rocktown Now",
       "date": "2026-07-13"
+    },
+    {
+      "title": "First Thing Today | Grain futures prices wilt as Midwest heat dome won’t last long - Pro Farmer",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUp2SkxGaURWLVJZX0s2TDVwSTdjbFV1UzZUYTlsSlF0WHRJaWk5b3RlS2pJcmd2dFRBZ1NOakhKMmhuWmtCdllPeW1WSjB3YWo4UDluQUVIbWdiM1R1UGxjNVduMHp4RFo2dzIyZ2V1ck16WnZQRGdORW5xSFRMVDJqbmhPZmx1d1VUQThvRl9kOTZYc2xJNXhjWEwweVBZY3NYdUhFQ3M0R29qRm9HRlR1LWJ6TV9QRTBURmd4aFRScUk?oc=5",
+      "source": "Pro Farmer",
+      "date": "2026-06-29"
     }
   ]
 }
