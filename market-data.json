@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T13:15:28.401Z",
+  "updated": "2026-08-05T13:10:43.473Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -56,14 +56,72 @@
     {
       "date": "2026-08-03",
       "price": 392.92
+    },
+    {
+      "date": "2026-08-04",
+      "price": 410.42
     }
   ],
   "auctions": [
     {
+      "code": "RH_LS149",
+      "name": "Wytheville VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-08-04",
+      "head": 219,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "425",
+          "high": "450"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "415",
+          "high": "428"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "350",
+          "high": "375"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "425",
+          "high": "450"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "380",
+          "high": "420"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "330",
+          "high": "365"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "415",
+          "high": "415"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "350",
+          "high": "355"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "320",
+          "high": "320"
+        }
+      ]
+    },
+    {
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
       "location": "Richmond, VA",
-      "report_date": "2026-08-03",
+      "report_date": "2026-08-04",
       "head": 173,
       "categories": [
         {
@@ -166,60 +224,6 @@
           "high": "355"
         }
       ]
-    },
-    {
-      "code": "RH_LS149",
-      "name": "Wytheville VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-07-28",
-      "head": 302,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "355",
-          "high": "450"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "355",
-          "high": "383"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "385",
-          "high": "385"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "390",
-          "high": "400"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "375",
-          "high": "400"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "335",
-          "high": "335"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "350",
-          "high": "375"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "350",
-          "high": "375"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "255",
-          "high": "255"
-        }
-      ]
     }
   ],
   "news": [
@@ -230,9 +234,9 @@
       "date": "2026-07-31"
     },
     {
-      "title": "USDA Beef Market Data: July 31, 2026 Report Highlights Cutout Values, Slaughter, and By-Product Prices - indexbox.io",
+      "title": "USDA Beef Market Data: July 31, 2026 Report Highlights Cutout Values, Slaughter, and By-Product Prices - IndexBox",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkdGckY0aGtzc3RzY2cwUmk5MEx0Zlk3RTNwUHNQZXI1V0RXUUhLTnlndHFEUUNndUgxOHZ5TDhLTXZCZjhxcXBVWkNDVzNnLTJ4ZWZNWWFOblpjWS1yakZ1Y2VzRUlNNzJRRzFzS2dpbzl6d3d5NDFDYy1hOTF1TDNvWWxTdTRSS0NsU2R1emxUczhqZlV2a19QV2VMdWVzSmlHSHhSWG5Gem1ZZ2VtZkhvSVRiRzl1bUpacXBBdGt6Z1h6eUhZ?oc=5",
-      "source": "indexbox.io",
+      "source": "IndexBox",
       "date": "2026-07-31"
     },
     {
@@ -260,9 +264,9 @@
       "date": "2026-07-28"
     },
     {
-      "title": "For small farmers, goats are becoming big business - The Washington Post",
+      "title": "For small farmers, goats are becoming big business - washingtonpost.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUUlqMzVmcnFLenhYUkRaa2gtcEtwdC05V2dJWG8xSTBVWU1kUS0wN3VUQTNBNk5WemwxMjlST0RtaW9HTm84VXFUZ1BBZm5QeXhOZHZHUV9vdzFIOXZWWndxOEd5bWliU29TNmFHRFczZHVKek5Ca21NaEtGWktyV3lnSklSeWtERmk3MmU4WjRFWDlrYU9WblZkUFlTQlZ3YlA1M3JPU2QySVRkSHc?oc=5",
-      "source": "The Washington Post",
+      "source": "washingtonpost.com",
       "date": "2026-07-27"
     },
     {
@@ -272,9 +276,9 @@
       "date": "2026-07-27"
     },
     {
-      "title": "Fear, Not Fundamentals, Drive Cattle Sell-Off on Mexican Border News - drovers.com",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWi0zQ0YtWXA5azFJTG5xazJYVjhmLXQ1MWMtVjRCNXhnTlVKTHBrMnNvTG9NbF9nX0VzcEhaaEx4ekVMMEw3U3ZmZEJNZGRKOWxCX1hhRVlPc2xrY3pub0JXTW9nczVpM3NKanRoVFpHMzlNRThpRnRZRm1jV3NSeVJLcGRvVThlYU56dTBUZnVLQQ?oc=5",
-      "source": "drovers.com",
+      "title": "How the Cattle Industry Is Reacting to USDA’s Border Reopening - Successful Farming",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVnJlVkFNR2Uwbl8wNHVDNFBXMGxObmJxTVhqeHcyMk1fVEFtdlRzbzB1UmN3V3pYVk9MWFhQendwSE4tQm9WYmZWN1IxZ0RyajREczludFk3ampzT2VKRTJUMVdtRzBHNkYwdnpFeklsN0h2OE8xNFl2X2I1anE5b3FxWnJ0OU9GeFJtMXZiVVQ1eEhTY2pkMDJ2Z3dNQTZj?oc=5",
+      "source": "Successful Farming",
       "date": "2026-07-27"
     },
     {
@@ -290,9 +294,9 @@
       "date": "2026-07-13"
     },
     {
-      "title": "First Thing Today | Grain futures prices wilt as Midwest heat dome won’t last long - profarmer.com",
+      "title": "First Thing Today | Grain futures prices wilt as Midwest heat dome won’t last long - Pro Farmer",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUp2SkxGaURWLVJZX0s2TDVwSTdjbFV1UzZUYTlsSlF0WHRJaWk5b3RlS2pJcmd2dFRBZ1NOakhKMmhuWmtCdllPeW1WSjB3YWo4UDluQUVIbWdiM1R1UGxjNVduMHp4RFo2dzIyZ2V1ck16WnZQRGdORW5xSFRMVDJqbmhPZmx1d1VUQThvRl9kOTZYc2xJNXhjWEwweVBZY3NYdUhFQ3M0R29qRm9HRlR1LWJ6TV9QRTBURmd4aFRScUk?oc=5",
-      "source": "profarmer.com",
+      "source": "Pro Farmer",
       "date": "2026-06-29"
     }
   ]
