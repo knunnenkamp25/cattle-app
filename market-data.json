@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T12:08:39.581Z",
+  "updated": "2026-08-11T12:09:29.970Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -60,9 +60,111 @@
     {
       "date": "2026-08-04",
       "price": 410.42
+    },
+    {
+      "date": "2026-08-10",
+      "price": 424.92
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS151",
+      "name": "Staunton VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-08-10",
+      "head": 367,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "450",
+          "high": "450"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "375",
+          "high": "470"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "370",
+          "high": "380"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "428",
+          "high": "428"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "365",
+          "high": "410"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "335",
+          "high": "364"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "445",
+          "high": "445"
+        }
+      ]
+    },
+    {
+      "code": "RH_LS152",
+      "name": "Tri-State VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-08-10",
+      "head": 480,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "465",
+          "high": "510"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "422",
+          "high": "440"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "375",
+          "high": "410"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "390",
+          "high": "415"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "362",
+          "high": "385"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "330",
+          "high": "342"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "430",
+          "high": "445"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "385",
+          "high": "415"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "360",
+          "high": "370"
+        }
+      ]
+    },
     {
       "code": "RH_LS149",
       "name": "Wytheville VA Livestock Auction",
@@ -116,127 +218,25 @@
           "high": "320"
         }
       ]
-    },
-    {
-      "code": "RH_LS151",
-      "name": "Staunton VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-08-04",
-      "head": 173,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "450",
-          "high": "452"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "405",
-          "high": "425"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "378",
-          "high": "378"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "392",
-          "high": "412"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "392",
-          "high": "392"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "322",
-          "high": "355"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "360",
-          "high": "445"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "323",
-          "high": "358"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "320",
-          "high": "320"
-        }
-      ]
-    },
-    {
-      "code": "RH_LS152",
-      "name": "Tri-State VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-08-03",
-      "head": 436,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "430",
-          "high": "460"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "350",
-          "high": "440"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "340",
-          "high": "380"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "390",
-          "high": "430"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "365",
-          "high": "385"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "260",
-          "high": "365"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "405",
-          "high": "450"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "290",
-          "high": "415"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "335",
-          "high": "355"
-        }
-      ]
     }
   ],
   "news": [
     {
+      "title": "CME Live Cattle Rise on Higher Wholesale Beef Prices - Successful Farming",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeFJaaW5EQUluRUthUkhrdW9FOFUzQWo5TXpuM1NVUGtIY0tfLWo2UUw2UkFZT2J3a2FURFZBM2kwZnRoeGlobEFLeXpjNEpfLTFYSnpmZmd0UlZfVVJLVTBBcTBqRGhTXzA4UTVYVjFiemg1TmVZMmx1ck9aangxcXpOVEs5RTN3elJRenRMNjRhc25rTDdjX0h2aHFNbnc?oc=5",
+      "source": "Successful Farming",
+      "date": "2026-08-10"
+    },
+    {
+      "title": "USDA Beef Market Data Report: August 10, 2026 – Boxed Cutouts, Cattle Summary, and By-Product Prices - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNlhDcGNBUEotVW91SkhUSmJ6Mm5KbXRsXzZPeXFteFRYbGZIMExUMGppWi1oM3ZCclcwTFhrRDR1aGd0Sm12RGpCSTNiSXViMEVjX0lIVkNHZVRnUEFrZkxjNTBhbTZmbVh1bHpSS2pYWWNaRk1RMFlnUEpGM0ZMUDZhMVNIdGZxMjhvZjJGakdMQVRPRnhYNUFCNHZzb2lBUWJjelUwejk4c1ZZM2o0V0d5dFZibVI0bDRhTFBOLWJqZw?oc=5",
+      "source": "IndexBox",
+      "date": "2026-08-10"
+    },
+    {
       "title": "Cattle Market Defies Weak Jobs Report as Beef Demand Sparks Fresh Optimism Across Futures - Agrolatam",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTjk2VlZkX1JfcU5fUHg5M2JYQWJTdGtYWEtaOHBfcHhtOG9IZ2pmWHNqc2RYVEZnZW5JRFJ2cVJUMWxDaUhUSGJjcUtPZjZZeEZtMnRMWlI1VTFEbnNJLS1FWjA2SVdNRVJCZk1DWXJaZ29abG84Q2diMzZzeWsyS2RLazc1ODVlM25WLVQ4SFBGTjV3MFVtZlFyY2w?oc=5",
       "source": "Agrolatam",
-      "date": "2026-08-07"
-    },
-    {
-      "title": "Beef Cutouts, Cattle Slaughter, and By-Product Prices – USDA Report (Aug 7, 2026) - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSTNsXzFFS1g2VW50TUxydGY2RUlpXzdhc0ZOWFZGV0hJQ0NSTGhHek0yemctckJnZzcyX0lnbndaSU42SEk4MWxYaFM0UHNZUTZfblppbHdjU3pFLWplRkxUR09kWlk4ZjBaOXNYaEN4c1JKWktMdlY2TUtROFpTZC1nTndnUQ?oc=5",
-      "source": "IndexBox",
       "date": "2026-08-07"
     },
     {
@@ -276,28 +276,22 @@
       "date": "2026-07-27"
     },
     {
-      "title": "How the Cattle Industry Is Reacting to USDA’s Border Reopening - Successful Farming",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVnJlVkFNR2Uwbl8wNHVDNFBXMGxObmJxTVhqeHcyMk1fVEFtdlRzbzB1UmN3V3pYVk9MWFhQendwSE4tQm9WYmZWN1IxZ0RyajREczludFk3ampzT2VKRTJUMVdtRzBHNkYwdnpFeklsN0h2OE8xNFl2X2I1anE5b3FxWnJ0OU9GeFJtMXZiVVQ1eEhTY2pkMDJ2Z3dNQTZj?oc=5",
-      "source": "Successful Farming",
-      "date": "2026-07-27"
-    },
-    {
       "title": "USDA Raises Cattle Price Outlook as Tight Supplies and Drought Slow Herd Rebuild - RFD-TV",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcWFURUtVQ29faVRHUERIY0h3d0l6TkdpZ21yVTlXZVpZOFJ5OVlMQnMzSjl0LUIwRjYwWmtsUEE5NGlsQVVuNkFoQndMN2FRMG9LU1lBZm9nT1hrV2xfY1oteWxCWUkwWXhrU2J1d1dROFFfNTF2LTB0VERISjVvVldpWTRrZ1BHT0pQaUhGZFVRc0RJWXlMcl9GYnFmZG1kOUVTeQ?oc=5",
       "source": "RFD-TV",
       "date": "2026-07-22"
     },
     {
-      "title": "Virginia consumers should expect high beef prices for the rest of 2026 - Rocktown Now",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ3dwZ20tdUkwaWU3X1NFNTJFcmNETVJBLXoxS01lQ1JlZUM4ajBWRDdJNE5ZMjlsWk9MZlJ0c05xR0pNWUF5YUtFb2V0OU1rbWFYeUdUUEUydDNPc1Z6cVZhY1ptNlhDb1JHLUk5RV9UTk1zVDZEZFZvRXZBWE1uSUpyYkRrb05RTGN3cTVqN3RVTEJmMTlZNkw1Q1pNdWtPckVmRWJWR3p0QzA?oc=5",
-      "source": "Rocktown Now",
-      "date": "2026-07-13"
-    },
-    {
       "title": "First Thing Today | Grain futures prices wilt as Midwest heat dome won’t last long - Pro Farmer",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUp2SkxGaURWLVJZX0s2TDVwSTdjbFV1UzZUYTlsSlF0WHRJaWk5b3RlS2pJcmd2dFRBZ1NOakhKMmhuWmtCdllPeW1WSjB3YWo4UDluQUVIbWdiM1R1UGxjNVduMHp4RFo2dzIyZ2V1ck16WnZQRGdORW5xSFRMVDJqbmhPZmx1d1VUQThvRl9kOTZYc2xJNXhjWEwweVBZY3NYdUhFQ3M0R29qRm9HRlR1LWJ6TV9QRTBURmd4aFRScUk?oc=5",
       "source": "Pro Farmer",
       "date": "2026-06-29"
+    },
+    {
+      "title": "Lean Hog futures slipped as weekly gains erased. - cmegroup.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOclFYaVBTd0NqZmhtSHFZYVpEd1B3S0x1aE04VlJwQWFRYkhXUGljT2poQWctdS11YnU4RXY2aGZRdkRxNnVPTHpOMWNkcFNrYXlDSnVxNFdSVG8yNFMyTFF2TEtMR1BucGV0Y09zcHFTU200NzB0NllUVkZnS0hCbUFkMUd6U0hKX2hhQ29oZGctRENjWW96V3dlSUt4bnN6TXM1eFhn?oc=5",
+      "source": "cmegroup.com",
+      "date": "2026-06-24"
     }
   ]
 }
