@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T12:09:29.970Z",
+  "updated": "2026-08-12T12:10:03.957Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -64,9 +64,67 @@
     {
       "date": "2026-08-10",
       "price": 424.92
+    },
+    {
+      "date": "2026-08-11",
+      "price": 417
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS149",
+      "name": "Wytheville VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-08-11",
+      "head": 365,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "430",
+          "high": "435"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "380",
+          "high": "415"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "350",
+          "high": "378"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "370",
+          "high": "438"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "428",
+          "high": "428"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "338",
+          "high": "350"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "395",
+          "high": "445"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "340",
+          "high": "385"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "320",
+          "high": "320"
+        }
+      ]
+    },
     {
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
@@ -164,60 +222,6 @@
           "high": "370"
         }
       ]
-    },
-    {
-      "code": "RH_LS149",
-      "name": "Wytheville VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-08-04",
-      "head": 219,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "425",
-          "high": "450"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "415",
-          "high": "428"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "350",
-          "high": "375"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "425",
-          "high": "450"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "380",
-          "high": "420"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "330",
-          "high": "365"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "415",
-          "high": "415"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "350",
-          "high": "355"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "320",
-          "high": "320"
-        }
-      ]
     }
   ],
   "news": [
@@ -238,18 +242,6 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTjk2VlZkX1JfcU5fUHg5M2JYQWJTdGtYWEtaOHBfcHhtOG9IZ2pmWHNqc2RYVEZnZW5JRFJ2cVJUMWxDaUhUSGJjcUtPZjZZeEZtMnRMWlI1VTFEbnNJLS1FWjA2SVdNRVJCZk1DWXJaZ29abG84Q2diMzZzeWsyS2RLazc1ODVlM25WLVQ4SFBGTjV3MFVtZlFyY2w?oc=5",
       "source": "Agrolatam",
       "date": "2026-08-07"
-    },
-    {
-      "title": "Cattle futures rise as traders refocus on tight supply - CME - The Pig Site",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLTZ1WUNZYzhSUWFYelBISmtaODlBekl5NlNfX0s2R2lCWXk4VzR4c05GeUU4T0NjMlBZQXpLNnNGWC1lZXF2M1ltYzJQUEhqcWlkaXg1Z3M3ZjlteFVNWXBqTklCeWNkUXRWOTFHRzBxenVpczJhRlNRaFBoUVZzMC02Qm9MQXdFcWU2TDFyamc1Mlk5MElycEZMM0xHckU?oc=5",
-      "source": "The Pig Site",
-      "date": "2026-08-06"
-    },
-    {
-      "title": "USDA’s July Cattle Inventory Report Signals Stabilizing Cattle Herd - Northern Ag Network",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPckpCSXVueEVLWFZySmloY05CNi1ELWNDaWlXWHhKVFlyNHRQVEpvU3FfZk9VLVhOM1l4OTloUlNQNWVBYWcwMFpOSmZIWGhjcWpkMjZiZVVtVEhVQ3hZUVFVZUp2RmZZT3lsbkhjdUxMSmdNNWdZYlZLYVNYTnBqSnkxNDJXamdSSlZBcVA4WXNOM3RLQVpSemdn?oc=5",
-      "source": "Northern Ag Network",
-      "date": "2026-07-31"
     },
     {
       "title": "USDA Reports Provide Insight into Cattle Markets - American Farm Bureau Federation",
@@ -276,10 +268,22 @@
       "date": "2026-07-27"
     },
     {
+      "title": "USDA lifts ban on Mexican cattle imports amid record beef prices - NewsChannel 10",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRmdFajM4eUhaVDdwQ1JSTm1fbGo0aVlPczZvSl9oLTdVaVhTa1lqekxyVjZKNmR6SkVkLUZmbUFTak5YUHNMVXU0ZVVQejdta2hDNzFacTVrbjJPSFZmX2tmaGQ2bWE0RDI3dXd2UHMtek9hTlVKSGRiNTVHWEFYellud3R2TEp6dWNiT0lFYjBnMjRiTFViZ3JaV0MtWFlOVkdxbXlvLTBwU1RhMWc?oc=5",
+      "source": "NewsChannel 10",
+      "date": "2026-07-27"
+    },
+    {
       "title": "USDA Raises Cattle Price Outlook as Tight Supplies and Drought Slow Herd Rebuild - RFD-TV",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcWFURUtVQ29faVRHUERIY0h3d0l6TkdpZ21yVTlXZVpZOFJ5OVlMQnMzSjl0LUIwRjYwWmtsUEE5NGlsQVVuNkFoQndMN2FRMG9LU1lBZm9nT1hrV2xfY1oteWxCWUkwWXhrU2J1d1dROFFfNTF2LTB0VERISjVvVldpWTRrZ1BHT0pQaUhGZFVRc0RJWXlMcl9GYnFmZG1kOUVTeQ?oc=5",
       "source": "RFD-TV",
       "date": "2026-07-22"
+    },
+    {
+      "title": "Grown Here at Home: Yard Bull Meats keeps beef prices steady as grocery store costs climb - WDBJ7",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTjk3eXFWdjRGUjE3QndhNEpHV2JBUU03b0liUzNfQXV5VjByeGY3YTE4MWMxU2pZVDZMa3BCa0lZVWFBeFNFYUJyeWJIMGtKZ21ma2psdU9rM0JSdXkzc2pGbmxJR0NMbHk5ckhmZThDSUkyZWhYR0czSUdua2hSdWJwNV9TSi1sX0hsQWE3Yy1VMkxwU2FEeU0wTnZUOVR1Yjg4OVE5amFJWEh6enBXQTRidHowSlHSAcsBQVVfeXFMUGdVVnBoaWZidzRPZ3hQYk1qMDB3UUVKb3BvaGVYVXpBdVZuNFF6dFpLOEd6YjNCdEFiYzR6RjlCd2xUUFJFSWk4c3ZpMGxndkFfaG92TUtjYlUyTVhuU2pBdHdZeDcxbF9McG9YWGd0MVVfSUhuUVFFVWRCYVQ3T01MWWFjcGZqYmZQOXRPamZ2SWtuSnRhclhSWVlRbTRPc0ZzbERJalpBSzQ1TFhSNHVQNm4tM0JQVnVra1dTTHhDR0h2X0EweEE1ZE0?oc=5",
+      "source": "WDBJ7",
+      "date": "2026-07-06"
     },
     {
       "title": "First Thing Today | Grain futures prices wilt as Midwest heat dome won’t last long - Pro Farmer",
@@ -288,10 +292,10 @@
       "date": "2026-06-29"
     },
     {
-      "title": "Lean Hog futures slipped as weekly gains erased. - cmegroup.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOclFYaVBTd0NqZmhtSHFZYVpEd1B3S0x1aE04VlJwQWFRYkhXUGljT2poQWctdS11YnU4RXY2aGZRdkRxNnVPTHpOMWNkcFNrYXlDSnVxNFdSVG8yNFMyTFF2TEtMR1BucGV0Y09zcHFTU200NzB0NllUVkZnS0hCbUFkMUd6U0hKX2hhQ29oZGctRENjWW96V3dlSUt4bnN6TXM1eFhn?oc=5",
-      "source": "cmegroup.com",
-      "date": "2026-06-24"
+      "title": "Looking to grill out this Fourth of July? A shrinking U.S. cattle herd is driving up beef prices - KCUR",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZjhMRExCaHNHWUFLWFQ3ejZoUmRfYUlxb0s3RjRZMGJaR3ZnTlFqWU5pVU83bTVpd0RkdURUTGJPYTM3M25CSWlwTHZIYjlmdjZ3TmN4U0RnQjZFLUhZX1dSMUJ1ZF9RZFBid0tqTUJhRnN6TldTd3k3UGFrNGVkWF9wTENZSUJpdHpsc0pObWZPYUE?oc=5",
+      "source": "KCUR",
+      "date": "2026-06-29"
     }
   ]
 }
