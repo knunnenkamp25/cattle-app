@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T12:09:37.870Z",
+  "updated": "2026-08-14T12:08:19.734Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -226,15 +226,21 @@
   ],
   "news": [
     {
+      "title": "Cattle Report - High Plains Journal",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kRDdlYmd2TndnS3VPUTFPd1ZYckd5N3BpeDRJaXlhcTFObE5tMXNER3JIaFhJMERjSUEyNzNxLVJYRkNTQ09xVDZ2dmdvMzk3UnlMLTVRMGZ3NzUt?oc=5",
+      "source": "High Plains Journal",
+      "date": "2026-08-12"
+    },
+    {
       "title": "CME Cattle Futures Fall on Technical Selling, Pressure From Grain Markets - Successful Farming",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM2x5RGRGeHRBZVdJeDdLSC1ZUlY1emxUYVlpZzFDSUV3amVva25pbWxiXzJyblFKMldRMFVLc1oxNEc5RHpNZDFBNGlpaUxadDdzTW42YzM4c0I1ZzNWQUt4TWNKWWdXUndrZU9aejBuSlVpUkxGOVEwUDRjdk1sTVExYnh1VUpRRmQwa3Rwa1FJY1d1VXlONG9JMzJwcDhrLTQyM3NwcjQ2SDRya2VxNURWSDJpRUliZmc?oc=5",
       "source": "Successful Farming",
       "date": "2026-08-12"
     },
     {
-      "title": "Cattle Report - High Plains Journal",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kRDdlYmd2TndnS3VPUTFPd1ZYckd5N3BpeDRJaXlhcTFObE5tMXNER3JIaFhJMERjSUEyNzNxLVJYRkNTQ09xVDZ2dmdvMzk3UnlMLTVRMGZ3NzUt?oc=5",
-      "source": "High Plains Journal",
+      "title": "Wheat Markets Rally While Cattle Markets Catch Curveball from WASDE Report - Northern Ag Network",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS2pKaWR6V1lmN1BFSkFBUWhWcnMwa184R0t5bmw4eXltb2lmME9IX3piMFM3X3pKcjFMdnU4U1FTU1owcXlWNlVPYkhCbmliNm4zX1RsWjR2aU10MGlJNGRBaWJZdGY3TUFmTGltaXpMV21vVWFDQmFZTzN6QjRXZnJGVWhoLW1Vd3FldlJ1VG5nTGFMZzNkcEVPOVg1cXVCZlFQVQ?oc=5",
+      "source": "Northern Ag Network",
       "date": "2026-08-12"
     },
     {
@@ -244,9 +250,9 @@
       "date": "2026-08-12"
     },
     {
-      "title": "USDA Beef Market Data Report: August 10, 2026 – Boxed Cutouts, Cattle Summary, and By-Product Prices - indexbox.io",
+      "title": "USDA Beef Market Data Report: August 10, 2026 – Boxed Cutouts, Cattle Summary, and By-Product Prices - IndexBox",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNlhDcGNBUEotVW91SkhUSmJ6Mm5KbXRsXzZPeXFteFRYbGZIMExUMGppWi1oM3ZCclcwTFhrRDR1aGd0Sm12RGpCSTNiSXViMEVjX0lIVkNHZVRnUEFrZkxjNTBhbTZmbVh1bHpSS2pYWWNaRk1RMFlnUEpGM0ZMUDZhMVNIdGZxMjhvZjJGakdMQVRPRnhYNUFCNHZzb2lBUWJjelUwejk4c1ZZM2o0V0d5dFZibVI0bDRhTFBOLWJqZw?oc=5",
-      "source": "indexbox.io",
+      "source": "IndexBox",
       "date": "2026-08-10"
     },
     {
@@ -289,12 +295,6 @@
       "title": "First Thing Today | Grain futures prices wilt as Midwest heat dome won’t last long - Pro Farmer",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUp2SkxGaURWLVJZX0s2TDVwSTdjbFV1UzZUYTlsSlF0WHRJaWk5b3RlS2pJcmd2dFRBZ1NOakhKMmhuWmtCdllPeW1WSjB3YWo4UDluQUVIbWdiM1R1UGxjNVduMHp4RFo2dzIyZ2V1ck16WnZQRGdORW5xSFRMVDJqbmhPZmx1d1VUQThvRl9kOTZYc2xJNXhjWEwweVBZY3NYdUhFQ3M0R29qRm9HRlR1LWJ6TV9QRTBURmd4aFRScUk?oc=5",
       "source": "Pro Farmer",
-      "date": "2026-06-29"
-    },
-    {
-      "title": "Looking to grill out this Fourth of July? A shrinking U.S. cattle herd is driving up beef prices - KCUR",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZjhMRExCaHNHWUFLWFQ3ejZoUmRfYUlxb0s3RjRZMGJaR3ZnTlFqWU5pVU83bTVpd0RkdURUTGJPYTM3M25CSWlwTHZIYjlmdjZ3TmN4U0RnQjZFLUhZX1dSMUJ1ZF9RZFBid0tqTUJhRnN6TldTd3k3UGFrNGVkWF9wTENZSUJpdHpsc0pObWZPYUE?oc=5",
-      "source": "KCUR",
       "date": "2026-06-29"
     }
   ]
