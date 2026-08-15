@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T12:08:19.734Z",
+  "updated": "2026-08-15T11:44:59.361Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -226,15 +226,21 @@
   ],
   "news": [
     {
-      "title": "Cattle Report - High Plains Journal",
+      "title": "USDA Beef Market Report August 14, 2026: Boxed Beef Cutout, Cattle Slaughter, and Prices - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRkQ3RXV4NlltajNBeFIyMTRGbGI1X0xya29nSmFOVVN4cHdyeVVldHNOVkh5UkpwbmUwdjUxWDFxV3dHY0RmNHhJSjY3a3A0X3NrUDE4aW1vYUpRcVA0QWFfWEJTTkJDRDFkN3ZGMERqaEhEVDhsZHVIN0JLQ0hmLUJ0N2FUZm1wb1U5OURGZ1pHVnVoQzZ5WkVkMWR5amlrRDFDVS02bG5BdkYtb3c?oc=5",
+      "source": "IndexBox",
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Cattle Report - hpj.com",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kRDdlYmd2TndnS3VPUTFPd1ZYckd5N3BpeDRJaXlhcTFObE5tMXNER3JIaFhJMERjSUEyNzNxLVJYRkNTQ09xVDZ2dmdvMzk3UnlMLTVRMGZ3NzUt?oc=5",
-      "source": "High Plains Journal",
+      "source": "hpj.com",
       "date": "2026-08-12"
     },
     {
-      "title": "CME Cattle Futures Fall on Technical Selling, Pressure From Grain Markets - Successful Farming",
+      "title": "CME Cattle Futures Fall on Technical Selling, Pressure From Grain Markets - agriculture.com",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM2x5RGRGeHRBZVdJeDdLSC1ZUlY1emxUYVlpZzFDSUV3amVva25pbWxiXzJyblFKMldRMFVLc1oxNEc5RHpNZDFBNGlpaUxadDdzTW42YzM4c0I1ZzNWQUt4TWNKWWdXUndrZU9aejBuSlVpUkxGOVEwUDRjdk1sTVExYnh1VUpRRmQwa3Rwa1FJY1d1VXlONG9JMzJwcDhrLTQyM3NwcjQ2SDRya2VxNURWSDJpRUliZmc?oc=5",
-      "source": "Successful Farming",
+      "source": "agriculture.com",
       "date": "2026-08-12"
     },
     {
@@ -250,21 +256,9 @@
       "date": "2026-08-12"
     },
     {
-      "title": "USDA Beef Market Data Report: August 10, 2026 – Boxed Cutouts, Cattle Summary, and By-Product Prices - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNlhDcGNBUEotVW91SkhUSmJ6Mm5KbXRsXzZPeXFteFRYbGZIMExUMGppWi1oM3ZCclcwTFhrRDR1aGd0Sm12RGpCSTNiSXViMEVjX0lIVkNHZVRnUEFrZkxjNTBhbTZmbVh1bHpSS2pYWWNaRk1RMFlnUEpGM0ZMUDZhMVNIdGZxMjhvZjJGakdMQVRPRnhYNUFCNHZzb2lBUWJjelUwejk4c1ZZM2o0V0d5dFZibVI0bDRhTFBOLWJqZw?oc=5",
-      "source": "IndexBox",
-      "date": "2026-08-10"
-    },
-    {
       "title": "USDA Reports Provide Insight into Cattle Markets - American Farm Bureau Federation",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTVF4LXZJeXA2WmF5MHhQd0RrY2czY0FPc1VfOGZ5bDVJb1QzODNhREpCbVkzbC1XUTZZTmZBTlNlWTNkbmlzWXhNZ3BvNzRiSjczNF9XVVE3SFA1WTZIckdKUms1MUt5U2J6blBGRzhIV1pPZHFPNDR5ZmE5N0lsejdn?oc=5",
       "source": "American Farm Bureau Federation",
-      "date": "2026-07-28"
-    },
-    {
-      "title": "Beef prices drop $39 as cattle imports set to resume in August - Farm Progress",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSE5oZmh5WWRaRmpfS0YzcHpyRjNvb3NWc3RMUlNjZUQ5Y3N3MGhZY2J5YTlSNUQ1bGlhVklHYjR3U0tJOVlYcGxIMGVYdWduVXJOX21BOFhMeXBPTktWM0NhNGdCRUZpUnRzZGRlLVNwcVIzbkFOREFEUG04WXA0Ty1lNnBjbnZhUWJ6NVFDcXZHSzE5NFg2VDJxODBZYTVkb1E?oc=5",
-      "source": "Farm Progress",
       "date": "2026-07-28"
     },
     {
@@ -295,6 +289,12 @@
       "title": "First Thing Today | Grain futures prices wilt as Midwest heat dome won’t last long - Pro Farmer",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUUp2SkxGaURWLVJZX0s2TDVwSTdjbFV1UzZUYTlsSlF0WHRJaWk5b3RlS2pJcmd2dFRBZ1NOakhKMmhuWmtCdllPeW1WSjB3YWo4UDluQUVIbWdiM1R1UGxjNVduMHp4RFo2dzIyZ2V1ck16WnZQRGdORW5xSFRMVDJqbmhPZmx1d1VUQThvRl9kOTZYc2xJNXhjWEwweVBZY3NYdUhFQ3M0R29qRm9HRlR1LWJ6TV9QRTBURmd4aFRScUk?oc=5",
       "source": "Pro Farmer",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Looking to grill out this Fourth of July? A shrinking U.S. cattle herd is driving up beef prices - KCUR",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZjhMRExCaHNHWUFLWFQ3ejZoUmRfYUlxb0s3RjRZMGJaR3ZnTlFqWU5pVU83bTVpd0RkdURUTGJPYTM3M25CSWlwTHZIYjlmdjZ3TmN4U0RnQjZFLUhZX1dSMUJ1ZF9RZFBid0tqTUJhRnN6TldTd3k3UGFrNGVkWF9wTENZSUJpdHpsc0pObWZPYUE?oc=5",
+      "source": "KCUR",
       "date": "2026-06-29"
     }
   ]
