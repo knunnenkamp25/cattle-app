@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T11:45:19.436Z",
+  "updated": "2026-08-17T11:50:44.794Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -226,10 +226,16 @@
   ],
   "news": [
     {
-      "title": "USDA Beef Market Report August 14, 2026: Boxed Beef Cutout, Cattle Slaughter, and Prices - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRkQ3RXV4NlltajNBeFIyMTRGbGI1X0xya29nSmFOVVN4cHdyeVVldHNOVkh5UkpwbmUwdjUxWDFxV3dHY0RmNHhJSjY3a3A0X3NrUDE4aW1vYUpRcVA0QWFfWEJTTkJDRDFkN3ZGMERqaEhEVDhsZHVIN0JLQ0hmLUJ0N2FUZm1wb1U5OURGZ1pHVnVoQzZ5WkVkMWR5amlrRDFDVS02bG5BdkYtb3c?oc=5",
-      "source": "IndexBox",
-      "date": "2026-08-14"
+      "title": "Cattle Report - High Plains Journal",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kRDdlYmd2TndnS3VPUTFPd1ZYckd5N3BpeDRJaXlhcTFObE5tMXNER3JIaFhJMERjSUEyNzNxLVJYRkNTQ09xVDZ2dmdvMzk3UnlMLTVRMGZ3NzUt?oc=5",
+      "source": "High Plains Journal",
+      "date": "2026-08-12"
+    },
+    {
+      "title": "CME Cattle Futures Fall on Technical Selling, Pressure From Grain Markets - Successful Farming",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM2x5RGRGeHRBZVdJeDdLSC1ZUlY1emxUYVlpZzFDSUV3amVva25pbWxiXzJyblFKMldRMFVLc1oxNEc5RHpNZDFBNGlpaUxadDdzTW42YzM4c0I1ZzNWQUt4TWNKWWdXUndrZU9aejBuSlVpUkxGOVEwUDRjdk1sTVExYnh1VUpRRmQwa3Rwa1FJY1d1VXlONG9JMzJwcDhrLTQyM3NwcjQ2SDRya2VxNURWSDJpRUliZmc?oc=5",
+      "source": "Successful Farming",
+      "date": "2026-08-12"
     },
     {
       "title": "Wheat Markets Rally While Cattle Markets Catch Curveball from WASDE Report - Northern Ag Network",
@@ -242,12 +248,6 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNclQzT01CQ2dSd0s5UnZkNzYtY1F3aWM1bHQ3a1ZsVEhmRDhkRHZ1dFQyWDBDN2d6SjVkT1Qxbk5DdE9PSUF5T1V6NnhWYW9pZkZFbHJ3WUtCRDhEYjEtalB4YWRWLXhuYXRCYTlCcFpPSVFBVmJMQlhXdWpDVUZ1NjRKU0w2U1dVOVRXM09HS2JhQQ?oc=5",
       "source": "Agrolatam",
       "date": "2026-08-12"
-    },
-    {
-      "title": "CME Live Cattle Rise on Higher Wholesale Beef Prices - Successful Farming",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeFJaaW5EQUluRUthUkhrdW9FOFUzQWo5TXpuM1NVUGtIY0tfLWo2UUw2UkFZT2J3a2FURFZBM2kwZnRoeGlobEFLeXpjNEpfLTFYSnpmZmd0UlZfVVJLVTBBcTBqRGhTXzA4UTVYVjFiemg1TmVZMmx1ck9aangxcXpOVEs5RTN3elJRenRMNjRhc25rTDdjX0h2aHFNbnc?oc=5",
-      "source": "Successful Farming",
-      "date": "2026-08-10"
     },
     {
       "title": "USDA Reports Provide Insight into Cattle Markets - American Farm Bureau Federation",
@@ -292,9 +292,9 @@
       "date": "2026-07-13"
     },
     {
-      "title": "Grown Here at Home: Yard Bull Meats keeps beef prices steady as grocery store costs climb - WDBJ7",
+      "title": "Grown Here at Home: Yard Bull Meats keeps beef prices steady as grocery store costs climb - wdbj7.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTjk3eXFWdjRGUjE3QndhNEpHV2JBUU03b0liUzNfQXV5VjByeGY3YTE4MWMxU2pZVDZMa3BCa0lZVWFBeFNFYUJyeWJIMGtKZ21ma2psdU9rM0JSdXkzc2pGbmxJR0NMbHk5ckhmZThDSUkyZWhYR0czSUdua2hSdWJwNV9TSi1sX0hsQWE3Yy1VMkxwU2FEeU0wTnZUOVR1Yjg4OVE5amFJWEh6enBXQTRidHowSlHSAcsBQVVfeXFMUGdVVnBoaWZidzRPZ3hQYk1qMDB3UUVKb3BvaGVYVXpBdVZuNFF6dFpLOEd6YjNCdEFiYzR6RjlCd2xUUFJFSWk4c3ZpMGxndkFfaG92TUtjYlUyTVhuU2pBdHdZeDcxbF9McG9YWGd0MVVfSUhuUVFFVWRCYVQ3T01MWWFjcGZqYmZQOXRPamZ2SWtuSnRhclhSWVlRbTRPc0ZzbERJalpBSzQ1TFhSNHVQNm4tM0JQVnVra1dTTHhDR0h2X0EweEE1ZE0?oc=5",
-      "source": "WDBJ7",
+      "source": "wdbj7.com",
       "date": "2026-07-06"
     }
   ]
