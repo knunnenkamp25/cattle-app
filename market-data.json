@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T11:50:40.176Z",
+  "updated": "2026-08-20T11:53:39.998Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -239,16 +239,28 @@
   ],
   "news": [
     {
+      "title": "Live Cattle futures traded lower as production slows. 8/19/26 - CME Group",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOakN3c0ZOd1FtbWV4NEJ2Y1ItQy1MbjhDd2EwQU9HQzZlTTBJX0ZDaDN4WEZGRV9kR21BUEc1N1pDWFZvc1NOTGlHbkdvbGVUNExkUTl1TjZMWHNWTWI1SUhjbG9zR3lGYU9QY2U3RkJjWlZrbnJqODZ5VTliWDBjRV80TlRULUVTT2RxTTkxdlhuWXk4c0FkbnRqdU9FQzN0X3JSNnQ0a2RKNDB5?oc=5",
+      "source": "CME Group",
+      "date": "2026-08-20"
+    },
+    {
+      "title": "Cattle Report - High Plains Journal",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pUF84dEdIRGdfVDF4WXZqT21nRVhzdERjcDAza1czS3daMlNRdUtTcTE5cU5rbGFGZjdyQlhIY3ROdmdfZmx6bVRwMnBfLUNYWmdHWE5LQVR3ZnpWQk1GNFljVnN4WWFZTUREYw?oc=5",
+      "source": "High Plains Journal",
+      "date": "2026-08-19"
+    },
+    {
       "title": "Why Are Cattle Prices Rising as Beef Demand Stays Strong? - AgroLatam",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZmVVOVd3XzlaR2x0Vkx6Vlg1eWNYOEFnTHNqcmF1T2dqdFFFSWhBNDBzR2YtWE9xS1VzTk5WUUt0TUZzTkIzbGVrTHFXLUowMENnNTNzUjdFVHNLMHYxU1BlTUp0NGp0SDRHeEtoc1gweWUyUTFOek9XYkJMVHU1RndoWDlCdk5hMXBjYUtn?oc=5",
       "source": "AgroLatam",
       "date": "2026-08-19"
     },
     {
-      "title": "Cattle Futures Decline Amid Plant Closures and USDA Reports - agronews.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wMEtvSjdDcWFXZExNaFJIUlp3ZDh3TjNjcnFHX0hybEZCZWVLSnJSUFNYeU9DYTZrc3FXeFpfdXdoVHlLXzIxckpwNlAyeUxOazJBaU5OdU9rTXFoRUFYR2djN3hKV2lGX093Ug?oc=5",
-      "source": "agronews.com",
-      "date": "2026-08-19"
+      "title": "Cattle Markets Battle Back After Summer Selloff - Western Ag Network",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOek5raHIwZjJMbDZhYzZKQXdGcmhBcGppUDBydWFuQ2xjQzZ3WE1UV3pZdkNfSGgxTnFZVlhBV3VUQVFleUJMWmpUNHgtLV9LOEhGSzdYVUxVWkVwUDlFbF9PU25YMWtTbXlOR2otZXQ5NEVSRDJLVVozQkF0N3RHQTZR?oc=5",
+      "source": "Western Ag Network",
+      "date": "2026-08-18"
     },
     {
       "title": "High beef prices have shifted power back toward US cattle ranchers - FoodChain Magazine",
@@ -260,12 +272,6 @@
       "title": "What’s Happening With Cattle Prices? - Successful Farming",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE50eUE2TFVPc05WRHFfMENnbHhuVVBub3JpUjR1akVUU0M3SUxNanVTTHIxcEFkZG1rRnlpbWFsdmVZMFZRVEl4b1NWTkM0SXlYWGlEOWJMT0dZWE9mNmxxN3dJLVhlcHZ5bUdBNDVaY2x5WkRSY0RwNEx6d1c?oc=5",
       "source": "Successful Farming",
-      "date": "2026-08-17"
-    },
-    {
-      "title": "USDA programs, processes aim to help small beef processors - Farm Progress",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUYtRlFlMVRVaEZHOGRsdjVvQnZCSi1pUmxRQ1hVWUw2WkNhOUZUcU5Uamp4SFZMMExJdF94RXRhZzJGZXdUTnkxYVA2NHVmQjk0Tlk4eEpkeks2YldCSUNyeWhtWktxVHl4VXI1Rl85bkVQNVozRk1zX3JzbHF4eVRnaXg2SUhpNmEwbDg1TmdnV3Nhby1lbmtvaTl2S2c?oc=5",
-      "source": "Farm Progress",
       "date": "2026-08-17"
     },
     {
@@ -303,12 +309,6 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcWFURUtVQ29faVRHUERIY0h3d0l6TkdpZ21yVTlXZVpZOFJ5OVlMQnMzSjl0LUIwRjYwWmtsUEE5NGlsQVVuNkFoQndMN2FRMG9LU1lBZm9nT1hrV2xfY1oteWxCWUkwWXhrU2J1d1dROFFfNTF2LTB0VERISjVvVldpWTRrZ1BHT0pQaUhGZFVRc0RJWXlMcl9GYnFmZG1kOUVTeQ?oc=5",
       "source": "RFD-TV",
       "date": "2026-07-22"
-    },
-    {
-      "title": "Live Cattle futures fell to four-month low on 14-day slide - CME Group",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNalh5ZDFoOEZXT1JFUFAwNzBWeXpmSkdpUkJFS0RoQjZJWXpSSEVYdjdpMnB2MW9WLUxsSU1xNFVMSy1QUXF5MHlJZWxzNUtVaWFzREpXRlc2QTllRDh1b2RkekZwbnBLMW1KcGlIRXFHQVhWWV9GSEFoZzRqTmlfYUhuNi1sekxlZFo3QjV1WG9VLVFydmREMk56aFlJaUVxYlh3MUh1anpjQzVsMEh2TA?oc=5",
-      "source": "CME Group",
-      "date": "2026-07-15"
     }
   ]
 }
