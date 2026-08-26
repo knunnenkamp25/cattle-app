@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T11:54:42.546Z",
+  "updated": "2026-08-26T11:56:14.258Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -80,9 +80,77 @@
     {
       "date": "2026-08-24",
       "price": 387
+    },
+    {
+      "date": "2026-08-25",
+      "price": 360.25
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS149",
+      "name": "Wytheville VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-08-25",
+      "head": 198,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "440",
+          "high": "440"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "329",
+          "high": "390"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "350",
+          "high": "350"
+        },
+        {
+          "label": "Steers 400-500 lb",
+          "low": "445",
+          "high": "445"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "240",
+          "high": "240"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "325",
+          "high": "435"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "325",
+          "high": "378"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "310",
+          "high": "335"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "400",
+          "high": "440"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "330",
+          "high": "370"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "315",
+          "high": "321"
+        }
+      ]
+    },
     {
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
@@ -190,62 +258,43 @@
           "high": "377"
         }
       ]
-    },
-    {
-      "code": "RH_LS149",
-      "name": "Wytheville VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-08-18",
-      "head": 126,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "425",
-          "high": "435"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "380",
-          "high": "380"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "345",
-          "high": "355"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "340",
-          "high": "395"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "320",
-          "high": "342"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "290",
-          "high": "317"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "330",
-          "high": "355"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "277",
-          "high": "318"
-        }
-      ]
     }
   ],
   "news": [
     {
-      "title": "Cattle Prices Sink as Mexico Border Reopening Shakes U.S. Beef Markets - AgroLatam",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcDdhZ1RSRDBpSVFod3RIbmJnRG9kWDJid3B5cnpycjBfdWUzM3RiYU9SblBhQUc3dW9mLTIzMzlwbk1ERXM1X3lLUE80ZGJ2OXpxNkNYZkRreE9DZE5xeTh3aTJpeUpHc2YycVUtbnFPbEEyOUw1STZLYmtjaDB3MmpScHpUc2V2amZEQXh0a2Y0dHU2THF4SQ?oc=5",
+      "title": "Gov. Spanberger asks Trump Administration to reconsider tariff-free beef imports - Cville Right Now",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTVg3Y1NUWkhlUk53alZqUDRSM1QxQ01CeVNjTlNWdHBObU9HcUFlMnFQTzdkejg2MnhMSktTVFRJd1ZsNVFqSVh0LXdiTVZSTm50WHp4U0lUanVYdmVSMXBTSTVRdHpHZXZhOXA3M0M2ckpCT2J5RF94eVNKbXpfb1A5Mkc0bHQ1T29oWTMwWC1PN1NjeVFyTkdKb0hUamtpUEJtMDVJb2FuSnhhMHhBYnZiRHludWR5NXpv?oc=5",
+      "source": "Cville Right Now",
+      "date": "2026-08-26"
+    },
+    {
+      "title": "Cattle Futures Slide as Cash Weakens and Mexican Imports Resume at U.S. Border - AgroLatam",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTDNfYXFBOEE2eDU4TTRMd1EzV2RVa2tNbWpTQm9pNGl1aS11OTdPdDRscXZPaV9EUXBUMm40TVNVYmZ2ZWtsUUZ2RXVtT2YwNnNVcC15TVB0RUpYeDJmeFlLenBKWEJiYmhjQUY3UEdPMEY3WjFYOXdxeFVDWkFUYkJqNEJGb0hSUTRmYWZjRUQ?oc=5",
       "source": "AgroLatam",
+      "date": "2026-08-26"
+    },
+    {
+      "title": "Gov. Spanberger warns beef imports will harm Virginia cattle farmers - WAVY.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOHkzR2htX0lYS0RfMlNNSG5SdG1vVldRNlF5NjUtZ05nZ0d6Y0M1WHBKRldWZldpRm54N0tHTldlVTRNeU91YVYzOUNqUEctRmdnMTU0VXhJcjh4RzRzM0NPYkxCeXZvd3IzLWwxTm5lODNtalNkcTVyNDhycWpTQUpLcDlLbVNLdGlwT2p4VDlQbE1ZbkZJcGtKdUVrTUhOUzBsWnJlY1VSdGVyMlZ1b0NselpyMHZuMFNTdzZR?oc=5",
+      "source": "WAVY.com",
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Spanberger decries 'cynical choice' by Trump on beef imports - Roanoke Times",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdmtPRXV0cEN0YnNXNWpXaDFfU210ODViV2xicEtsSTZiNTZlVnFFWkthbEg1NlFGcjlxb0hBTWN1QndNeFpkdkRIcHp6Wm1kUTJTTEtxalBzRWFUNllzY0xQNUFrTk54dk5PYkVqX09wcktSdHlLS0J1MVEtUUNGRWhXWHpob3JINkdjZzZWMktqR2s3ZnZISVlUd09idGVRRmxvaVdhb1NXVXMzLWc?oc=5",
+      "source": "Roanoke Times",
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Virginia Governor Criticizes Reduced Beef Tariffs, Warns of Impact on Cattle Producers - RFD-TV",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaVlONTFrZnhDV0JaajFUeW5RTWlpTXFzWnNWc253S3NRbXZXSWljSktQejYwcTNIUWotWnhzVmFaNUdwMlVSQ0ZMZ3BRaHlCZEMzUkhJbHBKYzFQV1hwZjAtWERIS2dvb0w4UnNNbVdFQ2VOazQ2dDQ0c1hhU0VOMVRlLXo0aVBNa3NDR013b1NNTV92VG1iNWtZdE9JODhZcXZKY1BhODdBQ0k?oc=5",
+      "source": "RFD-TV",
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Gov. Spanberger warns beef imports will harm Virginia cattle farmers - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSHJuWnk2ck5qaFB4WlRydG1PYmZ2X0FJMlNwZXlPWjNHeWZnTXJZa3doVkxSZEd0WjNPTWRROVZoaExoTEhSeGphZ0xIM3drY0VfUHZkRzQtQno4cEsyMnNsZkJmWkNGQktFei1odnJMM0NzZEg2VGR0c1hmMTB0YVFYNA?oc=5",
+      "source": "AOL.com",
       "date": "2026-08-25"
     },
     {
@@ -255,27 +304,15 @@
       "date": "2026-08-24"
     },
     {
-      "title": "Spanberger goes where Ben Cline won’t, shaming Trump on efforts to kill beef industry - Augusta Free Press",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZV9nWFdxVHB2MUtTUklCN2xMcFdfOXZ6bG9YMUlHaDVCWW5oUWMzS2lGSHdPekxPUmNEa1dmekphUHRiMmg2ckFISjBKZVZxWU16TkZpTWFubGVtWkVreURWYUNrRGhQaFpUMVFBcV94ejBuQ0pBWXBJcE9GbGlsV3lNQ1BBX0JTaEhzRXRFY3NJdDllbVo5RnQ1eTRzbkVfb2JFS0ppel8tNXBRUlFUdkVTRjF6NlA5Rnc?oc=5",
-      "source": "Augusta Free Press",
-      "date": "2026-08-24"
-    },
-    {
       "title": "USDA Cattle on Feed report provides bullish signal for the cattle market - Brownfield Ag News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN3ZRNl95T1dxWWdRVWRpNExzZGJsci1pSnpsUmt1RlN3ZFE3YU95bUNJclhpaDViZDRGWDBkOTM4c2hTWl9BN0E1SkE2cE1CYWhralBqM09PRkwxNVpzbkhLQTVMU2lqV2hOTzhuRnh3ay1XN1FZUGNseVAzYVotejR2b3RMTW1HQnBBODZiNFg3Mmpkay1JMlVYQ0cwMHJWTko2Qy1NNzJzWDVrOHNJdg?oc=5",
       "source": "Brownfield Ag News",
       "date": "2026-08-24"
     },
     {
-      "title": "USDA Lowers Steer Price Forecasts for 2026 and 2027 - AgNet West",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHR3BiakhUbVBMVWpyeEVVU1BndVhBcnJFazZoNFJIbll1Z0FsdHl2T0MxMjI5X3Z1N29ZV29GRWpVdG9UY3ZnamJvbk5vTVhOalNNVEo4NzZidFpwVVlkYXNkTVE?oc=5",
-      "source": "AgNet West",
-      "date": "2026-08-24"
-    },
-    {
-      "title": "USDA Beef Market Report: August 24, 2026 - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXbHdTMXMtWjBPMXNzSnlTZE0tdUlGQnhpT0toYjZPZUdMVmFxVjRDVFJEcVpyaXpSR1JGUTJQZWZfWjNIZWR3bHZneEt4RXptMlllQ1Z3bDBOZFFxYmJaMVBuVzFzUWFLLVd5NkNNTWExWjJodi1j?oc=5",
-      "source": "IndexBox",
+      "title": "U.S. border reopens to Mexican cattle imports, but economists doubt the move will reduce high beef prices - PBS",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQnFlclpQeVZnQWIxVzJiZTdHTUY2Z0p6NkF3VlVlLVpfbkh3eUc4bHUxVmJxZXhlUTdRN0puMkY5QzFKZEJHR1JwbVEyOTFsbFJMaVBCYkNHd2lBTXJ2TUxWMmJ0MzY1eHVfYWc5YWROUlBrMnNselgyZkdEYnpuZHJ6ZnJON3p0TFFfV2xVNFg1dVVaUTZRZnUzbS1BMDRfRWw0b3E5djJNdjdOZE5jTGEya3ZNVDlDMVNGRl9OZ3RTdS1tNTdfNEwzNkQtbnZqdkRod01hWQ?oc=5",
+      "source": "PBS",
       "date": "2026-08-24"
     },
     {
@@ -285,34 +322,16 @@
       "date": "2026-08-24"
     },
     {
-      "title": "USDA Livestock Auction Report: South Branch Valley Livestock Exchange, August 22, 2026 - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdFBFeEpLQ2VIM0F3c1ZkX1A4SzhPQngyQVFSZWtCaU9Dci10OFZoTU84T0VSajMwVDAySHJBZzc2ZEgxRldSblAtXy15YjhiYTNuaFNnT1NXUmc5d2NSLUFwbWdvWTN1czc0cm5scmViZU9WVzFMZktuLTJIZGdNRzQxc2pfVnlkRXVScUhMV2dfUUk?oc=5",
+      "title": "USDA Beef Market Report: August 24, 2026 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXbHdTMXMtWjBPMXNzSnlTZE0tdUlGQnhpT0toYjZPZUdMVmFxVjRDVFJEcVpyaXpSR1JGUTJQZWZfWjNIZWR3bHZneEt4RXptMlllQ1Z3bDBOZFFxYmJaMVBuVzFzUWFLLVd5NkNNTWExWjJodi1j?oc=5",
       "source": "IndexBox",
-      "date": "2026-08-22"
+      "date": "2026-08-24"
     },
     {
-      "title": "Trump to temporarily ease US beef tariffs, irking cattle producers - Virginia Business",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX0hDZHZmUU1JZGVaVHlFOWoybHBXMEMxQzdGLXNqVTV5YXNfd3g5cW04UlJSY3hYREp0S2RJTUhidUNfR1JqQWJQblpuRG5CZzdraG9ZNFZ1cUMyOVBVR1Y5WklkaU5ucDlhb1B6VUZmYXBZMThGMFhNaG9SYjNMMGZKZllDRHlKSnozT0p0UWpiSmdrV3ZpU1RpMA?oc=5",
-      "source": "Virginia Business",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Trump lowers tariff on ground beef; cattlemen criticize move - Capital Press",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZUhPN0VhVjNrYXBab1huZEdhUU1Da1NJTDN4V0ZDOGNDTHItMS1IRjN6LThibTJOVllEdFhBR2xOSEsyLTRxTjk5ZjJJLVRaSzRROVJoSXhuWXBIMmxzQUltVVEzOTA4aUNDRDZHaGV5TUwyNUtWOGxRMl9vckZOSG1INDlsejM1V3VzazR0bjdXeFpLQUlRUEJ2SEc?oc=5",
-      "source": "Capital Press",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Cattle Selloff on Trump’s Lower Beef Price Post: Challenge 6-Year Uptrend - AgWeb",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPekxma3NzU1FDaXRpcmNHYVR6R2xPSm1fY1lIRlcxU01XOGwxdjhfV1lDcTR4cVJ4R29VdFRYOHZZLWIyQS12S3BOQnh6b1dJaURQTnBVNEswNzRfTVRxTFJYNlNMQWpwSzN6N0hpTHdVVGVqRXB5LXZZQUIxcGc4a284aTNJSGd6ZHc2SUlrTjMwSU9tT0ZqNHBkeEdBRkxETTV6OWlhR3JUMnhic05NR2VMS2VKVHFvUWY4?oc=5",
-      "source": "AgWeb",
-      "date": "2026-08-21"
-    },
-    {
-      "title": "Live Cattle futures traded lower as production slows. 8/19/26 - CME Group",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOakN3c0ZOd1FtbWV4NEJ2Y1ItQy1MbjhDd2EwQU9HQzZlTTBJX0ZDaDN4WEZGRV9kR21BUEc1N1pDWFZvc1NOTGlHbkdvbGVUNExkUTl1TjZMWHNWTWI1SUhjbG9zR3lGYU9QY2U3RkJjWlZrbnJqODZ5VTliWDBjRV80TlRULUVTT2RxTTkxdlhuWXk4c0FkbnRqdU9FQzN0X3JSNnQ0a2RKNDB5?oc=5",
-      "source": "CME Group",
-      "date": "2026-08-20"
+      "title": "USDA Lowers Steer Price Forecasts for 2026 and 2027 - AgNet West",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHR3BiakhUbVBMVWpyeEVVU1BndVhBcnJFazZoNFJIbll1Z0FsdHl2T0MxMjI5X3Z1N29ZV29GRWpVdG9UY3ZnamJvbk5vTVhOalNNVEo4NzZidFpwVVlkYXNkTVE?oc=5",
+      "source": "AgNet West",
+      "date": "2026-08-24"
     }
   ]
 }
