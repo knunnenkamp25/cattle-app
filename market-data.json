@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T21:05:09.529Z",
+  "updated": "2026-08-28T21:28:12.822Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -84,10 +84,183 @@
     {
       "date": "2026-08-25",
       "price": 360.25
+    },
+    {
+      "date": "2026-08-26",
+      "price": 380.17
     }
   ],
-  "auctions": [],
+  "auctions": [
+    {
+      "code": "RH_LS149",
+      "name": "***Correction-Resending with updated headcounts and additional lots***",
+      "location": "Richmond, VA",
+      "report_date": "2026-08-26",
+      "head": 313,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "440",
+          "high": "440"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "329",
+          "high": "390"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "350",
+          "high": "350"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "325",
+          "high": "435"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "325",
+          "high": "378"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "310",
+          "high": "335"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "400",
+          "high": "440"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "330",
+          "high": "370"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "315",
+          "high": "321"
+        }
+      ]
+    },
+    {
+      "code": "RH_LS151",
+      "name": "Staunton VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-08-26",
+      "head": 612,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "430",
+          "high": "480"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "365",
+          "high": "415"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "355",
+          "high": "380"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "350",
+          "high": "375"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "343",
+          "high": "350"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "325",
+          "high": "340"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "370",
+          "high": "455"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "340",
+          "high": "365"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "324",
+          "high": "350"
+        }
+      ]
+    },
+    {
+      "code": "RH_LS152",
+      "name": "Tri-State VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-08-24",
+      "head": 566,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "395",
+          "high": "465"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "372",
+          "high": "410"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "350",
+          "high": "395"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "365",
+          "high": "415"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "325",
+          "high": "370"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "285",
+          "high": "335"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "365",
+          "high": "470"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "325",
+          "high": "385"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "327",
+          "high": "377"
+        }
+      ]
+    }
+  ],
   "news": [
+    {
+      "title": "Cattle Market Report: Cash Trade Slow, Prices Steady in Most Regions - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMEI4R2NNQmw1RTJhS25kTkFpN2p0ZVZvMlVoMDFzUks3N3VkSXB2aE9LaEpDbnpYSVBJU3pEN1hyY2ozbnpDZjZGTzM2UC0zTEJzcmJBZjN1MjBpdmtUdFFfbV9IRWlrTjE4SXVlbzJmLWRPUHdnMlRDRWE3eW9jSEh1OFpaNGE2OXB2NjVKMjE2eUl6SkRFdWhKcUVPbFJhUUFPTzJ3WQ?oc=5",
+      "source": "IndexBox",
+      "date": "2026-08-28"
+    },
     {
       "title": "Farm Bureau warns increased beef imports could harm Virginia cattle herd recovery - Page Valley News",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUVVKNURWTFZTSTVtaWM4aHNhejJVMmo3a0N2dnp3dUZIQlZJYWJSNG5oSmh5bXRGb1RFRm5iUG5DazNIN2lnbWtOSXQyeHNkSVlYWXEzZ1k3RzE5T3pOekhSSDYwX0hnRTVlV2VISVNXWlduZmZSbjZEV3pieThocmRjblFDdU80ejFva2hhWWhoTnNGdlRyNF9tN2h6ZzJaRjYtdTNKcDVQY2VFaGc?oc=5",
@@ -101,27 +274,33 @@
       "date": "2026-08-27"
     },
     {
+      "title": "Trump formalizes beef import plan despite fierce opposition - Farm Progress",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSlpDUXFIZzc0OGVNazVYbTBnS3lGVHVINEROcDdkZXFhbml0bEZaNkdJOFlianZ4M1FaeU5vbkdKdUVnN01iWURuRDloVTZMNEtqMG80ai1UNThVQzZpR19pRWJSU1VldGFaa3lvaDNQVkVBQnRTeTRNcW5Ddk5adFdDT2lyUzE0RTJSemxQek4xZmdEYy1ZTFJTTDc0R3pXT2c?oc=5",
+      "source": "Farm Progress",
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Will cattle prices keep rising as beef demand weakens? - AgroLatam",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1VU2NSTTktMGxocUpjVU5qTlRWOWJ6bFZsX0JzZFJXMWpwRDRtVVd3bzFzZzE3aERDeVZuaFJnbTM0VUc4UnJLYjRmUHNGNHB0SFR1Wm1uY2Z4elhGV1plVDN6VFk5NEt5Q1JmdjJkSURucFhvMmVDV1kwTkVzZw?oc=5",
+      "source": "AgroLatam",
+      "date": "2026-08-27"
+    },
+    {
       "title": "Beef prices continue to climb across Central Texas - Lockhart Post Register",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNS0lBQnNQNEF6RHN2aXFZOFlueFhva2lSQ3BpTk5sYkpVRl83VG4zdXJGM3VmQ1VBWmN2TkVQY3ZRVFJrS2tJelNGb2NYME00T1lXbUNSVGpzMTh6bGpQa3dVZl96T1ptN2hoWDZ3aURKWDRTVmdkRkI4MGVxMWJDbGhqNA?oc=5",
       "source": "Lockhart Post Register",
       "date": "2026-08-27"
     },
     {
-      "title": "USDA Recalls 30K Pounds of Argentine Beef in Texas, Florida - AGDAILY",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ0RFZWRENmppc0Vxa3lzajlORnl2SE1hblF1dkdqZzR2SVdvNFN6UGd2VTVveGY0aHpPOGdPY0t1d1VLQmF0Si1oSGg4b0RkWEp1MW80ZllWMnBGNHE3OHZtSWowczRHQlAyZUFPRHNLcFRoc0xMOXZSR2ZGUFdoOTBtOXlVYThNT3hMTXBBR2MzOV95ZlhGag?oc=5",
-      "source": "AGDAILY",
+      "title": "U.S. Cattlemen Raise Concerns Over Foreign Beef Tariff Policy As Beef Prices Continue to Outpace Inflation - RFD-TV",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZDNyNHhlYkphaVZvN1poT3ZNSDBPOVFqUVZmTlV1TnF1X0RYX0Ytd0xLSmtaeHB4SXZjeVJrMGV5c1hHZC12NEdjNGZpR1pRTnRmMEl0WEFXTHJRT2o5ZTdkbmhsYXAzMFBSOFpiM2QzakdqOTVjRU5uQ3ZWdDVKVllDRzE0dw?oc=5",
+      "source": "RFD-TV",
       "date": "2026-08-27"
     },
     {
       "title": "Gov. Spanberger asks Trump Administration to reconsider tariff-free beef imports - Cville Right Now",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTVg3Y1NUWkhlUk53alZqUDRSM1QxQ01CeVNjTlNWdHBObU9HcUFlMnFQTzdkejg2MnhMSktTVFRJd1ZsNVFqSVh0LXdiTVZSTm50WHp4U0lUanVYdmVSMXBTSTVRdHpHZXZhOXA3M0M2ckpCT2J5RF94eVNKbXpfb1A5Mkc0bHQ1T29oWTMwWC1PN1NjeVFyTkdKb0hUamtpUEJtMDVJb2FuSnhhMHhBYnZiRHludWR5NXpv?oc=5",
       "source": "Cville Right Now",
-      "date": "2026-08-26"
-    },
-    {
-      "title": "Cattle Futures Slide as Cash Weakens and Mexican Imports Resume at U.S. Border - AgroLatam",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTDNfYXFBOEE2eDU4TTRMd1EzV2RVa2tNbWpTQm9pNGl1aS11OTdPdDRscXZPaV9EUXBUMm40TVNVYmZ2ZWtsUUZ2RXVtT2YwNnNVcC15TVB0RUpYeDJmeFlLenBKWEJiYmhjQUY3UEdPMEY3WjFYOXdxeFVDWkFUYkJqNEJGb0hSUTRmYWZjRUQ?oc=5",
-      "source": "AgroLatam",
       "date": "2026-08-26"
     },
     {
@@ -146,18 +325,6 @@
       "title": "Virginia cattle farmers criticize Trump's proposal to import beef | Agriculture | dnronline.com - dnronline.com",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPY0FBWjR0aGNFc01QSUlkRXJpZ3RRMVdoV2JNNTZUOVI4Q25VXzloWVdsN3lwYnNJRzdTMHJlLWlEN3RESGZTZzlpdTdVSGlOQWJWZjV0Z2VkYnNhcjZ1ZFhkZW40X052X0tLZ3I2S2N6TktSbVk2QmVYM2hzU0k1RGUtdlN0UUxsTm5XRWtvbjYwMUExend3SGR3NWRyeVlfUERXMkJTTVI1cVl5MFFmcnNLMFdoOFp5QWZ1U053MWdCZXJjbXFVQmR1aF9oaE9WU1o4ZlNNM0M2LWxqNFVqdEp4UC1Xa083eWgwSUJaX0Z6Um1hTzFCUWlsSDNGS19XbHlqSjB0Tk5CUQ?oc=5",
       "source": "dnronline.com",
-      "date": "2026-08-24"
-    },
-    {
-      "title": "USDA Cattle on Feed report provides bullish signal for the cattle market - Brownfield Ag News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN3ZRNl95T1dxWWdRVWRpNExzZGJsci1pSnpsUmt1RlN3ZFE3YU95bUNJclhpaDViZDRGWDBkOTM4c2hTWl9BN0E1SkE2cE1CYWhralBqM09PRkwxNVpzbkhLQTVMU2lqV2hOTzhuRnh3ay1XN1FZUGNseVAzYVotejR2b3RMTW1HQnBBODZiNFg3Mmpkay1JMlVYQ0cwMHJWTko2Qy1NNzJzWDVrOHNJdg?oc=5",
-      "source": "Brownfield Ag News",
-      "date": "2026-08-24"
-    },
-    {
-      "title": "U.S. border reopens to Mexican cattle imports, but economists doubt the move will reduce high beef prices - PBS",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQnFlclpQeVZnQWIxVzJiZTdHTUY2Z0p6NkF3VlVlLVpfbkh3eUc4bHUxVmJxZXhlUTdRN0puMkY5QzFKZEJHR1JwbVEyOTFsbFJMaVBCYkNHd2lBTXJ2TUxWMmJ0MzY1eHVfYWc5YWROUlBrMnNselgyZkdEYnpuZHJ6ZnJON3p0TFFfV2xVNFg1dVVaUTZRZnUzbS1BMDRfRWw0b3E5djJNdjdOZE5jTGEya3ZNVDlDMVNGRl9OZ3RTdS1tNTdfNEwzNkQtbnZqdkRod01hWQ?oc=5",
-      "source": "PBS",
       "date": "2026-08-24"
     }
   ]
