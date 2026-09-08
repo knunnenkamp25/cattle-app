@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T16:36:21.425Z",
+  "updated": "2026-09-08T15:14:00.182Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -96,9 +96,67 @@
     {
       "date": "2026-09-01",
       "price": 396.08
+    },
+    {
+      "date": "2026-09-08",
+      "price": 387.75
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS152",
+      "name": "Tri-State VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-09-08",
+      "head": 482,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "350",
+          "high": "420"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "330",
+          "high": "410"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "340",
+          "high": "350"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "325",
+          "high": "384"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "325",
+          "high": "395"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "267",
+          "high": "337"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "350",
+          "high": "475"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "315",
+          "high": "375"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "310",
+          "high": "330"
+        }
+      ]
+    },
     {
       "code": "RH_LS149",
       "name": "Wytheville VA Livestock Auction",
@@ -206,63 +264,33 @@
           "high": "322"
         }
       ]
-    },
-    {
-      "code": "RH_LS152",
-      "name": "Tri-State VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-08-31",
-      "head": 689,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "440",
-          "high": "485"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "350",
-          "high": "440"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "343",
-          "high": "395"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "355",
-          "high": "420"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "345",
-          "high": "360"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "315",
-          "high": "328"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "422",
-          "high": "485"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "340",
-          "high": "375"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "317",
-          "high": "335"
-        }
-      ]
     }
   ],
   "news": [
+    {
+      "title": "Virginia Market News Service weekly ag brief — Sept. 4, 2026 - The Tidewater News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdTB5X1hueXVLaDFWNUF6QVV4R0k5Qm9DYnMwX0kzaVZjVlJSNVU4cnczZ1dscUdiNmRWQWFfNUFFcFJQb3BwSUZWdjNfeEJweC1vRFgyb25adXc3WktKeVVTRnBaV2RsZkxkSmdvYkJFTUFDaHNweXhfSklDM043SHZUak4yZnlOQ3N5WjNWdHNNbERySFljSVJReW5FYzAtNTZwamtkRTdJWi1EYWlFeQ?oc=5",
+      "source": "The Tidewater News",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "USDA National Weekly Boxed Beef Cuts Report (Sept 8, 2026): Prices and Volumes - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZzc2YTlYTGVZT1hVMlE0eVNLdnUzbGxfajZEUTZJUDNMMVZycU1FOU5fN2FBYWxOY3lnOVY5NmNxSTZ3bWcwMGwtdXdJTmN0ZkVxQzc4TkhpODZETnducjdNcHAwRDVEQlJzRl9wczZEUGdncDkzTHowM2FHY3hWQU45QkNvVl96N3Y1OF94eWp0aU5rdTU5cDdweXJUdw?oc=5",
+      "source": "IndexBox",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "USDA Feeder Cattle Sale Report for Appalachian Regional Stockyard (Sept 7, 2026) - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMU9IWWFuaHpYTmJJRV9KMWExVl9FMjFqcjRSS1lDcG1aM1hmeW0wREtSVTdVWmJSRlRVRjhWd0o1MGtFdEFPblRpaDg1V0J1WmdkYXdObElaeTU4NUVFazRoaXJ5QmxqVHBLV1g2azBYWmRmMXRHTEFPLW5NUDhSU1JCSGFmRzE3b0lSa1BHNV82a2lhbjQ0LUNzQ3JsSGFRRkVndEVQQWtMUnZOb1g2c1pVSlc1Nk5vVzU2RHg4ZDA?oc=5",
+      "source": "IndexBox",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "New Trump beef orders could change how some meat reaches consumers - KHOU",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY056ZzBKZl9FbTNIZTVoRmpMbmpmVHBJNTlmb1NMVTQtSGZGUDBWcVJXTG9mNWY4dVFRbUcxc2MtSTJ3M1ZfVEtxbm5rYkJNSm1QSk1aWW9TX0ItMmk3V0laR2Y3ZDY0bnFyZHAybGJ1TjlQTlpsSERsbHEyNm5VQm9jMHZ2bEp0ajBUNFljU3JGMTJMclJRMENXNkpqeGpOYnVJWGFkSkFPblUtWmVLWkplWFFCeDNPOUxjcURxWGxQR2xFcEpwSjRR?oc=5",
+      "source": "KHOU",
+      "date": "2026-09-07"
+    },
     {
       "title": "Trump’s tariff moves threaten America’s struggling beef industry, rancher says - The Virginia Independent",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ0dXZ3A1Z0hjaFpMTUFqUE9vazVaLTNDUU54TVptQ1BpbGljOTNuZGVFVDY1ZVFYYUFHWDE4RklTZHlqZFcxNVoyRDZfc0toTldfaVM5dS1EaE4wYzRZbE0tRmo4aVFqQ1N3bEVLcE95Q1NwOS0tOVllS2ZHTTJLbnBJejJTWjZnRk5MY044djBrQXYtQ0FxcklCVnRCbDZEcGdQWlJWb2RqdU11UnZHUHBTYWxVUGRkOUl6NQ?oc=5",
@@ -270,9 +298,9 @@
       "date": "2026-09-04"
     },
     {
-      "title": "First Thing Today | Grain markets pause ahead of jobs report, holiday weekend - Pro Farmer",
+      "title": "First Thing Today | Grain markets pause ahead of jobs report, holiday weekend - profarmer.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMWxlR2hrZEJoa0p1NjBid2tBSlEwS3loNmJIYkVoSzJQSE94NlU4dzRfSE9HWl84RG93VXNRdDJpUE1taWlWVG9Ec2o0dUYyNGlGdHIzY2szanF2bXpZSDgydVRRU0xzT3hDbDE3RDNfRnVSRzVyZTB3NXN6WTZyYjRaQloxZWFldTZ5eFFxdEJJLW9qLVZ3azBkMDI5THZnVXRrdmhOT2VTRHlwSTJmSFhQRk9VUnZjMGdDUERTdEY1VlMtLTg0Tmt3?oc=5",
-      "source": "Pro Farmer",
+      "source": "profarmer.com",
       "date": "2026-09-04"
     },
     {
@@ -288,15 +316,15 @@
       "date": "2026-09-04"
     },
     {
-      "title": "USDA Beef Market Data: Boxed Beef Cutout, Slaughter Estimates, and By-Product Prices - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNU3JPNGdpSGJMR3VTRDhHZnRBWVFqbVlkNjhRaFF2NjRiTElQOXllOTU5ZnAxR1RqOWF6bkt6MlpTMVVVWUV5TTZ3QUlERDRITUNpMkpwZm16Y0VNYlpLeVN2c1JfYU1ySGdTYTZwQTFJdWJqT2dYV09GNmRuekI2Mg?oc=5",
-      "source": "IndexBox",
-      "date": "2026-09-04"
+      "title": "First Thing Today | Heavy profit-taking pressure in the grains overnight - profarmer.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZDZhZFJmMTJNME5wUTlyZ0lvRU5yT29WbkYzbFFDUm5ZYmVnTDlvZ2puMDVaNGJjSTVTT3RiVW5kNU5xcmZzeGlPeE43bTFiQmZkd3FMVjlrTW5PSkt6aDFvVC1UR0FiUDU4TEl2OVlKX2hGWmxMNUZzeDItWldKTUlpTlhIbE1kYmZsQW1TaHNzRDFDaWlTdEhGMzRDOG9HeWx1WEdETGhCaUxwWTRYc0VB?oc=5",
+      "source": "profarmer.com",
+      "date": "2026-09-03"
     },
     {
-      "title": "First Thing Today | Heavy profit-taking pressure in the grains overnight - Pro Farmer",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZDZhZFJmMTJNME5wUTlyZ0lvRU5yT29WbkYzbFFDUm5ZYmVnTDlvZ2puMDVaNGJjSTVTT3RiVW5kNU5xcmZzeGlPeE43bTFiQmZkd3FMVjlrTW5PSkt6aDFvVC1UR0FiUDU4TEl2OVlKX2hGWmxMNUZzeDItWldKTUlpTlhIbE1kYmZsQW1TaHNzRDFDaWlTdEhGMzRDOG9HeWx1WEdETGhCaUxwWTRYc0VB?oc=5",
-      "source": "Pro Farmer",
+      "title": "Why Beef Prices Are Still So High: More Imports Won’t Fix America’s Cattle Crisis - prosperousamerica.org",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUW9ZV2UxTGM5eGNXTVdxX2tNS1BIR1BIOFZ4ZExJdFViR3ZnNXlyMk9TVDRvVGtCdXJTYVlsUUgzc1NOZ09rakhYY21pM0I2VkdxUVZ3VFhZa0lKTTB3Sm5sVmREa3g3Nkt6S2pzOW8tdlRVT19GMXl1OEVDdkwyVW9zdzR3bVlXUEs0Ul9NRHI4N3V2Rk9oMU9ONGVLQjltTWxfU2dSaFRSbVF2X2c?oc=5",
+      "source": "prosperousamerica.org",
       "date": "2026-09-03"
     },
     {
@@ -310,30 +338,6 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ1ZucE5zX3o1aUpGTmNwOWtOZ2tMbFpGa01CRXhtalRnRnFIVThUMlZQdjB1d1ctQWNiNVV0TUFpNFg5UU42ZkI2SUtyM1E0S0hZc0Jsa2NiUmZ0Y0ljbmhzSUtqN0pqYzVJajBLR0ZWT0pfZXNjOUpXTjVqMFRuZkhhcG5Gem1BMUhwWWJSNmJFVFhONVFGZGNjeVJvREh6QlNSdS1FUXUtXzhtWkNOTndTeEYwX29SZWlsbDlQZw?oc=5",
       "source": "Henry County Enterprise",
       "date": "2026-09-02"
-    },
-    {
-      "title": "Spanberger talks with local farmers and producers about Virginia’s cattle and beef industry - yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRnZ2UXpwbjNpaGdzSW5Jb1JkR0t4RC1rNmd3WGNGcHM4cVBXX3dvMUNJRWhfa0dTT3QyUkwyRGdFRmR4d05xS2x5NHc2VDltVUF1TzRwNEx2TXp5WVhjRmNuelNqbDhvQlVkbEZWbVgwMmFPLUYzYk1STVZUMHdtSk5idTNxMU5PYnB3SHlidXFpZVpGbHR2OFVn?oc=5",
-      "source": "yahoo.com",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "Cattle Futures Slide as Beef Import Fears Shake U.S. Ranchers and Markets - AgroLatam",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcTJJTzNiTGtuVlNCV2xlaWVhU3ZUczZIMUZwVl9oakw4OXBYYjJHeWhnb3lIOUlBcG5JRC1xZWxqc2tGXzVDT0l1a0RYcWVoVHBqU1l6dGIwSEZ4ZEdEaHFXMF9idWM2eDB6S3U0WV9YMERtOWFTNlJmRTV4MjhXbGU2OVlwX3dqTjlOZ25JUng?oc=5",
-      "source": "AgroLatam",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "Virginia cattle farmers react to new beef import policy - WVIR",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVWNhOHJ2bm94S2JNWVRDbUZuZVFKODh3cHVncTRuYjBUYlVPc3Y3TmlmVkRnWDRfanNiYkVHeDNPeld5TnNBMkRSeHBsc2owdlFpbXMzNk9CSFljdlNpYmc3djAzdTRIWFNwaDluZzBOMUF5RUIycWFHWElXaFpMZExtMVl3LWx1R21iQXN5WELSAaQBQVVfeXFMTncwanNBV3lpQURhRmpOaDhSQU1EN0tIemV2UUc5V1h1ZTB6aHVqQ2QxakZnNVl3UXVnM3lQVFpGVDZmWElFbTFZajlrYWxjaDZFNUZhaDBnd2NhSHF3SU1ad2pmcjVwZWs4eTFpSkdlTC1sdjE4UzdSbjB6OEEwS3RUSllEM05KT04yalA5ZVkwT2cwMGhtdGhORXhFT0Y4bGo2MHA?oc=5",
-      "source": "WVIR",
-      "date": "2026-09-01"
-    },
-    {
-      "title": "Spanberger meets with Virginia cattle ranchers in Botetourt County - WVTF",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQekxPdWZjSGdIQUxQYlVmeGlqSWE3THlEM0U0eTRXalkyYjl4NFZ2ZDlsdFIwZklpTC1yVFhUcHZRXzhSN1BLUUNGSXJacGFWVGRHcmxrcFRCUmZYb29HX1ROZTA2bTE2NmthQmdHclYxY1VXZi1ReGYwX3QxckR0TGFxQ1V4U1V1aXNvOG9mSk5laGw1a09VZGRuVGtCSlczYTRmRTB3?oc=5",
-      "source": "WVTF",
-      "date": "2026-09-01"
     }
   ]
 }
