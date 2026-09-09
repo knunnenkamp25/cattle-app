@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T15:14:00.182Z",
+  "updated": "2026-09-09T15:14:15.111Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -104,6 +104,60 @@
   ],
   "auctions": [
     {
+      "code": "RH_LS149",
+      "name": "Wytheville VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-09-08",
+      "head": 375,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "425",
+          "high": "470"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "380",
+          "high": "420"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "322",
+          "high": "368"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "370",
+          "high": "400"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "330",
+          "high": "365"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "285",
+          "high": "340"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "440",
+          "high": "445"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "260",
+          "high": "405"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "290",
+          "high": "315"
+        }
+      ]
+    },
+    {
       "code": "RH_LS152",
       "name": "Tri-State VA Livestock Auction",
       "location": "Richmond, VA",
@@ -154,60 +208,6 @@
           "label": "Bulls 600-700 lb",
           "low": "310",
           "high": "330"
-        }
-      ]
-    },
-    {
-      "code": "RH_LS149",
-      "name": "Wytheville VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-09-01",
-      "head": 491,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "435",
-          "high": "440"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "375",
-          "high": "425"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "270",
-          "high": "330"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "370",
-          "high": "405"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "313",
-          "high": "358"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "300",
-          "high": "330"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "375",
-          "high": "400"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "245",
-          "high": "360"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "250",
-          "high": "308"
         }
       ]
     },
@@ -268,22 +268,40 @@
   ],
   "news": [
     {
+      "title": "Cattle Ranchers Have a Beef With Trump - The American Prospect",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LemlkSlQzeV9YdXF5Q2VRS1d3QkZ5anV3MzFnYkNIOUtra1VDTGNaR09UOEllNGhtamZzTTlmQTF2cWRBOEZIRmtkenRaYnM5R3lnTjlzQ1lEWDlrS3BXcXdsTVU5eUJNbEM3UHdfTklfdw?oc=5",
+      "source": "The American Prospect",
+      "date": "2026-09-09"
+    },
+    {
       "title": "Virginia Market News Service weekly ag brief — Sept. 4, 2026 - The Tidewater News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdTB5X1hueXVLaDFWNUF6QVV4R0k5Qm9DYnMwX0kzaVZjVlJSNVU4cnczZ1dscUdiNmRWQWFfNUFFcFJQb3BwSUZWdjNfeEJweC1vRFgyb25adXc3WktKeVVTRnBaV2RsZkxkSmdvYkJFTUFDaHNweXhfSklDM043SHZUak4yZnlOQ3N5WjNWdHNNbERySFljSVJReW5FYzAtNTZwamtkRTdJWi1EYWlFeQ?oc=5",
       "source": "The Tidewater News",
       "date": "2026-09-08"
     },
     {
-      "title": "USDA National Weekly Boxed Beef Cuts Report (Sept 8, 2026): Prices and Volumes - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZzc2YTlYTGVZT1hVMlE0eVNLdnUzbGxfajZEUTZJUDNMMVZycU1FOU5fN2FBYWxOY3lnOVY5NmNxSTZ3bWcwMGwtdXdJTmN0ZkVxQzc4TkhpODZETnducjdNcHAwRDVEQlJzRl9wczZEUGdncDkzTHowM2FHY3hWQU45QkNvVl96N3Y1OF94eWp0aU5rdTU5cDdweXJUdw?oc=5",
+      "title": "Cattle producers are losing millions of dollars; White House EOs attempt to alleviate retail price pains - Michigan Farm News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWFFMOGpmMm1WdjB6SWRvdnctV05JbFFIYUZidXEzbFJzdnl1ZzNkVkRRZ3padmEtWGpISUY0LU5yb2FVZURpTFlkWEYxYzRjR2t2NmxBdl9feGJIcXBKWFhIODhCNXYzOWFTNXI5YVVUS3VSU2FJcWlfWEZoU0w2Y05iYlA5TFN0bmsyQXh3cHYwc2hrWEtMLV8wbVctY3hSaXd6REE4T3BOaTFmTDlNTDhiMTZhYlE0eWRnVDZlc2kzWFFsbDJZ?oc=5",
+      "source": "Michigan Farm News",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "Why Are U.S. Cattle Futures Surging Again After Last Week? - AgroLatam",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaVhUNE4wS3NfR19lc0E1N1pQUnZNS05XSTk3cWQ5MzJOMTRULTU1LURpcHMxODVfLTlHMFdpS3N6NXZvbXMwRHBhckZCc25RZDE0ckVUSWlDMmpKZ0pZQW12S3BZckZrZVY2NXhIT0Vvakl1ZVVsV2NkMGlreXZkaGJEVEZobWNz?oc=5",
+      "source": "AgroLatam",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "USDA Beef Market Data: Boxed Beef Cutout, Cattle Summary, Tallow &amp; Hide Report (Sept 8, 2026) - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLVV4WnpXaFFqYnozU2ZWWkVfdnA4X2F2bDBYVDZWTElEV3hhRlRMaWxtV1A1ZW5aTy1xb3RpVDdYV01CUDdlcDB6S2dETUh5aEZyVmFwc0hnUmZNLWNGSTN4SUU4Nkc1Q3JvRkdqMWx3azBIX3g3cm1yRzdvUzFoeVROSGpfYUJ4Zmc?oc=5",
       "source": "IndexBox",
       "date": "2026-09-08"
     },
     {
-      "title": "USDA Feeder Cattle Sale Report for Appalachian Regional Stockyard (Sept 7, 2026) - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMU9IWWFuaHpYTmJJRV9KMWExVl9FMjFqcjRSS1lDcG1aM1hmeW0wREtSVTdVWmJSRlRVRjhWd0o1MGtFdEFPblRpaDg1V0J1WmdkYXdObElaeTU4NUVFazRoaXJ5QmxqVHBLV1g2azBYWmRmMXRHTEFPLW5NUDhSU1JCSGFmRzE3b0lSa1BHNV82a2lhbjQ0LUNzQ3JsSGFRRkVndEVQQWtMUnZOb1g2c1pVSlc1Nk5vVzU2RHg4ZDA?oc=5",
-      "source": "IndexBox",
-      "date": "2026-09-07"
+      "title": "Cattle Markets Diverge as Feeder Steers Surge, Futures Ease - AGDAILY",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdW40bmoxYVdBT3ZhTzdGSWtFYl9YZjJyMDROOUZiOGpJY0tXY1JPQWtsMWRmVlNwMGVudG00Z3pqODhDS2lCMXVMUng0aVB0a2VuRU5VNXJvM0otS2N4RVF2T3RpY3ptX3hET2dzV215S0FWcTNrOU1SRG5fLXRsbWUwVzdXMElEUDFzRGtRb01DMTh2aFhDNw?oc=5",
+      "source": "AGDAILY",
+      "date": "2026-09-08"
     },
     {
       "title": "New Trump beef orders could change how some meat reaches consumers - KHOU",
@@ -298,9 +316,9 @@
       "date": "2026-09-04"
     },
     {
-      "title": "First Thing Today | Grain markets pause ahead of jobs report, holiday weekend - profarmer.com",
+      "title": "First Thing Today | Grain markets pause ahead of jobs report, holiday weekend - Pro Farmer",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMWxlR2hrZEJoa0p1NjBid2tBSlEwS3loNmJIYkVoSzJQSE94NlU4dzRfSE9HWl84RG93VXNRdDJpUE1taWlWVG9Ec2o0dUYyNGlGdHIzY2szanF2bXpZSDgydVRRU0xzT3hDbDE3RDNfRnVSRzVyZTB3NXN6WTZyYjRaQloxZWFldTZ5eFFxdEJJLW9qLVZ3azBkMDI5THZnVXRrdmhOT2VTRHlwSTJmSFhQRk9VUnZjMGdDUERTdEY1VlMtLTg0Tmt3?oc=5",
-      "source": "profarmer.com",
+      "source": "Pro Farmer",
       "date": "2026-09-04"
     },
     {
@@ -310,27 +328,9 @@
       "date": "2026-09-04"
     },
     {
-      "title": "USDA Forecasts Beef and Wheat Lead Farm-Level Increases - Farms.com",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMU5JN3AzUGhLMlBoTW9fV2dzbGYzX0JOYVpIbFFOUXBhVE1CUkI5TmVYQU1vYndNck05V3VTRS1RUFNsRXlXNzE4UzBIRm4wc0x1OEtuUGgxRjZLSjhyc1JFbHg0NWZtOEhZeGdUS0YyTjZlYzlEVU1iOHlJaFJyN0hVdzVsN2VwbkxVclVPQmhpSXJkaVFRWjZ2NXZXYlgwMXBqMG93?oc=5",
-      "source": "Farms.com",
-      "date": "2026-09-04"
-    },
-    {
-      "title": "First Thing Today | Heavy profit-taking pressure in the grains overnight - profarmer.com",
+      "title": "First Thing Today | Heavy profit-taking pressure in the grains overnight - Pro Farmer",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZDZhZFJmMTJNME5wUTlyZ0lvRU5yT29WbkYzbFFDUm5ZYmVnTDlvZ2puMDVaNGJjSTVTT3RiVW5kNU5xcmZzeGlPeE43bTFiQmZkd3FMVjlrTW5PSkt6aDFvVC1UR0FiUDU4TEl2OVlKX2hGWmxMNUZzeDItWldKTUlpTlhIbE1kYmZsQW1TaHNzRDFDaWlTdEhGMzRDOG9HeWx1WEdETGhCaUxwWTRYc0VB?oc=5",
-      "source": "profarmer.com",
-      "date": "2026-09-03"
-    },
-    {
-      "title": "Why Beef Prices Are Still So High: More Imports Won’t Fix America’s Cattle Crisis - prosperousamerica.org",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUW9ZV2UxTGM5eGNXTVdxX2tNS1BIR1BIOFZ4ZExJdFViR3ZnNXlyMk9TVDRvVGtCdXJTYVlsUUgzc1NOZ09rakhYY21pM0I2VkdxUVZ3VFhZa0lKTTB3Sm5sVmREa3g3Nkt6S2pzOW8tdlRVT19GMXl1OEVDdkwyVW9zdzR3bVlXUEs0Ul9NRHI4N3V2Rk9oMU9ONGVLQjltTWxfU2dSaFRSbVF2X2c?oc=5",
-      "source": "prosperousamerica.org",
-      "date": "2026-09-03"
-    },
-    {
-      "title": "Cattle Report - High Plains Journal",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0NjRvQlpPUmt2c3V5VkxzamVrWmdTQTBGNXRSYlpYcGlMOVAyLUNxeV9QWHRQbUtvWW9XazdEVE54c05IbUZrb1Bod0RsdURGOGVNTXkwTXNFdFdtUHdn?oc=5",
-      "source": "High Plains Journal",
+      "source": "Pro Farmer",
       "date": "2026-09-03"
     },
     {
