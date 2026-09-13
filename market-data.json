@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T14:17:14.687Z",
+  "updated": "2026-09-13T14:58:56.712Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -268,6 +268,12 @@
   ],
   "news": [
     {
+      "title": "A Tale of Two Markets: USDA Cuts Corn Crop and Cattle Price Outlook - Western Ag Network",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNckk0MHFKT3pLZDVNSXN4UDVYNjg5b2FVTTNVajhNZmdsN2lRNVpCS3JKR0dMSDJSeWVIYTFLU0U2T00zSXJxOE8yOVZYVkpLOG9EVEs4WndVRkViVGtYOTZqajRxTFA1RzljR0J2Slo0VWJfRzR0aGJtOVlzZVRMZDlYcnlnWWREWnVHNDJLNlFoaWVIdkhzVnJjOA?oc=5",
+      "source": "Western Ag Network",
+      "date": "2026-09-12"
+    },
+    {
       "title": "Fauquier Livestock Exchange Feeder Cattle Sale Report - September 11, 2026 - IndexBox",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaTBGVHJOaHRjSjFJM01jM1pYTzY3QVZ3UDRzZEFmWWlLWTctczdVeGtqdDhoUkJrZE5sME82RTVyVmpiQVg2WEoyek15QVNOVlk0QWVlaUpMMU9NTVpoVC05RnZOUkxVR2ZUcnRZX3lHR3pzOUdUXzM3b0hPWWhUbVh5WklQTklyQngxeFJsQ1pwZ1pwQm8wcEFObnk5d3pFMGVV?oc=5",
       "source": "IndexBox",
@@ -280,27 +286,15 @@
       "date": "2026-09-11"
     },
     {
-      "title": "Corn Supplies Tighten as USDA Cuts Crop Forecast—What Farmers Need to Know - Hoosier Ag Today",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0xVkJXT2FLdXotYk9ieWsyYU9wUHVGVFc4N2tuVUxkVVVrbkFQQWhCejQtQjhWQzhXd0ZUcUczR3hleHhXUmpTaDZwSGpCcFM1bldwX0NEc3oxRE1MUE5QaktpaDV3eGc5YlhhV2tkUnU?oc=5",
-      "source": "Hoosier Ag Today",
-      "date": "2026-09-11"
-    },
-    {
       "title": "Live Cattle Futures Rally as Short Covering Drives CME Prices Higher - AgroLatam",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdkptNG9JRW8xVWI2bERiYnAwOXJlMXRYT0VuamJRaThRM04wM2h1TlNPTThsazhaR2Y4STNQcVlzZVpWaFNSWi1ELXFjYjI2S19tTHdFTThlN09IUjhUanBUdlo3eUZ3NlZmc2stOEpOWGVZdlhVMHlTYjc0N1I1SnhZNWI5Q2RC?oc=5",
       "source": "AgroLatam",
       "date": "2026-09-10"
     },
     {
-      "title": "Cattle Ranchers Have a Beef With Trump - prospect.org",
+      "title": "Cattle Ranchers Have a Beef With Trump - The American Prospect",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LemlkSlQzeV9YdXF5Q2VRS1d3QkZ5anV3MzFnYkNIOUtra1VDTGNaR09UOEllNGhtamZzTTlmQTF2cWRBOEZIRmtkenRaYnM5R3lnTjlzQ1lEWDlrS3BXcXdsTVU5eUJNbEM3UHdfTklfdw?oc=5",
-      "source": "prospect.org",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "Cattle Report - High Plains Journal",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01cFZpcHhGWlVZTUlFR2FOMnItSjdNZzY2VHRGNGZtNWR1U0lpdjVqMnJmQ2w5NmtIckVrMF9ldE5QdnIta2VyOUJCNkpHakk1dlBBUzhUVQ?oc=5",
-      "source": "High Plains Journal",
+      "source": "The American Prospect",
       "date": "2026-09-09"
     },
     {
@@ -316,9 +310,9 @@
       "date": "2026-09-08"
     },
     {
-      "title": "President Trump Signs Executive Orders, Cementing Status As Most Pro-Rancher Administration in History - usda.gov",
+      "title": "President Trump Signs Executive Orders, Cementing Status As Most Pro-Rancher Administration in History - USDA (.gov)",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxObEl2b05HSlNWMzBWYl9hNE51YklvcmMyd05YeE5SdkFtZ1hOc3E0alpqQ2xERVJURjdGaDE0ekJyUHJydW9xbWlZZjBHVUhGTkhvT3hPd1ltZ2xtOV9iYzBNY2otckRjSFl3MWtjQ215ME9WeDd3VVVoTWoxN29jcTY4NGdMRGJmNE91ZUU1WUJnX3NaUk1yOUZFV1Y5LXEyb2dFQzJpNmZmMGItN0p6aGpaYXlBOVBPY1VZSGRTYnBVaEtlbi1ISnZmTmRmZXVUVHAzX0VTZ3pNX1RmaFJseUlYc2paQzVPblNEOWpKMA?oc=5",
-      "source": "usda.gov",
+      "source": "USDA (.gov)",
       "date": "2026-09-04"
     },
     {
@@ -328,15 +322,21 @@
       "date": "2026-09-02"
     },
     {
-      "title": "Agency warns increased beef imports could harm Virginia cattle herd recovery - Henry County Enterprise",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ1ZucE5zX3o1aUpGTmNwOWtOZ2tMbFpGa01CRXhtalRnRnFIVThUMlZQdjB1d1ctQWNiNVV0TUFpNFg5UU42ZkI2SUtyM1E0S0hZc0Jsa2NiUmZ0Y0ljbmhzSUtqN0pqYzVJajBLR0ZWT0pfZXNjOUpXTjVqMFRuZkhhcG5Gem1BMUhwWWJSNmJFVFhONVFGZGNjeVJvREh6QlNSdS1FUXUtXzhtWkNOTndTeEYwX29SZWlsbDlQZw?oc=5",
-      "source": "Henry County Enterprise",
-      "date": "2026-09-02"
-    },
-    {
       "title": "Virginia cattle farmers react to new beef import policy - WDBJ7",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVlGVC1ndmVucmlORWJFd3NUU1NaNjE5bE1YbUgzbS1QS0RKZEY4OE9xNUt4eFp1Zm83RWhEMXJ3RjNqNVZ1eWNuNlNuNkNxRExpTzRwaV9NRmFBcWxDUzhhVm54c1ZXTUQ2QXJVZVdiUHVVZ1U2dTYyZExpYUdPa3Q4X3BaUzBUckRfUTFfONIBowFBVV95cUxQMlU4SEFhTW9nVGZKTXUyVHptcGJpajVwWTI0QlFWZHhXZktmVmFQeUFoMmdVVktPV1RxeTVLbXhIc2R2Tzg2NW5ySXgxQkJYMlN4VTVTNENyeU03d2h3c2N0cktqQ19lc2xORExvRThpazJFT21FMjhzYVIxUnRRNzZqRXB3Z0FZeDlZWTVoSlkzTnNtV3Z5bkNzQ1B0ZmViS25B?oc=5",
       "source": "WDBJ7",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Spanberger meets with Virginia cattle ranchers in Botetourt County - WVTF",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQekxPdWZjSGdIQUxQYlVmeGlqSWE3THlEM0U0eTRXalkyYjl4NFZ2ZDlsdFIwZklpTC1yVFhUcHZRXzhSN1BLUUNGSXJacGFWVGRHcmxrcFRCUmZYb29HX1ROZTA2bTE2NmthQmdHclYxY1VXZi1ReGYwX3QxckR0TGFxQ1V4U1V1aXNvOG9mSk5laGw1a09VZGRuVGtCSlczYTRmRTB3?oc=5",
+      "source": "WVTF",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Trump’s lower beef tariffs take effect Sept. 1, raising concerns for Virginia producers - WSET",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVmlqX0xGSWt3YUlrSm4wVnlKZGJ5R25kbW9EWGlYeTB0dXRxaUdDSjNxNkRPeHFEQkI2ek1OcjdJRkF3cExwQnU4NUcwUmJqRzdtQkN1bkprYnpfTEVTdy0xTVNWNExhY0pzcEpodTZCRXZYT2J2Zk5qa0R0UEhTbUxRbzBxTDJfX1ZuYXE0cE1HTktVa3JWWTBNdXN0VGIyc1djY3ZSbS1wbUNwTkp6cS12QV9RWDQxc1d2eG43MnFxMXo1ZmFMOVlnWnRCN2d1dFVVT09iWDRUYURhVlBRTkNLckw?oc=5",
+      "source": "WSET",
       "date": "2026-09-01"
     }
   ]
