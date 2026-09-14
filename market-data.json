@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T14:58:56.712Z",
+  "updated": "2026-09-14T17:00:43.636Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -100,9 +100,121 @@
     {
       "date": "2026-09-08",
       "price": 387.75
+    },
+    {
+      "date": "2026-09-14",
+      "price": 396.67
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS151",
+      "name": "Staunton VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-09-14",
+      "head": 634,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "441",
+          "high": "491"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "381",
+          "high": "434"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "364",
+          "high": "395"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "325",
+          "high": "355"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "300",
+          "high": "331"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "265",
+          "high": "319"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "450",
+          "high": "450"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "348",
+          "high": "372"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "275",
+          "high": "285"
+        }
+      ]
+    },
+    {
+      "code": "RH_LS152",
+      "name": "Tri-State VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-09-14",
+      "head": 838,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "415",
+          "high": "425"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "375",
+          "high": "390"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "340",
+          "high": "372"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "373",
+          "high": "385"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "338",
+          "high": "355"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "295",
+          "high": "312"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "395",
+          "high": "420"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "310",
+          "high": "318"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "295",
+          "high": "315"
+        }
+      ]
+    },
     {
       "code": "RH_LS149",
       "name": "Wytheville VA Livestock Auction",
@@ -156,114 +268,6 @@
           "high": "315"
         }
       ]
-    },
-    {
-      "code": "RH_LS152",
-      "name": "Tri-State VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-09-08",
-      "head": 482,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "350",
-          "high": "420"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "330",
-          "high": "410"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "340",
-          "high": "350"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "325",
-          "high": "384"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "325",
-          "high": "395"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "267",
-          "high": "337"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "350",
-          "high": "475"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "315",
-          "high": "375"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "310",
-          "high": "330"
-        }
-      ]
-    },
-    {
-      "code": "RH_LS151",
-      "name": "Staunton VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-08-31",
-      "head": 724,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "422",
-          "high": "455"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "368",
-          "high": "419"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "355",
-          "high": "375"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "350",
-          "high": "350"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "325",
-          "high": "335"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "315",
-          "high": "355"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "411",
-          "high": "411"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "388",
-          "high": "388"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "322",
-          "high": "322"
-        }
-      ]
     }
   ],
   "news": [
@@ -271,6 +275,12 @@
       "title": "A Tale of Two Markets: USDA Cuts Corn Crop and Cattle Price Outlook - Western Ag Network",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNckk0MHFKT3pLZDVNSXN4UDVYNjg5b2FVTTNVajhNZmdsN2lRNVpCS3JKR0dMSDJSeWVIYTFLU0U2T00zSXJxOE8yOVZYVkpLOG9EVEs4WndVRkViVGtYOTZqajRxTFA1RzljR0J2Slo0VWJfRzR0aGJtOVlzZVRMZDlYcnlnWWREWnVHNDJLNlFoaWVIdkhzVnJjOA?oc=5",
       "source": "Western Ag Network",
+      "date": "2026-09-12"
+    },
+    {
+      "title": "Weekly protein report: USDA forecasts steep drop in egg receipts for 2026 - The Poultry Site",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUGVMZDZwVWphbnNBY0prd0RERlhsSHR3cjdfTGc5QU0ydHBzekdGbU16dVNhbWpUTHMyLURod2c0VWctRFQ2SUxLQ19tNUlrVzd1RWpWbUpIT2Z4RUhCY1JjQ2dOSmUxdnV0UTlzX3lTYTVPRUR2eDllTWVDZVVVTUdmTHRIa19wTVlzUmpkSWtoeXFoSzdObHlBeDNqdkdtRVhjNjVCejItU2kzTjRpdGtn?oc=5",
+      "source": "The Poultry Site",
       "date": "2026-09-12"
     },
     {
@@ -331,12 +341,6 @@
       "title": "Spanberger meets with Virginia cattle ranchers in Botetourt County - WVTF",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQekxPdWZjSGdIQUxQYlVmeGlqSWE3THlEM0U0eTRXalkyYjl4NFZ2ZDlsdFIwZklpTC1yVFhUcHZRXzhSN1BLUUNGSXJacGFWVGRHcmxrcFRCUmZYb29HX1ROZTA2bTE2NmthQmdHclYxY1VXZi1ReGYwX3QxckR0TGFxQ1V4U1V1aXNvOG9mSk5laGw1a09VZGRuVGtCSlczYTRmRTB3?oc=5",
       "source": "WVTF",
-      "date": "2026-09-01"
-    },
-    {
-      "title": "Trump’s lower beef tariffs take effect Sept. 1, raising concerns for Virginia producers - WSET",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOVmlqX0xGSWt3YUlrSm4wVnlKZGJ5R25kbW9EWGlYeTB0dXRxaUdDSjNxNkRPeHFEQkI2ek1OcjdJRkF3cExwQnU4NUcwUmJqRzdtQkN1bkprYnpfTEVTdy0xTVNWNExhY0pzcEpodTZCRXZYT2J2Zk5qa0R0UEhTbUxRbzBxTDJfX1ZuYXE0cE1HTktVa3JWWTBNdXN0VGIyc1djY3ZSbS1wbUNwTkp6cS12QV9RWDQxc1d2eG43MnFxMXo1ZmFMOVlnWnRCN2d1dFVVT09iWDRUYURhVlBRTkNLckw?oc=5",
-      "source": "WSET",
       "date": "2026-09-01"
     }
   ]
