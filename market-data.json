@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T17:00:43.636Z",
+  "updated": "2026-09-15T15:38:35.607Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -104,9 +104,67 @@
     {
       "date": "2026-09-14",
       "price": 396.67
+    },
+    {
+      "date": "2026-09-15",
+      "price": 379.67
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS149",
+      "name": "Wytheville VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-09-15",
+      "head": 435,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "385",
+          "high": "463"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "335",
+          "high": "363"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "295",
+          "high": "360"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "390",
+          "high": "430"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "320",
+          "high": "400"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "325",
+          "high": "348"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "380",
+          "high": "430"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "332",
+          "high": "380"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "313",
+          "high": "317"
+        }
+      ]
+    },
     {
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
@@ -214,63 +272,27 @@
           "high": "315"
         }
       ]
-    },
-    {
-      "code": "RH_LS149",
-      "name": "Wytheville VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-09-08",
-      "head": 375,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "425",
-          "high": "470"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "380",
-          "high": "420"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "322",
-          "high": "368"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "370",
-          "high": "400"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "330",
-          "high": "365"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "285",
-          "high": "340"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "440",
-          "high": "445"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "260",
-          "high": "405"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "290",
-          "high": "315"
-        }
-      ]
     }
   ],
   "news": [
+    {
+      "title": "USDA Feeder &amp; Stocker Cattle Prices for September 15, 2026 - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb25Nd1VzUEotUDgzWjlNblFHTExQTE5YNjJ3Ym1xUEwxX0xsY2FCZEhsRGI1aTdZX1I1eGZUR1dlZXdNOHZTLWo5cXN0YmZVOW9GTDFHRzBVdXJ0UTEzY19rN3JZZkRtdnh4SWxiYThUdnUzNzQwcEJ5R1llUHBIZWZxRkZMbnhPbHJUT3lxUDBZSWY0dzgtMDdfNmgySDNJYktj?oc=5",
+      "source": "IndexBox",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "USDA lowers beef production and cattle price forecasts - abpdaily.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQczh0cUp3dG4tYXFnUnJzTFlDdEtIbG1TaUZfLUlBQS1icksxWlJleEJ2Z3pkVlRQQXZWNFQtUE1JaHhnUWQ4QTJGV01TVlBjdFJqM2hCdjBrZlg1OFc2ZjE3WXlZVXI2S3diNy12aGpvT0x2WUh0N3NtcUtTVEo2OEFLOVhzcVF4Vk9HWGdsa2FSSDFGd0NHZHRjR3lEb2JxSnpzNA?oc=5",
+      "source": "abpdaily.com",
+      "date": "2026-09-14"
+    },
+    {
+      "title": "Weekly protein report: USDA cattle outlook carries implications for beef and dairy producers - The Cattle Site",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdFVvZlI0elpFa2dtZ2t4enR5OEFvalUybnA4MFpmcnJHejUtbGdNaWxOSE1FRktwQWpBQU1MQ01mNTg0MnFMOUppWEJCNFljbHhiVl9wQzRvMmtYVTM5VlRRN1dfMURjbFJ1Smdla1FOVHJvNmlBTkppYUdydDNpNlNycmpVZEI1b0JBLS1zdUpDcjVWWW9hWi13bEpyd1E4QkNVQ2RnY1NpNE9GQksybA?oc=5",
+      "source": "The Cattle Site",
+      "date": "2026-09-12"
+    },
     {
       "title": "A Tale of Two Markets: USDA Cuts Corn Crop and Cattle Price Outlook - Western Ag Network",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNckk0MHFKT3pLZDVNSXN4UDVYNjg5b2FVTTNVajhNZmdsN2lRNVpCS3JKR0dMSDJSeWVIYTFLU0U2T00zSXJxOE8yOVZYVkpLOG9EVEs4WndVRkViVGtYOTZqajRxTFA1RzljR0J2Slo0VWJfRzR0aGJtOVlzZVRMZDlYcnlnWWREWnVHNDJLNlFoaWVIdkhzVnJjOA?oc=5",
@@ -278,20 +300,8 @@
       "date": "2026-09-12"
     },
     {
-      "title": "Weekly protein report: USDA forecasts steep drop in egg receipts for 2026 - The Poultry Site",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUGVMZDZwVWphbnNBY0prd0RERlhsSHR3cjdfTGc5QU0ydHBzekdGbU16dVNhbWpUTHMyLURod2c0VWctRFQ2SUxLQ19tNUlrVzd1RWpWbUpIT2Z4RUhCY1JjQ2dOSmUxdnV0UTlzX3lTYTVPRUR2eDllTWVDZVVVTUdmTHRIa19wTVlzUmpkSWtoeXFoSzdObHlBeDNqdkdtRVhjNjVCejItU2kzTjRpdGtn?oc=5",
-      "source": "The Poultry Site",
-      "date": "2026-09-12"
-    },
-    {
       "title": "Fauquier Livestock Exchange Feeder Cattle Sale Report - September 11, 2026 - IndexBox",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaTBGVHJOaHRjSjFJM01jM1pYTzY3QVZ3UDRzZEFmWWlLWTctczdVeGtqdDhoUkJrZE5sME82RTVyVmpiQVg2WEoyek15QVNOVlk0QWVlaUpMMU9NTVpoVC05RnZOUkxVR2ZUcnRZX3lHR3pzOUdUXzM3b0hPWWhUbVh5WklQTklyQngxeFJsQ1pwZ1pwQm8wcEFObnk5d3pFMGVV?oc=5",
-      "source": "IndexBox",
-      "date": "2026-09-11"
-    },
-    {
-      "title": "USDA Weekly Beef Market Report: Boxed Beef Cutout, Cattle Slaughter, Cow and Boneless Beef, Tallow, Protein and Hide Prices - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOR256cHBLRzNOSWthRDVFUDNqRkZwZl9Xdm5iQlZHQ2t4TjlDQjg5dTRzamlvTEdqMk1taTl3YTcxdU1JaENqWURSb2d2djU2QjJZd19hV2JSZW5ZaVBlMEd3cGJfNnBrQmY1MEVQRWw5dEwyb1p3WUcxTU95TWVnUW1GV0N0ZE01ektUVE9nY1FZZUVOUzFGeE5SbmotMmJyLXZiRUxveHppcjd0WDhNRzhna2xQbG9VT1JhT0hkTjNhNXFtSUkwS3YxQWRLeWI1S2c2M3FCTXhOa3pXLVppMTE3NUM?oc=5",
       "source": "IndexBox",
       "date": "2026-09-11"
     },
@@ -314,12 +324,6 @@
       "date": "2026-09-08"
     },
     {
-      "title": "Cattle producers are losing millions of dollars; White House EOs attempt to alleviate retail price pains - Michigan Farm News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWFFMOGpmMm1WdjB6SWRvdnctV05JbFFIYUZidXEzbFJzdnl1ZzNkVkRRZ3padmEtWGpISUY0LU5yb2FVZURpTFlkWEYxYzRjR2t2NmxBdl9feGJIcXBKWFhIODhCNXYzOWFTNXI5YVVUS3VSU2FJcWlfWEZoU0w2Y05iYlA5TFN0bmsyQXh3cHYwc2hrWEtMLV8wbVctY3hSaXd6REE4T3BOaTFmTDlNTDhiMTZhYlE0eWRnVDZlc2kzWFFsbDJZ?oc=5",
-      "source": "Michigan Farm News",
-      "date": "2026-09-08"
-    },
-    {
       "title": "President Trump Signs Executive Orders, Cementing Status As Most Pro-Rancher Administration in History - USDA (.gov)",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxObEl2b05HSlNWMzBWYl9hNE51YklvcmMyd05YeE5SdkFtZ1hOc3E0alpqQ2xERVJURjdGaDE0ekJyUHJydW9xbWlZZjBHVUhGTkhvT3hPd1ltZ2xtOV9iYzBNY2otckRjSFl3MWtjQ215ME9WeDd3VVVoTWoxN29jcTY4NGdMRGJmNE91ZUU1WUJnX3NaUk1yOUZFV1Y5LXEyb2dFQzJpNmZmMGItN0p6aGpaYXlBOVBPY1VZSGRTYnBVaEtlbi1ISnZmTmRmZXVUVHAzX0VTZ3pNX1RmaFJseUlYc2paQzVPblNEOWpKMA?oc=5",
       "source": "USDA (.gov)",
@@ -338,9 +342,9 @@
       "date": "2026-09-01"
     },
     {
-      "title": "Spanberger meets with Virginia cattle ranchers in Botetourt County - WVTF",
+      "title": "Spanberger meets with Virginia cattle ranchers in Botetourt County - wvtf.org",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQekxPdWZjSGdIQUxQYlVmeGlqSWE3THlEM0U0eTRXalkyYjl4NFZ2ZDlsdFIwZklpTC1yVFhUcHZRXzhSN1BLUUNGSXJacGFWVGRHcmxrcFRCUmZYb29HX1ROZTA2bTE2NmthQmdHclYxY1VXZi1ReGYwX3QxckR0TGFxQ1V4U1V1aXNvOG9mSk5laGw1a09VZGRuVGtCSlczYTRmRTB3?oc=5",
-      "source": "WVTF",
+      "source": "wvtf.org",
       "date": "2026-09-01"
     }
   ]
