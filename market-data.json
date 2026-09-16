@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T15:38:35.607Z",
+  "updated": "2026-09-16T15:29:25.197Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -169,7 +169,7 @@
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
       "location": "Richmond, VA",
-      "report_date": "2026-09-14",
+      "report_date": "2026-09-15",
       "head": 634,
       "categories": [
         {
@@ -276,21 +276,15 @@
   ],
   "news": [
     {
-      "title": "USDA Feeder &amp; Stocker Cattle Prices for September 15, 2026 - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb25Nd1VzUEotUDgzWjlNblFHTExQTE5YNjJ3Ym1xUEwxX0xsY2FCZEhsRGI1aTdZX1I1eGZUR1dlZXdNOHZTLWo5cXN0YmZVOW9GTDFHRzBVdXJ0UTEzY19rN3JZZkRtdnh4SWxiYThUdnUzNzQwcEJ5R1llUHBIZWZxRkZMbnhPbHJUT3lxUDBZSWY0dzgtMDdfNmgySDNJYktj?oc=5",
-      "source": "IndexBox",
-      "date": "2026-09-15"
-    },
-    {
       "title": "USDA lowers beef production and cattle price forecasts - abpdaily.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQczh0cUp3dG4tYXFnUnJzTFlDdEtIbG1TaUZfLUlBQS1icksxWlJleEJ2Z3pkVlRQQXZWNFQtUE1JaHhnUWQ4QTJGV01TVlBjdFJqM2hCdjBrZlg1OFc2ZjE3WXlZVXI2S3diNy12aGpvT0x2WUh0N3NtcUtTVEo2OEFLOVhzcVF4Vk9HWGdsa2FSSDFGd0NHZHRjR3lEb2JxSnpzNA?oc=5",
       "source": "abpdaily.com",
       "date": "2026-09-14"
     },
     {
-      "title": "Weekly protein report: USDA cattle outlook carries implications for beef and dairy producers - The Cattle Site",
+      "title": "Weekly protein report: USDA cattle outlook carries implications for beef and dairy producers - thecattlesite.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdFVvZlI0elpFa2dtZ2t4enR5OEFvalUybnA4MFpmcnJHejUtbGdNaWxOSE1FRktwQWpBQU1MQ01mNTg0MnFMOUppWEJCNFljbHhiVl9wQzRvMmtYVTM5VlRRN1dfMURjbFJ1Smdla1FOVHJvNmlBTkppYUdydDNpNlNycmpVZEI1b0JBLS1zdUpDcjVWWW9hWi13bEpyd1E4QkNVQ2RnY1NpNE9GQksybA?oc=5",
-      "source": "The Cattle Site",
+      "source": "thecattlesite.com",
       "date": "2026-09-12"
     },
     {
@@ -302,6 +296,12 @@
     {
       "title": "Fauquier Livestock Exchange Feeder Cattle Sale Report - September 11, 2026 - IndexBox",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaTBGVHJOaHRjSjFJM01jM1pYTzY3QVZ3UDRzZEFmWWlLWTctczdVeGtqdDhoUkJrZE5sME82RTVyVmpiQVg2WEoyek15QVNOVlk0QWVlaUpMMU9NTVpoVC05RnZOUkxVR2ZUcnRZX3lHR3pzOUdUXzM3b0hPWWhUbVh5WklQTklyQngxeFJsQ1pwZ1pwQm8wcEFObnk5d3pFMGVV?oc=5",
+      "source": "IndexBox",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "USDA Weekly Beef Market Report: Boxed Beef Cutout, Cattle Slaughter, Cow and Boneless Beef, Tallow, Protein and Hide Prices - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOR256cHBLRzNOSWthRDVFUDNqRkZwZl9Xdm5iQlZHQ2t4TjlDQjg5dTRzamlvTEdqMk1taTl3YTcxdU1JaENqWURSb2d2djU2QjJZd19hV2JSZW5ZaVBlMEd3cGJfNnBrQmY1MEVQRWw5dEwyb1p3WUcxTU95TWVnUW1GV0N0ZE01ektUVE9nY1FZZUVOUzFGeE5SbmotMmJyLXZiRUxveHppcjd0WDhNRzhna2xQbG9VT1JhT0hkTjNhNXFtSUkwS3YxQWRLeWI1S2c2M3FCTXhOa3pXLVppMTE3NUM?oc=5",
       "source": "IndexBox",
       "date": "2026-09-11"
     },
@@ -324,27 +324,27 @@
       "date": "2026-09-08"
     },
     {
-      "title": "President Trump Signs Executive Orders, Cementing Status As Most Pro-Rancher Administration in History - USDA (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxObEl2b05HSlNWMzBWYl9hNE51YklvcmMyd05YeE5SdkFtZ1hOc3E0alpqQ2xERVJURjdGaDE0ekJyUHJydW9xbWlZZjBHVUhGTkhvT3hPd1ltZ2xtOV9iYzBNY2otckRjSFl3MWtjQ215ME9WeDd3VVVoTWoxN29jcTY4NGdMRGJmNE91ZUU1WUJnX3NaUk1yOUZFV1Y5LXEyb2dFQzJpNmZmMGItN0p6aGpaYXlBOVBPY1VZSGRTYnBVaEtlbi1ISnZmTmRmZXVUVHAzX0VTZ3pNX1RmaFJseUlYc2paQzVPblNEOWpKMA?oc=5",
-      "source": "USDA (.gov)",
-      "date": "2026-09-04"
-    },
-    {
       "title": "Ground Beef And Basis - thenews-gazette.com",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LeWlZM2pXX21iUzQ3WmdmNmtlc19TaEtmVTlmWkNzemI5Z00ycEpuMnAtSXg2Z2x4LWFmV2lMb1U4cnQtZkJCSTdpd1kySWpFQXdQdXYwbDZPdE83dHNLRXkxLTcxNmlYbGt3a3RaOEg1OWU3LVE?oc=5",
       "source": "thenews-gazette.com",
       "date": "2026-09-02"
     },
     {
-      "title": "Virginia cattle farmers react to new beef import policy - WDBJ7",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVlGVC1ndmVucmlORWJFd3NUU1NaNjE5bE1YbUgzbS1QS0RKZEY4OE9xNUt4eFp1Zm83RWhEMXJ3RjNqNVZ1eWNuNlNuNkNxRExpTzRwaV9NRmFBcWxDUzhhVm54c1ZXTUQ2QXJVZVdiUHVVZ1U2dTYyZExpYUdPa3Q4X3BaUzBUckRfUTFfONIBowFBVV95cUxQMlU4SEFhTW9nVGZKTXUyVHptcGJpajVwWTI0QlFWZHhXZktmVmFQeUFoMmdVVktPV1RxeTVLbXhIc2R2Tzg2NW5ySXgxQkJYMlN4VTVTNENyeU03d2h3c2N0cktqQ19lc2xORExvRThpazJFT21FMjhzYVIxUnRRNzZqRXB3Z0FZeDlZWTVoSlkzTnNtV3Z5bkNzQ1B0ZmViS25B?oc=5",
-      "source": "WDBJ7",
+      "title": "Virginia cattle farmers react to new beef import policy - WVIR",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVWNhOHJ2bm94S2JNWVRDbUZuZVFKODh3cHVncTRuYjBUYlVPc3Y3TmlmVkRnWDRfanNiYkVHeDNPeld5TnNBMkRSeHBsc2owdlFpbXMzNk9CSFljdlNpYmc3djAzdTRIWFNwaDluZzBOMUF5RUIycWFHWElXaFpMZExtMVl3LWx1R21iQXN5WELSAaQBQVVfeXFMTncwanNBV3lpQURhRmpOaDhSQU1EN0tIemV2UUc5V1h1ZTB6aHVqQ2QxakZnNVl3UXVnM3lQVFpGVDZmWElFbTFZajlrYWxjaDZFNUZhaDBnd2NhSHF3SU1ad2pmcjVwZWs4eTFpSkdlTC1sdjE4UzdSbjB6OEEwS3RUSllEM05KT04yalA5ZVkwT2cwMGhtdGhORXhFT0Y4bGo2MHA?oc=5",
+      "source": "WVIR",
       "date": "2026-09-01"
     },
     {
-      "title": "Spanberger meets with Virginia cattle ranchers in Botetourt County - wvtf.org",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQekxPdWZjSGdIQUxQYlVmeGlqSWE3THlEM0U0eTRXalkyYjl4NFZ2ZDlsdFIwZklpTC1yVFhUcHZRXzhSN1BLUUNGSXJacGFWVGRHcmxrcFRCUmZYb29HX1ROZTA2bTE2NmthQmdHclYxY1VXZi1ReGYwX3QxckR0TGFxQ1V4U1V1aXNvOG9mSk5laGw1a09VZGRuVGtCSlczYTRmRTB3?oc=5",
-      "source": "wvtf.org",
+      "title": "Virginia cattle farmers warn Trump’s foreign beef tariff plan could cause long-term damage to domestic supply - WSLS",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUlBcDloLXJtTl8xcDFLS0thd1p4ZW1yb0ZnZ3pfVURTUVVuN3lsakNGOVkyaUpCSFhSVm9CT1VHOXpra2xVZDU5NHZiNWFCNzFJTFpiU2t6WGthTC00VzhiZmFISnItRDZ5STVZVFdjbU45WE4zczRzbHhnSElKWC1USG5uRTVKLTBSVm9aaFRxRzg4MWJITFZhR2c4RXB4Wl80Qkk4emdKdDA?oc=5",
+      "source": "WSLS",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Cattle producers meet with Pillen, USDA secretary to discuss beef prices - nebraskapublicmedia.org",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ3ZjVDBVZGhlZ1NDOEpQclN6MGlCMWQ4WUpYLUFFRzRBWmpYNlNjWlJ0XzUybVQxZDU0VVgyY3dzQnczbk53eXFRemo1bjRGM19RRWc3SkJETWxJUDREOGluUHFmSmJVWlFVbGQ1b1dybFN2VUhFVWtreWU0c1IzYThFb1VQM1kwSW9BVTloYnJWYUdjOGdlYVhHZ0o2X2pnOGl0ZnFEekVobVBPb2hwSkNaRjFvalZzU1NxeDliTl9Sa2t4?oc=5",
+      "source": "nebraskapublicmedia.org",
       "date": "2026-09-01"
     }
   ]
