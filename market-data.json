@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T14:47:03.682Z",
+  "updated": "2026-09-21T17:08:50.581Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -108,9 +108,121 @@
     {
       "date": "2026-09-15",
       "price": 379.67
+    },
+    {
+      "date": "2026-09-21",
+      "price": 390.83
     }
   ],
   "auctions": [
+    {
+      "code": "RH_LS151",
+      "name": "Staunton VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-09-21",
+      "head": 495,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "427",
+          "high": "488"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "407",
+          "high": "445"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "352",
+          "high": "400"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "359",
+          "high": "360"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "334",
+          "high": "343"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "310",
+          "high": "326"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "400",
+          "high": "471"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "360",
+          "high": "385"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "331",
+          "high": "331"
+        }
+      ]
+    },
+    {
+      "code": "RH_LS152",
+      "name": "Tri-State VA Livestock Auction",
+      "location": "Richmond, VA",
+      "report_date": "2026-09-21",
+      "head": 517,
+      "categories": [
+        {
+          "label": "Steers 400-500 lb",
+          "low": "400",
+          "high": "475"
+        },
+        {
+          "label": "Steers 500-600 lb",
+          "low": "375",
+          "high": "420"
+        },
+        {
+          "label": "Steers 600-700 lb",
+          "low": "330",
+          "high": "375"
+        },
+        {
+          "label": "Heifers 400-500 lb",
+          "low": "325",
+          "high": "380"
+        },
+        {
+          "label": "Heifers 500-600 lb",
+          "low": "310",
+          "high": "335"
+        },
+        {
+          "label": "Heifers 600-700 lb",
+          "low": "290",
+          "high": "321"
+        },
+        {
+          "label": "Bulls 400-500 lb",
+          "low": "390",
+          "high": "470"
+        },
+        {
+          "label": "Bulls 500-600 lb",
+          "low": "375",
+          "high": "435"
+        },
+        {
+          "label": "Bulls 600-700 lb",
+          "low": "300",
+          "high": "333"
+        }
+      ]
+    },
     {
       "code": "RH_LS149",
       "name": "Wytheville VA Livestock Auction",
@@ -164,127 +276,25 @@
           "high": "317"
         }
       ]
-    },
-    {
-      "code": "RH_LS151",
-      "name": "Staunton VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-09-15",
-      "head": 634,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "441",
-          "high": "491"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "381",
-          "high": "434"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "364",
-          "high": "395"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "325",
-          "high": "355"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "300",
-          "high": "331"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "265",
-          "high": "319"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "450",
-          "high": "450"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "348",
-          "high": "372"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "275",
-          "high": "285"
-        }
-      ]
-    },
-    {
-      "code": "RH_LS152",
-      "name": "Tri-State VA Livestock Auction",
-      "location": "Richmond, VA",
-      "report_date": "2026-09-14",
-      "head": 838,
-      "categories": [
-        {
-          "label": "Steers 400-500 lb",
-          "low": "415",
-          "high": "425"
-        },
-        {
-          "label": "Steers 500-600 lb",
-          "low": "375",
-          "high": "390"
-        },
-        {
-          "label": "Steers 600-700 lb",
-          "low": "340",
-          "high": "372"
-        },
-        {
-          "label": "Heifers 400-500 lb",
-          "low": "373",
-          "high": "385"
-        },
-        {
-          "label": "Heifers 500-600 lb",
-          "low": "338",
-          "high": "355"
-        },
-        {
-          "label": "Heifers 600-700 lb",
-          "low": "295",
-          "high": "312"
-        },
-        {
-          "label": "Bulls 400-500 lb",
-          "low": "395",
-          "high": "420"
-        },
-        {
-          "label": "Bulls 500-600 lb",
-          "low": "310",
-          "high": "318"
-        },
-        {
-          "label": "Bulls 600-700 lb",
-          "low": "295",
-          "high": "315"
-        }
-      ]
     }
   ],
   "news": [
     {
+      "title": "USDA Beef and Steer Price Forecasts for 2027 - southeastagnet.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeXAwOXpLeW44S1AzcjJZQU9Nc3ZUN2xBZXFVNFJLZnBHQ25NS00ydlNVNTFIQW4zcmxFSzI0M1M3eE93LXkzc0VyVmdQQUtaVEZuc00zTGI3QllEWWtrTExrOWNiRnNLcUNISGVOcXJkMktzdFNlT0FUS0FUNTl5TE80eGpIYlhMdXRrdC1R?oc=5",
+      "source": "southeastagnet.com",
+      "date": "2026-09-21"
+    },
+    {
+      "title": "Cattle Prices Slide as Mexico Imports and Feed Costs Pressure Futures - AgroLatam",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHNqSmtNQWU0dnVSMDd3TW02QWxzR3N1VTZ1Nm1hc0pWR1pTTmxIbThha3JQU2V3alJzTjhSLVMxYXUzZU5KeTk4X0hxTkxIMy1jWWFCMkkwSmFHcGkwYW1fQ3Zfa2l6VEJ5WlhXanlWak5ubkZsT2NJX1Vydmdsa1M3VVlvRzBCWmhBQUQ4Ml9CX1lkSXU3MkJsOG9hVHZpRTluV0prM3hLdU5YWVo4?oc=5",
+      "source": "AgroLatam",
+      "date": "2026-09-21"
+    },
+    {
       "title": "First Thing Today | Grains mixed overnight; bulls need a spark - Pro Farmer",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNXzNOelZNTkFjRUNKWl9GazdlTXI4YjNmZUlnLXU1dnZRZC10QTJLRkk0UlhfTEpkWmU0RF83a3YxaEJMU2p4OGVvQ3k3N1Rtc1lpRmFrMzliMndzaGVtUEk2cVJ1dElwTHFScVZyMFc5aVhrMFhPTElFWGpsOXloSl9Vb3lPbE90clZNLVF5MEZDZS12bWYyY0E4bFZHeGZxTnBfaDFEMzU3UQ?oc=5",
       "source": "Pro Farmer",
-      "date": "2026-09-18"
-    },
-    {
-      "title": "Cattle Futures Slide as Traders Brace for Key USDA Feedlot Report - AgroLatam",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRlpWSDcwVjhiSURGV1dTRnU1QXFzX1BRb2VsT1FUVUhKaHZ3dW1nbU16SFZZYk9OUW1ocThmaDUzeHhrTi1mdVhLcEZxVnhtS3l1eHAtYzFoOFZtYnVQdGJvMmdmMVZjcFNaZXNVTUR3Nm9sTzAtUHJKZmlOMTVSNnNiaVdvWEpUNFpHUDNja3g?oc=5",
-      "source": "AgroLatam",
       "date": "2026-09-18"
     },
     {
@@ -306,12 +316,6 @@
       "date": "2026-09-16"
     },
     {
-      "title": "Fauquier Livestock Exchange Feeder Cattle Sale Report - September 11, 2026 - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaTBGVHJOaHRjSjFJM01jM1pYTzY3QVZ3UDRzZEFmWWlLWTctczdVeGtqdDhoUkJrZE5sME82RTVyVmpiQVg2WEoyek15QVNOVlk0QWVlaUpMMU9NTVpoVC05RnZOUkxVR2ZUcnRZX3lHR3pzOUdUXzM3b0hPWWhUbVh5WklQTklyQngxeFJsQ1pwZ1pwQm8wcEFObnk5d3pFMGVV?oc=5",
-      "source": "IndexBox",
-      "date": "2026-09-11"
-    },
-    {
       "title": "Cattle Ranchers Have a Beef With Trump - The American Prospect",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LemlkSlQzeV9YdXF5Q2VRS1d3QkZ5anV3MzFnYkNIOUtra1VDTGNaR09UOEllNGhtamZzTTlmQTF2cWRBOEZIRmtkenRaYnM5R3lnTjlzQ1lEWDlrS3BXcXdsTVU5eUJNbEM3UHdfTklfdw?oc=5",
       "source": "The American Prospect",
@@ -324,15 +328,15 @@
       "date": "2026-09-08"
     },
     {
+      "title": "Trump’s tariff moves threaten America’s struggling beef industry, rancher says - The Virginia Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ0dXZ3A1Z0hjaFpMTUFqUE9vazVaLTNDUU54TVptQ1BpbGljOTNuZGVFVDY1ZVFYYUFHWDE4RklTZHlqZFcxNVoyRDZfc0toTldfaVM5dS1EaE4wYzRZbE0tRmo4aVFqQ1N3bEVLcE95Q1NwOS0tOVllS2ZHTTJLbnBJejJTWjZnRk5MY044djBrQXYtQ0FxcklCVnRCbDZEcGdQWlJWb2RqdU11UnZHUHBTYWxVUGRkOUl6NQ?oc=5",
+      "source": "The Virginia Independent",
+      "date": "2026-09-04"
+    },
+    {
       "title": "Virginia cattle farmers react to new beef import policy - WDBJ7",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVlGVC1ndmVucmlORWJFd3NUU1NaNjE5bE1YbUgzbS1QS0RKZEY4OE9xNUt4eFp1Zm83RWhEMXJ3RjNqNVZ1eWNuNlNuNkNxRExpTzRwaV9NRmFBcWxDUzhhVm54c1ZXTUQ2QXJVZVdiUHVVZ1U2dTYyZExpYUdPa3Q4X3BaUzBUckRfUTFfONIBowFBVV95cUxQMlU4SEFhTW9nVGZKTXUyVHptcGJpajVwWTI0QlFWZHhXZktmVmFQeUFoMmdVVktPV1RxeTVLbXhIc2R2Tzg2NW5ySXgxQkJYMlN4VTVTNENyeU03d2h3c2N0cktqQ19lc2xORExvRThpazJFT21FMjhzYVIxUnRRNzZqRXB3Z0FZeDlZWTVoSlkzTnNtV3Z5bkNzQ1B0ZmViS25B?oc=5",
       "source": "WDBJ7",
-      "date": "2026-09-01"
-    },
-    {
-      "title": "Spanberger meets with Virginia cattle ranchers in Botetourt County - WVTF",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQekxPdWZjSGdIQUxQYlVmeGlqSWE3THlEM0U0eTRXalkyYjl4NFZ2ZDlsdFIwZklpTC1yVFhUcHZRXzhSN1BLUUNGSXJacGFWVGRHcmxrcFRCUmZYb29HX1ROZTA2bTE2NmthQmdHclYxY1VXZi1ReGYwX3QxckR0TGFxQ1V4U1V1aXNvOG9mSk5laGw1a09VZGRuVGtCSlczYTRmRTB3?oc=5",
-      "source": "WVTF",
       "date": "2026-09-01"
     },
     {
@@ -342,10 +346,10 @@
       "date": "2026-09-01"
     },
     {
-      "title": "Cattle producers meet with Pillen, USDA secretary to discuss beef prices - Nebraska Public Media",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ3ZjVDBVZGhlZ1NDOEpQclN6MGlCMWQ4WUpYLUFFRzRBWmpYNlNjWlJ0XzUybVQxZDU0VVgyY3dzQnczbk53eXFRemo1bjRGM19RRWc3SkJETWxJUDREOGluUHFmSmJVWlFVbGQ1b1dybFN2VUhFVWtreWU0c1IzYThFb1VQM1kwSW9BVTloYnJWYUdjOGdlYVhHZ0o2X2pnOGl0ZnFEekVobVBPb2hwSkNaRjFvalZzU1NxeDliTl9Sa2t4?oc=5",
-      "source": "Nebraska Public Media",
-      "date": "2026-09-01"
+      "title": "Virginia cattle farmer braces for more competition, uncertain market as beef tariffs ease - WHSV",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd0s1Q3hKTE0wbUFWYXZtVjVVRFhzX242dkFxWXRINGRtczdjOHExaEhPNy1COVZGalNxbG1wRzhVYkNscTZYUEVWYXdTQktlOXc3V01XdkJCZHRESWNzUklGQUU0M1NTMFhzLUV3RW9VN1VqVG5WWWpneGp1Mm1PeU5tTDZuZmZGLWRMUjBLYktHd2JJU1ZkUnNURXBzYmlyTmpNZXFhellKeUFaRkhkaE92MWfSAcgBQVVfeXFMTmhWTzBNSGZfREpjV3VzemtXWU1OYTBNdXdQZnNkT25sUEhoUDFiY1pRVU9uMl9iMzdEUkp3b0ZhM0g2VHpHV2RCYjViTXA1QnpFM012NmpNa2FWM1pjb21tcnNlT1dfNlF4VFVwUXJMQm5val9wSHNiR0RYRG9mR2hCWEI0NjRIYmR3bklKUGJkV19IYTRUdlNBTGV6NmphSDJCczBzZDdhZnVtcHpXejZ2amkzOUk3ZEdldEVzNXJBRUZReDlUZVA?oc=5",
+      "source": "WHSV",
+      "date": "2026-08-31"
     }
   ]
 }
