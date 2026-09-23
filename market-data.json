@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T15:35:54.937Z",
+  "updated": "2026-09-23T15:31:33.053Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -177,7 +177,7 @@
       "code": "RH_LS151",
       "name": "Staunton VA Livestock Auction",
       "location": "Richmond, VA",
-      "report_date": "2026-09-21",
+      "report_date": "2026-09-22",
       "head": 495,
       "categories": [
         {
@@ -282,78 +282,5 @@
       ]
     }
   ],
-  "news": [
-    {
-      "title": "First Thing Today | \"Turnaround Tuesday\" price pressure in grains - Pro Farmer",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdkpMeml5Mm5WVzZUMVRWbElYSlIyQ2otTXJCMVhhRUludm5QNkJZaVprZkd1OTF4dFlmU29DWTZWdjF2T3dhRzd1OTlpMm56SE5sUDJOZFZJellxQ2ZfTENiVG5Xck9CbmZFM0FfN01Nc1VCV1N4YUxfdnJFTVcwOGMxeTdPNmFjOTFKd2Jqblc3b3d1T0dqa01PZkZUTDJTb2NDOUxwZzU2dGc?oc=5",
-      "source": "Pro Farmer",
-      "date": "2026-09-22"
-    },
-    {
-      "title": "USDA Beef and Steer Price Forecasts for 2027 - Southeast AgNET",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeXAwOXpLeW44S1AzcjJZQU9Nc3ZUN2xBZXFVNFJLZnBHQ25NS00ydlNVNTFIQW4zcmxFSzI0M1M3eE93LXkzc0VyVmdQQUtaVEZuc00zTGI3QllEWWtrTExrOWNiRnNLcUNISGVOcXJkMktzdFNlT0FUS0FUNTl5TE80eGpIYlhMdXRrdC1R?oc=5",
-      "source": "Southeast AgNET",
-      "date": "2026-09-21"
-    },
-    {
-      "title": "Daily Livestock Report: USDA Beef Price Plunge Raises Questions for the Market - Meatingplace",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX19rTkVaRzlQYm03OHQ0VlhOSlliaURNMjJvWGwzcWh2QUpOVWF5LUpkYk5KQmRXSHc1dDNXSnlhQlZlS21Pbm4xT3ZYdUpDUDVHSl9sNzhMTGR2bkdBeVFBb0t3WXkyUHBLRWNNNWVSd2RaQ0VucmF6UkxKX014MlMzeHNDbE5NZ2huTWdjREw2X0FydzV3djhLek82Mm5URktOSlVn?oc=5",
-      "source": "Meatingplace",
-      "date": "2026-09-21"
-    },
-    {
-      "title": "USDA Beef Market Data: Boxed Beef Cutout, Slaughter, and By-Product Prices - September 2026 - News and Statistics - IndexBox",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMnFHaWloQjBCbWg5YnoydHV6cU04ZGpTOTdxZDFDMzBBdUN2OHVZczlyZnpjdVZteWZmZm0tbjhzZWJJZXVlS0E1TUdzSHZHSFhSX29DZEdnWHZZbzhwSS1UcDlBeUdUTzlBbXltSnMxMGdMVmd3WlNNck1oLVRIdHo4Zl85YzI2SGFPdlFHdHY2Uk9zbXRqeXMzNWIwTVo1aXhCdWd4akYtZll1S1FYVk9GSmljT1JFS2ZBNjhQN2xEYzhXM0tndWZR?oc=5",
-      "source": "IndexBox",
-      "date": "2026-09-21"
-    },
-    {
-      "title": "Cattle Prices Slide as Mexico Imports and Feed Costs Pressure Futures - AgroLatam",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHNqSmtNQWU0dnVSMDd3TW02QWxzR3N1VTZ1Nm1hc0pWR1pTTmxIbThha3JQU2V3alJzTjhSLVMxYXUzZU5KeTk4X0hxTkxIMy1jWWFCMkkwSmFHcGkwYW1fQ3Zfa2l6VEJ5WlhXanlWak5ubkZsT2NJX1Vydmdsa1M3VVlvRzBCWmhBQUQ4Ml9CX1lkSXU3MkJsOG9hVHZpRTluV0prM3hLdU5YWVo4?oc=5",
-      "source": "AgroLatam",
-      "date": "2026-09-21"
-    },
-    {
-      "title": "First Thing Today | Grains mixed overnight; bulls need a spark - Pro Farmer",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNXzNOelZNTkFjRUNKWl9GazdlTXI4YjNmZUlnLXU1dnZRZC10QTJLRkk0UlhfTEpkWmU0RF83a3YxaEJMU2p4OGVvQ3k3N1Rtc1lpRmFrMzliMndzaGVtUEk2cVJ1dElwTHFScVZyMFc5aVhrMFhPTElFWGpsOXloSl9Vb3lPbE90clZNLVF5MEZDZS12bWYyY0E4bFZHeGZxTnBfaDFEMzU3UQ?oc=5",
-      "source": "Pro Farmer",
-      "date": "2026-09-18"
-    },
-    {
-      "title": "Weekly protein report: Expanded beef imports raise questions for US cattle producers - The Cattle Site",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tRlZ1dFY0aW92cUNxdU03M0hXVHBVd2pKWWJPMnlOUU5obzZpUEg0SDRUNUhHSm5OX19oV0pWYllmZ2RxcEd0cnVmVF85QUotWDlDUmxsS0Z1TkV2aHN2T3pmZGhqYzc5UV9kcw?oc=5",
-      "source": "The Cattle Site",
-      "date": "2026-09-18"
-    },
-    {
-      "title": "Cattle Ranchers Have a Beef With Trump - The American Prospect",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LemlkSlQzeV9YdXF5Q2VRS1d3QkZ5anV3MzFnYkNIOUtra1VDTGNaR09UOEllNGhtamZzTTlmQTF2cWRBOEZIRmtkenRaYnM5R3lnTjlzQ1lEWDlrS3BXcXdsTVU5eUJNbEM3UHdfTklfdw?oc=5",
-      "source": "The American Prospect",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "Virginia Market News Service weekly ag brief — Sept. 4, 2026 - The Tidewater News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdTB5X1hueXVLaDFWNUF6QVV4R0k5Qm9DYnMwX0kzaVZjVlJSNVU4cnczZ1dscUdiNmRWQWFfNUFFcFJQb3BwSUZWdjNfeEJweC1vRFgyb25adXc3WktKeVVTRnBaV2RsZkxkSmdvYkJFTUFDaHNweXhfSklDM043SHZUak4yZnlOQ3N5WjNWdHNNbERySFljSVJReW5FYzAtNTZwamtkRTdJWi1EYWlFeQ?oc=5",
-      "source": "The Tidewater News",
-      "date": "2026-09-08"
-    },
-    {
-      "title": "Virginia cattle farmers react to new beef import policy - WDBJ7",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVlGVC1ndmVucmlORWJFd3NUU1NaNjE5bE1YbUgzbS1QS0RKZEY4OE9xNUt4eFp1Zm83RWhEMXJ3RjNqNVZ1eWNuNlNuNkNxRExpTzRwaV9NRmFBcWxDUzhhVm54c1ZXTUQ2QXJVZVdiUHVVZ1U2dTYyZExpYUdPa3Q4X3BaUzBUckRfUTFfONIBowFBVV95cUxQMlU4SEFhTW9nVGZKTXUyVHptcGJpajVwWTI0QlFWZHhXZktmVmFQeUFoMmdVVktPV1RxeTVLbXhIc2R2Tzg2NW5ySXgxQkJYMlN4VTVTNENyeU03d2h3c2N0cktqQ19lc2xORExvRThpazJFT21FMjhzYVIxUnRRNzZqRXB3Z0FZeDlZWTVoSlkzTnNtV3Z5bkNzQ1B0ZmViS25B?oc=5",
-      "source": "WDBJ7",
-      "date": "2026-09-01"
-    },
-    {
-      "title": "Virginia cattle farmers warn Trump’s foreign beef tariff plan could cause long-term damage to domestic supply - wsls.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUlBcDloLXJtTl8xcDFLS0thd1p4ZW1yb0ZnZ3pfVURTUVVuN3lsakNGOVkyaUpCSFhSVm9CT1VHOXpra2xVZDU5NHZiNWFCNzFJTFpiU2t6WGthTC00VzhiZmFISnItRDZ5STVZVFdjbU45WE4zczRzbHhnSElKWC1USG5uRTVKLTBSVm9aaFRxRzg4MWJITFZhR2c4RXB4Wl80Qkk4emdKdDA?oc=5",
-      "source": "wsls.com",
-      "date": "2026-09-01"
-    },
-    {
-      "title": "Gov. Spanberger meets Botetourt County farmers as 90-day imported beef tariff cut begins - WSET",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQbjRwQlMydFRNRkRPYVN0alJ1M1Vxdy12RTRiSnZGSlZJUHdteXJvcmphRFhkUFhQanlzbWVVZzBZRi1RdzZlVkM4d3huM2dWZFpEbFBPV3lpOF9CdFZIWnJHVEZWSVJlOTlHWEl2ZUhjWk5RWGZvdmR4ZGd1cV9pdk1WQ3JfRHVzNWQzNktXSW1WSlRxQUtLOWtkVGhxTmtDTGtycGo4NGltRGhwYk96QmdxZV9FaWFoVG40NHYtN0dDaWFmQkxLU2lLX1R0dEl6dFBmeGJuajRVeG96aHc0cnk4cXBBaHZEQlpLb0JwS3NXekpsVXNGcUQ5c2RTaFZOdUwtVw?oc=5",
-      "source": "WSET",
-      "date": "2026-09-01"
-    }
-  ]
+  "news": []
 }
