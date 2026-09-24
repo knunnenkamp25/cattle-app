@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T15:31:33.053Z",
+  "updated": "2026-09-24T15:52:39.013Z",
   "series": [
     {
       "date": "2026-06-17",
@@ -282,5 +282,78 @@
       ]
     }
   ],
-  "news": []
+  "news": [
+    {
+      "title": "U.S. Cattle Imports Resume at Key Mexico Border Port, but Beef Prices May Stay High - AgroLatam",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTDRxRzRPb2xyTkV1Y1liU0ExRW9uQUpUOWRLTzJaU2ttZWdidnBzN3F4LWxKNWtPRDE0M0hRRGk0bkZJX21lR2ZpNElIRVN2cFBTdnI5aE1sWFdLVlJPVVN6ZTcyZEJtN3Y2VUpBaEZxc2ZyX2g4TmFUYTFMUHpYTzlRcmEzNXVUaWFUaG1LZGQ4VHBZeU1sUl9LdUYzdzVTWnhRa1RsQi1SdGo3WUdmWDdRTWpfM0hxTGNjLVBMWQ?oc=5",
+      "source": "AgroLatam",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "First Thing Today | Grain markets feeling heavy at mid-week - profarmer.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLXNHdGxrWXBkN24wLVNuRFQwU003bkhubVlsT0ZEOThkTkFRdmJyOGNSTjdTLVppMDVwZENCTFJKUHV3Zl9uU3hxNXpTd01oYkJYUDUzY2dpWTA0SGU5dTkxSnNpaUlXa2xDRGJWcGZzRFhtM05zOGdSOVJ1RzRYXzRNeFc5WTlDZkRGcWFBaEk0bm8zTWRyRjRGU2FPYllFdllMNjZB?oc=5",
+      "source": "profarmer.com",
+      "date": "2026-09-23"
+    },
+    {
+      "title": "Virginia Cattle Company Board Sale Feeder Cattle Report - September 22, 2026 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORXJXb1RzY1VtMFlmYk9YbHNmaGN3WmRlTWRtaFBTdzRuREd2TVZFZElteHgyVXhzTWItVW1vVWhuSkZIMmppb0hpVWxVdnVXMVE3UkZoN3d1R3ZNRDhOSmxLakxlZS1YX0lwaHJZcnprc0FobW9GVTZBYmJTajlKZjVNVVZiblFxYjY1OEFHX0lfNUp6eUlaeGtSUnZReGItSTJBTS1n?oc=5",
+      "source": "IndexBox",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "First Thing Today | ‘Turnaround Tuesday’ price pressure in grains - profarmer.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdkpMeml5Mm5WVzZUMVRWbElYSlIyQ2otTXJCMVhhRUludm5QNkJZaVprZkd1OTF4dFlmU29DWTZWdjF2T3dhRzd1OTlpMm56SE5sUDJOZFZJellxQ2ZfTENiVG5Xck9CbmZFM0FfN01Nc1VCV1N4YUxfdnJFTVcwOGMxeTdPNmFjOTFKd2Jqblc3b3d1T0dqa01PZkZUTDJTb2NDOUxwZzU2dGc?oc=5",
+      "source": "profarmer.com",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "USDA cuts 2026, 2027 beef output on low slaughter - AGDAILY",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWlYtNGJSd04tSGVDQ3NaUnZpdEpqdzkxc1NDNURMRzR0TzRjOEFha3o5U1k3NXIza2NBR1pabUlabmNzY0JodENyN2YtRER3M2pIMDhLSzZHcWl3VnU0aW9iU3NjTjlTMDVlRzJhVTNiMjR1dDFwQXlGb2pJckpreDlRYmU1VndRNzFB?oc=5",
+      "source": "AGDAILY",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Beef Imports: Former USDA Chief Warns of Impact on U.S. Ranchers - AgroLatam",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWS13N1B3QlBFaWVVOVc5Nm9NQ2F0ZmVOR1lRY1RhT0QxbS1Hd2kwNW9kME12S2F2cjRfa2ctVDV6RnZlRGFzN2NSdzl4Mjl5YUc3VkxuZXZTbjVtNXRMa004S0lVaGc3YTNPWmhMaEp5M0RiWVFPSjRzOEFsTjBLZEpNQ1FZNTJlTmM4N1hMY1RQYjJpWGN0VGN3ZmVURHpCX0hDOXVn?oc=5",
+      "source": "AgroLatam",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "USDA Beef and Steer Price Forecasts for 2027 - Southeast AgNET",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeXAwOXpLeW44S1AzcjJZQU9Nc3ZUN2xBZXFVNFJLZnBHQ25NS00ydlNVNTFIQW4zcmxFSzI0M1M3eE93LXkzc0VyVmdQQUtaVEZuc00zTGI3QllEWWtrTExrOWNiRnNLcUNISGVOcXJkMktzdFNlT0FUS0FUNTl5TE80eGpIYlhMdXRrdC1R?oc=5",
+      "source": "Southeast AgNET",
+      "date": "2026-09-21"
+    },
+    {
+      "title": "Daily Livestock Report: USDA Beef Price Plunge Raises Questions for the Market - Meatingplace",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX19rTkVaRzlQYm03OHQ0VlhOSlliaURNMjJvWGwzcWh2QUpOVWF5LUpkYk5KQmRXSHc1dDNXSnlhQlZlS21Pbm4xT3ZYdUpDUDVHSl9sNzhMTGR2bkdBeVFBb0t3WXkyUHBLRWNNNWVSd2RaQ0VucmF6UkxKX014MlMzeHNDbE5NZ2huTWdjREw2X0FydzV3djhLek82Mm5URktOSlVn?oc=5",
+      "source": "Meatingplace",
+      "date": "2026-09-21"
+    },
+    {
+      "title": "USDA Beef Market Data: Boxed Beef Cutout, Slaughter, and By-Product Prices - September 2026 - News and Statistics - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMnFHaWloQjBCbWg5YnoydHV6cU04ZGpTOTdxZDFDMzBBdUN2OHVZczlyZnpjdVZteWZmZm0tbjhzZWJJZXVlS0E1TUdzSHZHSFhSX29DZEdnWHZZbzhwSS1UcDlBeUdUTzlBbXltSnMxMGdMVmd3WlNNck1oLVRIdHo4Zl85YzI2SGFPdlFHdHY2Uk9zbXRqeXMzNWIwTVo1aXhCdWd4akYtZll1S1FYVk9GSmljT1JFS2ZBNjhQN2xEYzhXM0tndWZR?oc=5",
+      "source": "IndexBox",
+      "date": "2026-09-21"
+    },
+    {
+      "title": "Virginia cattle farmers react to new beef import policy - WDBJ7",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVlGVC1ndmVucmlORWJFd3NUU1NaNjE5bE1YbUgzbS1QS0RKZEY4OE9xNUt4eFp1Zm83RWhEMXJ3RjNqNVZ1eWNuNlNuNkNxRExpTzRwaV9NRmFBcWxDUzhhVm54c1ZXTUQ2QXJVZVdiUHVVZ1U2dTYyZExpYUdPa3Q4X3BaUzBUckRfUTFfONIBowFBVV95cUxQMlU4SEFhTW9nVGZKTXUyVHptcGJpajVwWTI0QlFWZHhXZktmVmFQeUFoMmdVVktPV1RxeTVLbXhIc2R2Tzg2NW5ySXgxQkJYMlN4VTVTNENyeU03d2h3c2N0cktqQ19lc2xORExvRThpazJFT21FMjhzYVIxUnRRNzZqRXB3Z0FZeDlZWTVoSlkzTnNtV3Z5bkNzQ1B0ZmViS25B?oc=5",
+      "source": "WDBJ7",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Virginia cattle farmers warn Trump’s foreign beef tariff plan could cause long-term damage to domestic supply - WSLS",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYUlBcDloLXJtTl8xcDFLS0thd1p4ZW1yb0ZnZ3pfVURTUVVuN3lsakNGOVkyaUpCSFhSVm9CT1VHOXpra2xVZDU5NHZiNWFCNzFJTFpiU2t6WGthTC00VzhiZmFISnItRDZ5STVZVFdjbU45WE4zczRzbHhnSElKWC1USG5uRTVKLTBSVm9aaFRxRzg4MWJITFZhR2c4RXB4Wl80Qkk4emdKdDA?oc=5",
+      "source": "WSLS",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Gov. Spanberger meets Botetourt County farmers as 90-day imported beef tariff cut begins - WSET",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQbjRwQlMydFRNRkRPYVN0alJ1M1Vxdy12RTRiSnZGSlZJUHdteXJvcmphRFhkUFhQanlzbWVVZzBZRi1RdzZlVkM4d3huM2dWZFpEbFBPV3lpOF9CdFZIWnJHVEZWSVJlOTlHWEl2ZUhjWk5RWGZvdmR4ZGd1cV9pdk1WQ3JfRHVzNWQzNktXSW1WSlRxQUtLOWtkVGhxTmtDTGtycGo4NGltRGhwYk96QmdxZV9FaWFoVG40NHYtN0dDaWFmQkxLU2lLX1R0dEl6dFBmeGJuajRVeG96aHc0cnk4cXBBaHZEQlpLb0JwS3NXekpsVXNGcUQ5c2RTaFZOdUwtVw?oc=5",
+      "source": "WSET",
+      "date": "2026-09-01"
+    }
+  ]
 }
